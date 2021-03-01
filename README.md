@@ -61,3 +61,43 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 ## Deploying to the web
 
 Deployed as https://www.64houses.com/ via Github and netlify 
+
+## Grid layout
+https://archive.hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
+
+https://codepen.io/piccalilli/pen/vMMYKJ   v1
+https://codepen.io/piccalilli/pen/zXXxXa   v2
+https://codepen.io/piccalilli/pen/zXXGBM  v3
+
+
+Add meta tags
+
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+svelte-login-form-master
+
+##  hamburger-icon-menu
+https://www.joomlashack.com/blog/tutorials/css-grid-23-building-a-hamburger-icon-menu/
+https://codepen.io/jorgemb76/pen/zeYYYw
+
+https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793
+https://www.javascriptjanuary.com/blog/modern-responsive-navbar-with-css-grid-and-media-query
+
+https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
+
+https://css-tricks.com/introduction-fr-css-unit/
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://mozilladevelopers.github.io/playground/css-grid/04-fr-unit/
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+https://hackernoon.com/understanding-css-grids-fractional-units-fr-the-easy-way-5f43ee008f29
+https://www.geeksforgeeks.org/css-grid-layout-the-fr-unit/
+https://gomakethings.com/an-introduction-to-css-grid/
+
+https://www.codeinwp.com/blog/css-grid-tutorial-layout/
+https://nipunipremadasa923.medium.com/how-to-design-a-web-page-using-css-grid-properties-5a4c8acfe918
+
+https://css-tricks.com/?s=minmax
+https://css-tricks.com/a-responsive-grid-layout-with-no-media-queries/
+https://archive.hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
+https://codepen.io/piccalilli/pen/zXXGBM
