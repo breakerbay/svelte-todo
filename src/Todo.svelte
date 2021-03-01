@@ -4,6 +4,10 @@
   export let remove;
 </script>
 
+<svelte:head>
+  <title>Checker ToDo's</title>
+</svelte:head>
+
 <div
   class="notification"
   class:is-success={todo.completed}
