@@ -13,8 +13,6 @@
   <title>Login</title>
 </svelte:head>
 
-<!-- <Baskets /> -->
-
 <section>
   <form on:submit|preventDefault={login}>
     <label>

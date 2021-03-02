@@ -8,7 +8,12 @@
 </style>
 
 <nav>
-    <div>
-        <a href="#/">64Houses</a>
-    </div>
+    <ul>
+        <li>
+            <a href="#/">64Houses</a>
+        </li>
+        <li>
+        <a href="#/login">Login</a>
+    </li>
+    </ul>
 </nav>

@@ -1,24 +1,26 @@
 // Import Svelte components
-import Book from './components/Book.svelte'
-import List from './components/List.svelte'
+import Home from './components/Home.svelte'
+import Login from './components/Login.svelte'
 import NotFound from './components/NotFound.svelte'
 
 // Route dictionary
 export default {
-    '/': List,
-    '/book/:id': Book,
+    '/': Home,
+    '/login': Login,
     // Catch-all route, must be last
     '*': NotFound
 }
 
 
-import Home from './routes/Home.svelte';
+/*
+import Home from './components/Home.svelte';
 import Lorem from './routes/Lorem.svelte';
 import Book from './routes/Book.svelte'
 import Books from './routes/Books.svelte'
 import Dogs from './routes/Dogs.svelte'
 import Images from './routes/Images.svelte'
-import NotFound from './routes/NotFound.svelte';
+import Book from './components/Book.svelte'
+import List from './components/List.svelte'
 
 export default {
     '/': Home,
@@ -30,3 +32,4 @@ export default {
     // The catch-all route must always be last
     '*': NotFound
 };
+*/
