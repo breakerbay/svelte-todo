@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>64Houses Verification</title>
+  <title>64Houses</title>
 </svelte:head>
 
 <div
