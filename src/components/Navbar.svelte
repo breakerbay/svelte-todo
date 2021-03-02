@@ -3,7 +3,7 @@
         color: purple;
         font-size: 2em;
         background-color: gold;
-        padding: 1em 1em  1em 1em;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
 </style>
 
