@@ -1,4 +1,5 @@
 <script>
+  import Navbar from './components/Navbar.svelte'
   import Todo from "./Todo.svelte";
   import { onMount } from "svelte";
 
@@ -32,6 +33,8 @@
     todos = todos.filter(t => t.id !== todo.id);
   }
 </script>
+
+<Navbar />
 
 <div class="section">
   <div class="field has-addons">
