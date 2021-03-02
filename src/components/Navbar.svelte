@@ -9,6 +9,6 @@
 
 <nav>
     <div>
-        <a href="#/">Home</a>
+        <a href="#/">64Houses</a>
     </div>
 </nav>
