@@ -1,6 +1,6 @@
 <script>
     // import Router from 'svelte-spa-router'
-    // import Navbar from './components/Navbar.svelte';
+    // import Navbar from './components/SimpleNavbar.svelte';
     import Todo from "./components/Todo.svelte";
     import { onMount } from "svelte";
 
