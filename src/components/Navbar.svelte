@@ -1,3 +1,5 @@
+<!--Based on https://linguinecode.com/post/create-a-navbar-in-svelte-->
+
 <script>
     import { onMount } from "svelte";
 
