@@ -6,6 +6,7 @@
     // Show mobile icon and display menu
     let showMobileMenu = false;
 
+    // TODO - List required components
     // List of navigation items
     const navItems = [
         { label: "logo", href: "#" },
@@ -53,7 +54,8 @@
 </nav>
 
 <style>
-  nav {
+    /*TODO - Change background to blue */
+    nav {
         background-color: rgba(0, 0, 0, 0.8);
         font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
         height: 45px;
