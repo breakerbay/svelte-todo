@@ -10,13 +10,15 @@
     // List of navigation items
     const navItems = [
         { label: "logo", href: "#" },
-        { label: "Item 1", href: "#" },
-        { label: "Item 2", href: "#" },
-        { label: "Item 3", href: "#" },
-        { label: "Item 4", href: "#" },
-        { label: "Item 5", href: "#" },
-        { label: "Item 6", href: "#" },
-        { label: "Item 7", href: "#" }
+        { label: "Home", href: "#" },
+        { label: "Projects", href: "#" },
+        { label: "Project", href: "#" },
+        { label: "Checklists", href: "#" },
+        { label: "Worklots", href: "#" },
+        { label: "Followup Actions", href: "#" },
+        { label: "Images", href: "#" },
+        { label: "Sign Out", href: "#" },
+        { label: "Sign In", href: "#" }
     ];
 
     // Mobile menu click event handler
