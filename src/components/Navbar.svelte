@@ -176,6 +176,11 @@
         padding: 0 10px;
         font-size: 13px;
     }
+    
+    .navbar-list a:hover {
+        background-color: #1967be;
+    }    
+
 
     @media only screen and (min-width: 767px) {
         .mobile-icon {
