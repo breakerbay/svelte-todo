@@ -1,11 +1,13 @@
 // Import Svelte components
 import Home from './components/Home.svelte'
+import Images from './components/Images.svelte'
 import Login from './components/Login.svelte'
 import NotFound from './components/NotFound.svelte'
 
 // Route dictionary
 export default {
     '/': Home,
+    '/images': Images,
     '/login': Login,
     // Catch-all route, must be last
     '*': NotFound
