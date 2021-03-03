@@ -9,8 +9,8 @@
     // TODO - List required components
     // List of navigation items
     const navItems = [
-        { label: "logo", href: "#" },
         { label: "Home", href: "#" },
+        { label: "logo", href: "#" },
         { label: "Projects", href: "#" },
         { label: "Project", href: "#" },
         { label: "Checklists", href: "#" },
