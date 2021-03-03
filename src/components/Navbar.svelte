@@ -18,7 +18,7 @@
         { label: "Followup Actions", href: "#" },
         { label: "Images", href: "#" },
         { label: "Sign Out", href: "#" },
-        { label: "Sign In", href: "#" }
+        { label: "Sign In", href: "/#/login" }
     ];
 
     // Mobile menu click event handler
