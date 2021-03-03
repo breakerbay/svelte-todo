@@ -16,7 +16,7 @@
         { label: "Checklists", href: "#" },
         { label: "Worklots", href: "#" },
         { label: "Followup Actions", href: "#" },
-        { label: "Images", href: "#" },
+        { label: "Images", href: "/#/images" },
         { label: "Sign Out", href: "#" },
         { label: "Sign In", href: "/#/login" }
     ];
