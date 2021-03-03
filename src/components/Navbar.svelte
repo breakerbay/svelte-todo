@@ -56,7 +56,8 @@
 <style>
     /*TODO - Change background to blue */
     nav {
-        background-color: rgba(0, 0, 0, 0.8);
+        /*background-color: rgba(0, 0, 0, 0.8);*/
+        background-color: #2780e3;
         font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
         height: 45px;
     }
