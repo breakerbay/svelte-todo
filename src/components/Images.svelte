@@ -78,7 +78,6 @@
   }
 </style>
 
-<h1>Library</h1>
 <div class="wrapper">
   {#each photos as photo}
     <div class="box">
