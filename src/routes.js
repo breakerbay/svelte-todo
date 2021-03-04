@@ -1,6 +1,6 @@
 // Import Svelte components
 import Home from './components/Home.svelte'
-import Images from './components/Images.svelte'
+import Images from './components/FollowupImages.svelte'
 import Login from './components/Login.svelte'
 import NotFound from './components/NotFound.svelte'
 
