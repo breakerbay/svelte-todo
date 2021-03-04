@@ -1,5 +1,5 @@
 <script>
-    
+
  const photos = [
     {
         image: '//s3-ap-southeast-2.amazonaws.com/images.brogo.net.au/1486942873/action1Image.png',
@@ -51,8 +51,8 @@
         text: 'Pinnacles.png',
         id: 9
     }
-];    
-        
+];
+
 </script>
 
 <style>
@@ -62,13 +62,17 @@
     grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
     grid-auto-rows: minmax(10em, auto);
     gap: 3em;
-    background-color: #fff;
-    color: #444;
+    background-color: black;
+    color: white;
+    /*background-color: #fff;*/
+    /*color: #444;*/
   }
 
   .box {
-    background-color: rgb(120, 70, 123);
-    border: 5px solid rgb(88, 55, 112);
+    /*background-color: rgb(120, 70, 123);*/
+    background-color:  black;
+    /*border: 5px solid rgb(88, 55, 112);*/
+    border: 5px solid black;
     color: #fff;
     margin-right: 2em;
     border-radius: 5px;

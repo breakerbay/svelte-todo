@@ -16,6 +16,7 @@
         { label: "Checklists", href: "#" },
         { label: "Worklots", href: "#" },
         { label: "Followup Actions", href: "#" },
+        { label: "Static Images", href: "/#/static-images" },
         { label: "Images", href: "/#/images" },
         { label: "Sign Out", href: "#" },
         { label: "Sign In", href: "/#/login" }
@@ -178,10 +179,10 @@
         padding: 0 10px;
         font-size: 13px;
     }
-    
+
     .navbar-list a:hover {
         background-color: #1967be;
-    }    
+    }
 
 
     @media only screen and (min-width: 767px) {
