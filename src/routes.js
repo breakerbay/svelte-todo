@@ -1,7 +1,7 @@
 // Import Svelte components
 import Home from './components/Home.svelte'
 import Images from './components/Images.svelte'
-import FollowupImages from './components/FollowupImages.svelte'
+import StaticImages from './components/StaticImages.svelte'
 import Login from './components/Login.svelte'
 import NotFound from './components/NotFound.svelte'
 
@@ -9,7 +9,7 @@ import NotFound from './components/NotFound.svelte'
 export default {
     '/': Home,
     '/images': Images,
-    '/static-images': FollowupImages,
+    '/static-images': StaticImages,
     '/login': Login,
     // Catch-all route, must be last
     '*': NotFound
