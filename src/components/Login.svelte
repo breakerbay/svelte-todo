@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-  <title>Login</title>
+  <title>Checker Login</title>
 </svelte:head>
 
 <div class="login-wrapper">
