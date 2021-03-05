@@ -1,5 +1,6 @@
 // Import Svelte components
 import Home from './components/Home.svelte'
+import CheckerProjects from './components/CheckerProjects.svelte'
 import Images from './components/Images.svelte'
 import StaticImages from './components/StaticImages.svelte'
 import Login from './components/Login.svelte'
@@ -8,6 +9,7 @@ import NotFound from './components/NotFound.svelte'
 // Route dictionary
 export default {
     '/': Home,
+    '/projects': CheckerProjects,
     '/images': Images,
     '/static-images': StaticImages,
     '/login': Login,
