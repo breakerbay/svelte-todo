@@ -13,5 +13,5 @@
 "accountUserId": "22",
 "accountOwner": "Richard Hancock"
 
-TODO Add Address, Site Photo
+TODO Add Address, Site Photo, Street Map to location
 -->

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "accountId": 89,
+    "number": 1,
+    "containedInPlace": null,
+    "longitude": 174.824,
+    "latitude": -41.3354,
+    "streetAddress": "137 Breaker Bay Road",
+    "suburb": "Seatoun",
+    "town": "Wellington",
+    "state": null,
+    "postCode": 6022,
+    "country": "New Zealand",
+    "name": "137 Breaker Bay Road",
+    "description": "137 Breaker Bay Road is a green single story house set back from the road in Flax Bay with a glass bus stop shelter directly out front.",
+    "createdBy": 22,
+    "dateCreated": "2016-01-16 23:14:42",
+    "modifiedBy": 22,
+    "dateLastModified": "2016-01-31 10:34:06"
+  }
+]
