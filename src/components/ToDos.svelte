@@ -1,7 +1,7 @@
 <script>
     // import Router from 'svelte-spa-router'
     // import Navbar from './components/SimpleNavbar.svelte';
-    import Todo from "./components/Todo.svelte";
+    import Todo from "./Todo.svelte";
     import { onMount } from "svelte";
 
     let input = "";
@@ -35,8 +35,9 @@
     }
 </script>
 
-<!--<Navbar />-->
-
+<svelte:head>
+    <title>ToDos</title>
+</svelte:head>
 <div class="section">
     <div class="field has-addons">
         <input type="text" class="input" bind:value={input} />

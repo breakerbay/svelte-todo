@@ -7,7 +7,7 @@
 
     onMount(async () => {
         loading = true;
-        const response = await fetch("/projects.json");
+        const response = await fetch("/static/api/projects/projects.json");
         projects = await response.json();
         loading = false;
     });

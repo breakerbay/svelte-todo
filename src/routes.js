@@ -1,6 +1,7 @@
 // Import Svelte components
 import Home from './components/Home.svelte'
-import CheckerProjects from './components/CheckerProjects.svelte'
+import CheckerProjects from './components/checker/CheckerProjects.svelte'
+import ToDos from './components/ToDos.svelte'
 import Images from './components/Images.svelte'
 import StaticImages from './components/StaticImages.svelte'
 import Login from './components/Login.svelte'
@@ -12,6 +13,7 @@ export default {
     '/projects': CheckerProjects,
     '/images': Images,
     '/static-images': StaticImages,
+    '/todos': ToDos,
     '/login': Login,
     // Catch-all route, must be last
     '*': NotFound

@@ -6,7 +6,6 @@
     // Show mobile icon and display menu
     let showMobileMenu = false;
 
-    // TODO - List required components
     // List of navigation items
     const navItems = [
         { label: "Home", href: "#" },
@@ -18,6 +17,7 @@
         { label: "Followup Actions", href: "#" },
         { label: "Static Images", href: "/#/static-images" },
         { label: "Images", href: "/#/images" },
+        { label: "ToDos", href: "/#/todos" },
         { label: "Sign Out", href: "#" },
         { label: "Sign In", href: "/#/login" }
     ];
