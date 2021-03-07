@@ -3,6 +3,21 @@
 </script>
 
 <!-- Project Summary -->
+Block links
+Object fit
+Address
+Cards
+https://www.w3schools.com/howto/howto_css_cards.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_cards
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_cards2
+https://www.w3schools.com/howto/howto_css_profile_card.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_profile_card
+https://www.w3schools.com/howto/howto_css_product_card.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_product_card
+https://www.w3schools.com/howto/howto_css_coupon.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_coupon
+https://github.com/mdn/css-examples
+
 
 <!--
 "id": "389",
