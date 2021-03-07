@@ -22,12 +22,12 @@
 </svelte:head>
 
 {#if loading}
-    <div class="section">
+    <div class="wrapper">
         <p>Loading ...</p>
     </div>
 {:else if projects.length > 0}
-    <div class="section columns">
-        <div class="column">
+    <div class="wrapper">
+        <div class="projects">
             <ul>
                 {#each projects as project (project.id)}
                     <li>{project.name}</li>
@@ -36,7 +36,42 @@
         </div>
     </div>
 {:else}
-    <div class="section">
+    <div class="wrapper">
         <p>No Projects for this Checker</p>
     </div>
 {/if}
+
+<style>
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 2.5fr 1fr 0.5fr;
+        gap: 20px;
+        color: #444;
+    }
+
+    .wrapper > * {
+        background-color: rgb(120, 70, 123);
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 0;
+    }
+
+    ul {
+        list-style: none;
+        padding-inline-start: 0;
+    }
+
+    li {
+        background-color: #fff;
+        color: #444;
+        border: 1px solid #424245;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .projects {
+        grid-column: 1 / -1;
+        /*grid-row: 2;*/
+    }
+</style>
