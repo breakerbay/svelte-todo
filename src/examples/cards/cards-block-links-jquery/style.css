@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body {
+	min-width: 1000px;
+	background-color: #f6f7fb;
+	color: #2d2d2d;
+	font-family: "Quicksand", sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-smooth: always;
+}
+
+main.container {
+	max-width: 1200px;
+	margin: 50px auto;
+	padding: 25px;
+}
+
+section.cards {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+
+article.card {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	max-width: 300px;
+	padding: 25px;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 8px 5px 16px 0 rgb(0 0 0 / 5%);
+}
+
+.card.black {
+	background: #152533;
+	color: #fff;
+	border: 1px solid #0d1821;
+}
+.card.blue {
+	background: #23547d;
+	color: #fff;
+	border: 1px solid #1d4667;
+}
+
+.card.yellow {
+	background: #fee900;
+	color: #0e1b26;
+	border: 1px solid #f0dc00;
+}
+
+.card.black .links a.main {
+	background: #fee900;
+	color: #0e1b26;
+	border: 1px solid #f0dc00;
+}
+
+.card.yellow .links a.main,
+.card.blue .links a.main {
+	background: #122230;
+	color: #fff;
+}
+
+.card .header {
+	font-size: 32px;
+	min-height: 0vw;
+	font-family: "lato", sans-serif;
+	font-weight: 900;
+}
+
+.card .body {
+	font-size: 16px;
+	line-height: 1.4;
+	flex-grow: 1;
+}
+
+.card .body a {
+	color: inherit;
+}
+.card .body a:hover {
+	text-decoration: none;
+}
+
+.card .footer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.card .footer .links {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.card .footer .links a:hover {
+	transition: all 0.4s ease-in-out;
+	transform: scale(1.1);
+}
+
+.card .footer .links a.main {
+	transition: all 0.2s ease-in-out;
+	padding: 12px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+::selection {
+	background-color: rgb(255 255 255 / 95%);
+	color: #000;
+}
+
+.statusbar {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	font-size: 12px;
+	font-family: Segoe UI;
+	padding-top: 5px;
+	padding-bottom: 6px;
+	padding-left: 3px;
+	padding-right: 10px;
+	color: #3c4043;
+	border: 1px solid #dedede;
+	border-top-right-radius: 4px;
+	transition: all 0.2s ease-in-out;
+	background-color: #dee1e6;
+	opacity: 0;
+	-webkit-font-smoothing: none;
+	font-smooth: never;
+}
