@@ -1,10 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>jQuery - make a whole div (card) with nested links clickable while making sure the text stays selectable and a status bar is showing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
+<!-- partial:index.partial.html -->
+<body>
+	<main class="container">
+		<section class="cards">
+			<article class="card yellow">
+				<div class="header">
+					<h2>w3schools</h2>
+				</div>
+				<div class="body">
+					<p>
+						Sed lobortis gravida magna eget sollicitudin. Proin nec sapien dignissim, ornare augue a, tempor dolor. <a href="https://www.w3schools.com/jquery/jquery_events.asp" target="_blank">A link to a jQuery tutorial.</a> Vestibulum non turpis at libero malesuada interdum eu a metus. Praesent accumsan volutpat turpis, vel tempor mi bibendum sit amet. Pellentesque fringilla maximus ornare. Phasellus ut metus sit amet lorem tristique tristique.
+					</p>
+				</div>
+				<div class="footer">
+					<div class="links">
+						<a class="main" href="https://www.w3schools.com/" target="_blank">
+							Go to w3schools
+						</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="card black">
+				<div class="header">
+					<h2>css-tricks</h2>
+				</div>
+				<div class="body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis gravida magna eget sollicitudin. Proin nec sapien dignissim, ornare augue a, tempor dolor. Nulla eu velit diam. Vestibulum non turpis at libero malesuada interdum eu a metus. Praesent accumsan volutpat turpis, vel tempor mi bibendum sit amet. <a href="https://css-tricks.com/breakout-buttons/" target="_blank">How to do this with only CSS (sorta).</a> Phasellus ut metus sit amet lorem tristique tristique.
+					</p>
+				</div>
+				<div class="footer">
+					<div class="links">
+						<a class="main" href="https://css-tricks.com/" target="_blank">
+							Go to css-tricks
+						</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="card blue">
+				<div class="header">
+					<h2>Stack Overflow</h2>
+				</div>
+				<div class="body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis gravida magna eget sollicitudin. <a href="https://stackoverflow.com/questions/1369035/how-do-i-prevent-a-parents-onclick-event-from-firing-when-a-child-anchor-is-cli" target="_blank">Helpfull answers</a> sapien dignissim, ornare augue a, tempor dolor. Nulla eu velit diam. Vestibulum non turpis at libero malesuada interdum eu a metus. Praesent accumsanvolutpat turpis, vel tempor mi bibendum sit amet. Pellentesque fringilla maximus ornare.
+					</p>
+				</div>
+				<div class="footer">
+					<div class="links">
+						<a class="main" href="https://stackoverflow.com/" target="_blank">
+							Go to Stack Overflow
+						</a>
+					</div>
+				</div>
+			</article>
+		</section>
+	</main>
+	<div class="statusbar">Show URL on hover link</div>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
 
 </body>
 </html>
