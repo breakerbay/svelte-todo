@@ -1,10 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Nested Links Solution</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+<!-- partial:index.partial.html -->
+<div class="card">
+  <article>
 
+    <header>
+      <time>7 days ago</time>
+      <h2 class="the-post-title">
+        <!-- our first link 👇🏻 -->
+        <a href="#post-title">This is our post title</a>
+      </h2>
+      by <a href="#author">Author Name</a>
+    </header>
+
+    <p>This is the post excerpt which very well contains <p href="#place">links to places.</p>
+    </article>
+
+</div>
+
+<div class="card">
+  <article>
+
+    <header>
+      <time>1 days ago</time>
+      <h2 class="the-post-title">
+        <!-- our first link 👇🏻 -->
+        <a href="#post-title2">This is our second post</a>
+      </h2>
+      by <a href="#author2">Author Name - Billy Bob</a>
+    </header>
+
+    <p>This is the post excerpt which very well contains <a href="#place2">links to Macrossan Street</p>
+  </article>
+
+</div>
+<!-- partial -->
+  
 </body>
 </html>
