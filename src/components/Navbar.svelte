@@ -11,7 +11,7 @@
         { label: "Home", href: "#" },
         { label: "logo", href: "#" },
         { label: "Projects", href: "/#/projects" },
-        { label: "Project", href: "#" },
+        { label: "Project", href: "/#/projects/1" },
         { label: "Checklists", href: "#" },
         { label: "Worklots", href: "#" },
         { label: "Followup Actions", href: "#" },

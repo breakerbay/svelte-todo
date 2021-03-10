@@ -1,6 +1,7 @@
 // Import Svelte components
 import Home from './components/Home.svelte'
 import CheckerProjects from './components/checker/CheckerProjects.svelte'
+import CheckerProject from './components/checker/CheckerProject.svelte'
 import ToDos from './components/ToDos.svelte'
 import Images from './components/Images.svelte'
 import StaticImages from './components/StaticImages.svelte'
@@ -11,6 +12,7 @@ import NotFound from './components/NotFound.svelte'
 export default {
     '/': Home,
     '/projects': CheckerProjects,
+    '/projects/:id': CheckerProject,
     '/images': Images,
     '/static-images': StaticImages,
     '/todos': ToDos,

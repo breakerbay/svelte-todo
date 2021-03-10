@@ -3,14 +3,24 @@
 
     let project;
     let loading = false;
+    export let params = {}
+    $: console.log("CheckerProject, before onMount, params: " + JSON.stringify(params));
 
     onMount(async () => {
+        $: console.log("CheckerProject, in onMount, params: " + JSON.stringify(params));
         loading = true;
-        const response = await fetch("/static/api/projects/projects.json");
+        const response = await fetch("/static/api/projects/389/project-389.json");
         project = await response.json();
         loading = false;
     });
 
+    function getProject(id) {
+        console.log("CheckerProject, getProject, id: " + id);
+    }
+
+    $: project = getProject(params.id)
+
+    $: console.log("CheckerProject, after onMount, params: " + JSON.stringify(params));
 </script>
 
 
@@ -23,14 +33,8 @@
         <p>Loading ...</p>
     </div>
 {:else if project}
-    <div class="section columns">
-        <div class="column">
-            <ul>
-                {#each projects as project (project.id)}
-                    <li>{project.name}</li>
-                {/each}
-            </ul>
-        </div>
+    <div>
+        {project.name}
     </div>
 {:else}
     <div class="section">
