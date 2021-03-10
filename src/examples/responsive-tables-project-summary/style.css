@@ -1,0 +1,44 @@
+ol.collection {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.collection-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.item {
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 10px;
+    width: 30%;
+}
+
+
+/*.collection-container>li:first-child {*/
+/*    display: none;*/
+/*}*/
+
+.attribute::before {
+    content: attr(data-name);
+    display: inline-block;
+    background: blue;
+    color: white;
+    width: 9em;
+}
+
+.attribute {
+     display: grid;
+    /*grid-template-columns: minmax(9em, 30%) 1fr;*/
+    /*grid-template-columns: minmax(9em, 9em) 1fr;*/
+    grid-template-columns: 9em 1fr;
+ }
