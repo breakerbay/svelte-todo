@@ -4,7 +4,6 @@
     let project;
     let loading = false;
     export let params = {}
-    $: console.log("CheckerProject, before onMount, params: " + JSON.stringify(params));
 
 /*
     onMount(async () => {
@@ -24,7 +23,6 @@
 
     $: project = getProject(params.id)
 
-    $: console.log("CheckerProject, after onMount, params: " + JSON.stringify(params));
 </script>
 
 
