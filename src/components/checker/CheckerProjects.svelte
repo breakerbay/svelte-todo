@@ -7,8 +7,8 @@
 
     onMount(async () => {
         loading = true;
-        const response = await fetch("/static/api/projects/projects.json");
-        //const response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects");
+        // const response = await fetch("/static/api/projects/projects.json");
+        const response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects");
         projects = await response.json();
         loading = false;
     });
@@ -31,7 +31,7 @@
         <div class="projects">
             <ul>
                 {#each projects as project (project.id)}
-                    <li>{project.name}</li>
+                    <li><a href="/#/projects/{project.id}">{project.name}</a></li>
                 {/each}
             </ul>
         </div>
