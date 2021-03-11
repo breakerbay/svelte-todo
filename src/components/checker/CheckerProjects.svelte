@@ -7,7 +7,8 @@
 
     onMount(async () => {
         loading = true;
-        const response = await fetch("/static/api/projects/projects.json");
+        // const response = await fetch("/static/api/projects/projects.json");
+        const response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects");
         projects = await response.json();
         loading = false;
     });
