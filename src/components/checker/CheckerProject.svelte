@@ -6,6 +6,7 @@
     export let params = {}
     $: console.log("CheckerProject, before onMount, params: " + JSON.stringify(params));
 
+/*
     onMount(async () => {
         $: console.log("CheckerProject, in onMount, params: " + JSON.stringify(params));
         loading = true;
@@ -13,9 +14,12 @@
         project = await response.json();
         loading = false;
     });
+*/
 
-    function getProject(id) {
+    async function getProject(id) {
         console.log("CheckerProject, getProject, id: " + id);
+        const response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id);
+        project = await response.json();
     }
 
     $: project = getProject(params.id)
