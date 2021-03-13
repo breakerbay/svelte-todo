@@ -1,12 +1,18 @@
 <script>
     let project;
+    let response = {};
     let loading = false;
     export let params = {}
 
     async function getProject(id) {
         console.log("CheckerProject, getProject, id: " + id);
         loading = true;
-        let response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id);
+        try {
+            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id);
+        } catch (e) {
+            console.log(`CheckerProject, error: ${e}`);
+            response = await fetch("/static/api/projects/389/project-389.json");
+        }
 
         if (!response.ok) {
             console.log(`CheckerProject, fetch error: ${response.status}`);
