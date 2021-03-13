@@ -7,8 +7,13 @@
 
     onMount(async () => {
         loading = true;
-        // const response = await fetch("/static/api/projects/projects.json");
-        const response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects");
+        let response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects");
+
+        if (!response.ok) {
+            console.log(`CheckerProjects, fetch error: ${response.status}`);
+            response = await fetch("/static/api/projects/projects.json");
+        }
+
         projects = await response.json();
         loading = false;
     });
