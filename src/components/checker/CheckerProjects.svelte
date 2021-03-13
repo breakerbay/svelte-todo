@@ -3,11 +3,17 @@
     import { onMount } from "svelte";
 
     let projects = [];
+    let response = {};
     let loading = false;
 
     onMount(async () => {
         loading = true;
-        let response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects");
+        try {
+            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects");
+        } catch (e) {
+            console.error(e);
+            response = await fetch("/static/api/projects/projects.json");
+        }
 
         if (!response.ok) {
             console.log(`CheckerProjects, fetch error: ${response.status}`);
@@ -15,6 +21,14 @@
         }
 
         projects = await response.json();
+
+
+        try {
+            let response = await fetch('http://no-such-url');
+        } catch(err) {
+            alert(err); // TypeError: failed to fetch
+        }
+
         loading = false;
     });
 
