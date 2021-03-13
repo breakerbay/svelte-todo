@@ -21,14 +21,6 @@
         }
 
         projects = await response.json();
-
-
-        try {
-            let response = await fetch('http://no-such-url');
-        } catch(err) {
-            alert(err); // TypeError: failed to fetch
-        }
-
         loading = false;
     });
 
