@@ -16,7 +16,7 @@
         }
 
         if (!response.ok) {
-            console.log(`CheckerProjects, fetch error: ${response.status}`);
+            console.error(`CheckerProjects, fetch error: ${response.status}`);
             response = await fetch("/static/api/projects/projects.json");
         }
 
