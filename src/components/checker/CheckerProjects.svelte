@@ -11,7 +11,7 @@
         try {
             response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects");
         } catch (e) {
-            console.error(e);
+            console.log(`CheckerProjects, error: ${e}`);
             response = await fetch("/static/api/projects/projects.json");
         }
 
