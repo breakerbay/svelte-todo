@@ -1,5 +1,5 @@
 <script>
-    // import CheckerProject from "./components/CheckerProject.svelte";
+    //TODO - Add project store that is shared by CheckerProjects and CheckerProject
     import { onMount } from "svelte";
 
     let projects = [];

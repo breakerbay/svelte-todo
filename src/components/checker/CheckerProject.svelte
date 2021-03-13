@@ -1,56 +1,79 @@
 <script>
-    import { onMount } from "svelte";
-
     let project;
     let loading = false;
     export let params = {}
-    $: console.log("CheckerProject, before onMount, params: " + JSON.stringify(params));
-
-/*
-    onMount(async () => {
-        $: console.log("CheckerProject, in onMount, params: " + JSON.stringify(params));
-        loading = true;
-        const response = await fetch("/static/api/projects/389/project-389.json");
-        project = await response.json();
-        loading = false;
-    });
-*/
 
     async function getProject(id) {
         console.log("CheckerProject, getProject, id: " + id);
-        const response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id);
+        loading = true;
+        let response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id);
+
+        if (!response.ok) {
+            const message = `An error has occured: ${response.status}`;
+            console.log(`CheckerProject, fetch error: ${response.status}`);
+            response = await fetch("/static/api/projects/389/project-389.json");
+        }
+
         project = await response.json();
+        loading = false;
     }
 
     $: project = getProject(params.id)
 
-    $: console.log("CheckerProject, after onMount, params: " + JSON.stringify(params));
 </script>
 
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .wrapper > * {
+        padding: 0.25rem;
+        margin: 0;
+    }
+
+    .wrapper h4 {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    @media (min-width: 767px) {
+        .wrapper div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrapper div div{
+            width: 75%;
+        }
+    }
+
+</style>
 
 <svelte:head>
     <title>Checker Project</title>
 </svelte:head>
 
 {#if loading}
-    <div class="section">
+    <div class="wrapper">
         <p>Loading ...</p>
     </div>
 {:else if project}
-    <div>
-        {project.name}
+    <div class="wrapper">
+        <h4 class="center">{project.name}</h4>
+        <div>
+            <div>
+            {project.descr}
+            </div>
+        </div>
     </div>
 {:else}
-    <div class="section">
+    <div class="wrapper">
         <p>No Projects for this Checker</p>
     </div>
 {/if}
-<!--
-"id": "389",
-"accountId": "89",
-"number": "1",
-"name": "Feature List",
-"accountName": "Checklist Engine Web Site",
-"accountUserId": "22",
-"accountOwner": "Richard Hancock"
--->
