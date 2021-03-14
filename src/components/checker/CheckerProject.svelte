@@ -76,6 +76,13 @@
             {project.descr}
             </div>
         </div>
+        <div class="wrapper2 center">
+            <ul>
+                <li><a href="#">Checklists (ITPs)</a></li>
+                <li><a href="#">Worklots</a></li>
+                <li><a href="#">Followup Actions</a></li>
+            </ul>
+        </div>
     </div>
 {:else}
     <div class="wrapper">
