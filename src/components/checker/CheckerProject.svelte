@@ -45,6 +45,21 @@
     .center {
         text-align: center;
     }
+    
+    ul {
+        list-style: none;
+        padding-inline-start: 0;
+        width: 100%;
+    }
+
+    li {
+        background-color: #fff;
+        color: #444;
+        border: 1px solid #424245;
+        border-radius: 0.25rem;
+        padding: 0.5rem;
+        margin-bottom: 0.125rem;
+    }    
 
     @media (min-width: 767px) {
         .wrapper div {
@@ -55,6 +70,10 @@
 
         .wrapper div div{
             width: 75%;
+        }
+        
+        ul {
+            width: 50%;
         }
     }
 
