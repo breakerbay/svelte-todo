@@ -2,6 +2,9 @@
 import Home from './components/Home.svelte'
 import CheckerProjects from './components/checker/CheckerProjects.svelte'
 import CheckerProject from './components/checker/CheckerProject.svelte'
+import Checklists from './components/checker/Checklists.svelte'
+import Worklots from './components/checker/Worklots.svelte'
+import FollowupActions from './components/checker/FollowupActions.svelte'
 import ToDos from './components/ToDos.svelte'
 import Images from './components/Images.svelte'
 import StaticImages from './components/StaticImages.svelte'
@@ -13,6 +16,9 @@ export default {
     '/': Home,
     '/projects': CheckerProjects,
     '/projects/:id': CheckerProject,
+    '/checklists': Checklists,
+    '/worklots': Worklots,
+    '/followup-actions': FollowupActions,
     '/images': Images,
     '/static-images': StaticImages,
     '/todos': ToDos,

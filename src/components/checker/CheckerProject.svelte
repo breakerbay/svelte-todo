@@ -97,9 +97,9 @@
         </div>
         <div class="wrapper2 center">
             <ul>
-                <li><a href="#">Checklists (ITPs)</a></li>
-                <li><a href="#">Worklots</a></li>
-                <li><a href="#">Followup Actions</a></li>
+                <li><a href="/#/checklists">Checklists (ITPs)</a></li>
+                <li><a href="/#/worklots">Worklots</a></li>
+                <li><a href="/#/followup-actions">Followup Actions</a></li>
             </ul>
         </div>
     </div>
