@@ -149,7 +149,7 @@
               "checkerId": 13,
               "verifiedBy": "John Anderson",
               "dateChecked": "2021-03-14 05:53:25",
-              "complete": 1,
+              "complete": 0,
               "followupActionId": 256,
               "followupActionDateRaised": "2021-03-14 04:47:44",
               "followupActionDateFixed": "0000-00-00 00:00:00",
