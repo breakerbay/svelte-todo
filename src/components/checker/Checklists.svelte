@@ -9,7 +9,7 @@
         console.log("CheckerProject, getProject, id: " + id);
         loading = true;
         try {
-            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id);
+            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all");
         } catch (e) {
             console.error(`CheckerProject, error: ${e}`);
             response = await fetch("/static/api/projects/389/project-389.json");
@@ -21,6 +21,7 @@
         }
 
         project = await response.json();
+        console.log("Checklists, project: " + JSON.stringify(project));
         loading = false;
     }
 
@@ -64,9 +65,28 @@
     <title>Checklists</title>
 </svelte:head>
 
-<div class="wrapper">
-    <h4 class="center">{project.name} - Checklists</h4>
-    <div>
-        <div>The Collection of Checklists used by Project</div>
+{#if loading}
+    <div class="wrapper">
+        <p class="center">Loading ...</p>
     </div>
-</div>
+{:else}
+    <div class="wrapper">
+        <h4 class="center">{project.name}</h4>
+        <div>
+            <div>Checklists</div>
+        </div>
+        <div class="checklists">
+            {#if (project && project.checklists && project.checklists.length > 0) }
+                <ul>
+                    {#each project.checklists as checklist (checklist.checklistId)}
+                        <li>{checklist.jobName}</li>
+                    {/each}
+                </ul>
+            {:else}
+                <div>
+                    <p>No Checklists for this Project ...</p>
+                </div>
+            {/if}
+        </div>
+    </div>
+{/if}
