@@ -1,4 +1,33 @@
 <!-- Collection of Checklists used by Project-->
+<script>
+    let project;
+    let response = {};
+    let loading = false;
+    export let params = {}
+
+    async function getProject(id) {
+        console.log("CheckerProject, getProject, id: " + id);
+        loading = true;
+        try {
+            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id);
+        } catch (e) {
+            console.error(`CheckerProject, error: ${e}`);
+            response = await fetch("/static/api/projects/389/project-389.json");
+        }
+
+        if (!response.ok) {
+            console.error(`CheckerProject, fetch error: ${response.status}`);
+            response = await fetch("/static/api/projects/389/project-389.json");
+        }
+
+        project = await response.json();
+        loading = false;
+    }
+
+    $: project = getProject(params.id)
+
+</script>
+
 <style>
     * {
         box-sizing: border-box;
@@ -36,7 +65,7 @@
 </svelte:head>
 
 <div class="wrapper">
-    <h4 class="center">Checklists</h4>
+    <h4 class="center">{project.name} - Checklists</h4>
     <div>
         <div>The Collection of Checklists used by Project</div>
     </div>

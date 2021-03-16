@@ -1,5 +1,6 @@
 <script>
     let project;
+    let checklistUrl;
     let response = {};
     let loading = false;
     export let params = {}
@@ -23,7 +24,8 @@
         loading = false;
     }
 
-    $: project = getProject(params.id)
+    $: project = getProject(params.id);
+    $: checklistUrl = `/#/projects/${params.id}/checklists`;
 
 </script>
 
@@ -97,7 +99,7 @@
         </div>
         <div class="wrapper2 center">
             <ul>
-                <li><a href="/#/checklists">Checklists (ITPs)</a></li>
+                <li><a href="{checklistUrl}">Checklists (ITPs)</a></li>
                 <li><a href="/#/worklots">Worklots</a></li>
                 <li><a href="/#/followup-actions">Followup Actions</a></li>
             </ul>

@@ -12,7 +12,7 @@
         { label: "logo", href: "#" },
         { label: "Projects", href: "/#/projects" },
         { label: "Project", href: "/#/projects/1" },
-        { label: "Checklists", href: "/#/checklists" },
+        { label: "Checklists", href: "/#/projects/1/checklists" },
         { label: "Worklots", href: "/#/worklots" },
         { label: "Followup Actions", href: "/#/followup-actions" },
         { label: "Static Images", href: "/#/static-images" },

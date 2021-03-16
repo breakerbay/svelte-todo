@@ -16,7 +16,7 @@ export default {
     '/': Home,
     '/projects': CheckerProjects,
     '/projects/:id': CheckerProject,
-    '/checklists': Checklists,
+    '/projects/:id/checklists': Checklists,
     '/worklots': Worklots,
     '/followup-actions': FollowupActions,
     '/images': Images,
