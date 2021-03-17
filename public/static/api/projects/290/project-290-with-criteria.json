@@ -1,0 +1,394 @@
+{
+  "id": 290,
+  "status": null,
+  "statusId": null,
+  "milestoneStatus": -1,
+  "name": "Test",
+  "descr": "An example project with a checklist containing a hold point, process step and checkpoints.",
+  "createdBy": 22,
+  "dateCreated": "2016-10-24 22:15:02",
+  "modifiedBy": 22,
+  "dateLastModified": "2020-12-15 04:24:35",
+  "accountId": 22,
+  "number": 4,
+  "place_number": 4,
+  "checklists": [
+    {
+      "checklistNumber": 30,
+      "checklistId": 3559,
+      "jobId": 2313,
+      "jobName": "Hold Point Checklist1",
+      "workareas": [
+        {
+          "workareaId": 7647,
+          "workAreaName": "Wset",
+          "status": "Closed",
+          "complete": 1,
+          "verificationPoints": [
+            {
+              "id": 163592,
+              "checkpointId": 82467,
+              "note": "",
+              "label": null,
+              "name": "Process Step 1",
+              "position": 1,
+              "checkpointType": 4,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            },
+            {
+              "id": 163593,
+              "checkpointId": 82468,
+              "note": "",
+              "label": null,
+              "name": "Hold Point1",
+              "position": 2,
+              "checkpointType": 2,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2019-03-09 20:01:21",
+              "complete": 1,
+              "followupActionId": 247,
+              "followupActionDateRaised": "2021-02-13 00:38:57",
+              "followupActionDateFixed": "2021-02-13 00:40:54",
+              "criteria": []
+            },
+            {
+              "id": 163594,
+              "checkpointId": 82469,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 1",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2019-03-09 20:01:23",
+              "complete": 1,
+              "followupActionId": 250,
+              "followupActionDateRaised": "2021-02-14 00:23:19",
+              "followupActionDateFixed": "2021-02-14 00:23:19",
+              "criteria": [
+                {
+                  "id": 82470,
+                  "name": "cr1",
+                  "descr": "Criteria 1"
+                },
+                {
+                  "id": 92033,
+                  "name": "cr2 - edited by full screen editor",
+                  "descr": "edited by full screen editor"
+                },
+                {
+                  "id": 92035,
+                  "name": "cr4",
+                  "descr": ""
+                }
+              ]
+            },
+            {
+              "id": 163595,
+              "checkpointId": 82471,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 2",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2019-03-09 20:01:25",
+              "complete": 1,
+              "followupActionId": 249,
+              "followupActionDateRaised": "2021-02-14 00:00:57",
+              "followupActionDateFixed": "2021-02-14 00:01:32",
+              "criteria": []
+            }
+          ]
+        },
+        {
+          "workareaId": 7793,
+          "workAreaName": "East",
+          "status": "Closed",
+          "complete": 1,
+          "verificationPoints": [
+            {
+              "id": 164497,
+              "checkpointId": 82467,
+              "note": "",
+              "label": null,
+              "name": "Process Step 1",
+              "position": 1,
+              "checkpointType": 4,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            },
+            {
+              "id": 164498,
+              "checkpointId": 82468,
+              "note": "",
+              "label": null,
+              "name": "Hold Point1",
+              "position": 2,
+              "checkpointType": 2,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:29:40",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            },
+            {
+              "id": 164499,
+              "checkpointId": 82469,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 1",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:30:05",
+              "complete": 1,
+              "followupActionId": 248,
+              "followupActionDateRaised": "2021-02-13 04:43:10",
+              "followupActionDateFixed": "2021-02-13 05:03:02",
+              "criteria": [
+                {
+                  "id": 82470,
+                  "name": "cr1",
+                  "descr": "Criteria 1"
+                },
+                {
+                  "id": 92033,
+                  "name": "cr2 - edited by full screen editor",
+                  "descr": "edited by full screen editor"
+                },
+                {
+                  "id": 92035,
+                  "name": "cr4",
+                  "descr": ""
+                }
+              ]
+            },
+            {
+              "id": 164500,
+              "checkpointId": 82471,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 2",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:30:07",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            }
+          ]
+        },
+        {
+          "workareaId": 7794,
+          "workAreaName": "West",
+          "status": "Closed",
+          "complete": 1,
+          "verificationPoints": [
+            {
+              "id": 164501,
+              "checkpointId": 82467,
+              "note": "",
+              "label": null,
+              "name": "Process Step 1",
+              "position": 1,
+              "checkpointType": 4,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            },
+            {
+              "id": 164502,
+              "checkpointId": 82468,
+              "note": "",
+              "label": null,
+              "name": "Hold Point1",
+              "position": 2,
+              "checkpointType": 2,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:29:48",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            },
+            {
+              "id": 164503,
+              "checkpointId": 82469,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 1",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:35:24",
+              "complete": 1,
+              "followupActionId": 229,
+              "followupActionDateRaised": "2020-12-15 04:32:36",
+              "followupActionDateFixed": "2021-02-14 00:25:05",
+              "criteria": [
+                {
+                  "id": 82470,
+                  "name": "cr1",
+                  "descr": "Criteria 1"
+                },
+                {
+                  "id": 92033,
+                  "name": "cr2 - edited by full screen editor",
+                  "descr": "edited by full screen editor"
+                },
+                {
+                  "id": 92035,
+                  "name": "cr4",
+                  "descr": ""
+                }
+              ]
+            },
+            {
+              "id": 164504,
+              "checkpointId": 82471,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 2",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:35:25",
+              "complete": 1,
+              "followupActionId": 233,
+              "followupActionDateRaised": "2021-01-06 21:46:53",
+              "followupActionDateFixed": "2021-02-14 00:26:07",
+              "criteria": []
+            }
+          ]
+        },
+        {
+          "workareaId": 7811,
+          "workAreaName": "Stairwell",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 164565,
+              "checkpointId": 82467,
+              "note": "",
+              "label": null,
+              "name": "Process Step 1",
+              "position": 1,
+              "checkpointType": 4,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            },
+            {
+              "id": 164566,
+              "checkpointId": 82468,
+              "note": "",
+              "label": null,
+              "name": "Hold Point1",
+              "position": 2,
+              "checkpointType": 2,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:56:52",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            },
+            {
+              "id": 164567,
+              "checkpointId": 82469,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 1",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": 230,
+              "followupActionDateRaised": "2020-12-15 04:57:42",
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82470,
+                  "name": "cr1",
+                  "descr": "Criteria 1"
+                },
+                {
+                  "id": 92033,
+                  "name": "cr2 - edited by full screen editor",
+                  "descr": "edited by full screen editor"
+                },
+                {
+                  "id": 92035,
+                  "name": "cr4",
+                  "descr": ""
+                }
+              ]
+            },
+            {
+              "id": 164568,
+              "checkpointId": 82471,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 2",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": 231,
+              "followupActionDateRaised": "2020-12-15 04:58:48",
+              "followupActionDateFixed": null,
+              "criteria": []
+            }
+          ]
+        }
+      ],
+      "complete": false
+    }
+  ]
+}
