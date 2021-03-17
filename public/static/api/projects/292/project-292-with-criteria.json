@@ -1,0 +1,918 @@
+{
+  "id": 292,
+  "status": null,
+  "statusId": null,
+  "milestoneStatus": -1,
+  "name": "Sunday2017-01-15",
+  "descr": "Sunday2017-01-15 D",
+  "createdBy": 22,
+  "dateCreated": "2017-01-15 04:06:58",
+  "modifiedBy": null,
+  "dateLastModified": null,
+  "accountId": 22,
+  "number": 6,
+  "place_number": null,
+  "checklists": [
+    {
+      "checklistNumber": 9,
+      "checklistId": 3519,
+      "jobId": 2293,
+      "jobName": "1-01  Preliminaries",
+      "workareas": [
+        {
+          "workareaId": 7589,
+          "workAreaName": "East",
+          "status": "Closed",
+          "complete": 1,
+          "verificationPoints": [
+            {
+              "id": 69852,
+              "checkpointId": 82311,
+              "note": "",
+              "label": 1,
+              "name": "Initial site establishment",
+              "position": 1,
+              "checkpointType": 4,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            },
+            {
+              "id": 69853,
+              "checkpointId": 82312,
+              "note": "",
+              "label": "A",
+              "name": "Site induction",
+              "position": 2,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-03-25 06:44:24",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82313,
+                  "name": "Initial site employees inducted",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69854,
+              "checkpointId": 82314,
+              "note": "",
+              "label": "C",
+              "name": "Site safety notices displayed",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-03-25 06:44:26",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82315,
+                  "name": "First Aid Officer notice displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82316,
+                  "name": "Nominated Safety representative notices displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82317,
+                  "name": "Safety and environment policy displayed\r\n",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82318,
+                  "name": "Safety signage as applicable displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82319,
+                  "name": "Site safety rules displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82320,
+                  "name": "Workers Compensation notice and Return to Work Program displayed",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69855,
+              "checkpointId": 82321,
+              "note": "",
+              "label": "D",
+              "name": "Personal protective equipment (PPE)",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-03-25 06:44:30",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82322,
+                  "name": "Arragements for future issues of PPE in place",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82323,
+                  "name": "PPE issued to initial site employees",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69856,
+              "checkpointId": 82324,
+              "note": "",
+              "label": "F",
+              "name": "Site access and parking",
+              "position": 5,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-03-25 06:43:28",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82325,
+                  "name": "Site access and parking arrangements in place",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69857,
+              "checkpointId": 82326,
+              "note": "",
+              "label": "G",
+              "name": "Site fencing",
+              "position": 6,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-03-25 06:44:35",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82327,
+                  "name": "Site fencing in place",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69858,
+              "checkpointId": 82328,
+              "note": "",
+              "label": "H",
+              "name": "Survey marks",
+              "position": 7,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-03-25 06:44:36",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82329,
+                  "name": "Survey marks identified and protected",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69859,
+              "checkpointId": 82330,
+              "note": "",
+              "label": "I",
+              "name": "Waste management",
+              "position": 8,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-03-25 06:44:38",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82331,
+                  "name": "Waste management plan and arrangements in place",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69860,
+              "checkpointId": 82332,
+              "note": "",
+              "label": "J",
+              "name": "Project signboard",
+              "position": 9,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-03-25 06:44:39",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82333,
+                  "name": "Project signboard erected",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69861,
+              "checkpointId": 82334,
+              "note": "",
+              "label": "B",
+              "name": "Site amenities and facilities",
+              "position": 10,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-03-25 06:44:28",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82335,
+                  "name": "First aid facilities provided and contents checked",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82336,
+                  "name": "Sufficient site amenities of appropriate standard provided",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69862,
+              "checkpointId": 82337,
+              "note": "",
+              "label": "E",
+              "name": "Hazardous substances",
+              "position": 11,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-03-25 06:43:36",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            }
+          ]
+        },
+        {
+          "workareaId": 7590,
+          "workAreaName": "West",
+          "status": "Closed",
+          "complete": 1,
+          "verificationPoints": [
+            {
+              "id": 69863,
+              "checkpointId": 82311,
+              "note": "",
+              "label": 1,
+              "name": "Initial site establishment",
+              "position": 1,
+              "checkpointType": 4,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            },
+            {
+              "id": 69864,
+              "checkpointId": 82312,
+              "note": "",
+              "label": "A",
+              "name": "Site induction",
+              "position": 2,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-08-23 21:47:12",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82313,
+                  "name": "Initial site employees inducted",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69865,
+              "checkpointId": 82314,
+              "note": "",
+              "label": "C",
+              "name": "Site safety notices displayed",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-08-23 21:47:15",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82315,
+                  "name": "First Aid Officer notice displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82316,
+                  "name": "Nominated Safety representative notices displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82317,
+                  "name": "Safety and environment policy displayed\r\n",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82318,
+                  "name": "Safety signage as applicable displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82319,
+                  "name": "Site safety rules displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82320,
+                  "name": "Workers Compensation notice and Return to Work Program displayed",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69866,
+              "checkpointId": 82321,
+              "note": "",
+              "label": "D",
+              "name": "Personal protective equipment (PPE)",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-08-23 21:47:15",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82322,
+                  "name": "Arragements for future issues of PPE in place",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82323,
+                  "name": "PPE issued to initial site employees",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69867,
+              "checkpointId": 82324,
+              "note": "",
+              "label": "F",
+              "name": "Site access and parking",
+              "position": 5,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-08-23 21:47:21",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82325,
+                  "name": "Site access and parking arrangements in place",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69868,
+              "checkpointId": 82326,
+              "note": "",
+              "label": "G",
+              "name": "Site fencing",
+              "position": 6,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-08-23 21:47:21",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82327,
+                  "name": "Site fencing in place",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69869,
+              "checkpointId": 82328,
+              "note": "",
+              "label": "H",
+              "name": "Survey marks",
+              "position": 7,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-08-23 21:47:22",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82329,
+                  "name": "Survey marks identified and protected",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69870,
+              "checkpointId": 82330,
+              "note": "",
+              "label": "I",
+              "name": "Waste management",
+              "position": 8,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-08-23 21:47:23",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82331,
+                  "name": "Waste management plan and arrangements in place",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69871,
+              "checkpointId": 82332,
+              "note": "",
+              "label": "J",
+              "name": "Project signboard",
+              "position": 9,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-08-23 21:47:24",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82333,
+                  "name": "Project signboard erected",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69872,
+              "checkpointId": 82334,
+              "note": "",
+              "label": "B",
+              "name": "Site amenities and facilities",
+              "position": 10,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-08-23 21:47:14",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82335,
+                  "name": "First aid facilities provided and contents checked",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82336,
+                  "name": "Sufficient site amenities of appropriate standard provided",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 69873,
+              "checkpointId": 82337,
+              "note": "",
+              "label": "E",
+              "name": "Hazardous substances",
+              "position": 11,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-08-23 21:47:16",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            }
+          ]
+        },
+        {
+          "workareaId": 7807,
+          "workAreaName": "North",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 164551,
+              "checkpointId": 82311,
+              "note": "",
+              "label": 1,
+              "name": "Initial site establishment",
+              "position": 1,
+              "checkpointType": 4,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            },
+            {
+              "id": 164552,
+              "checkpointId": 82312,
+              "note": "",
+              "label": "A",
+              "name": "Site induction",
+              "position": 2,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82313,
+                  "name": "Initial site employees inducted",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 164553,
+              "checkpointId": 82314,
+              "note": "",
+              "label": "C",
+              "name": "Site safety notices displayed",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82315,
+                  "name": "First Aid Officer notice displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82316,
+                  "name": "Nominated Safety representative notices displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82317,
+                  "name": "Safety and environment policy displayed\r\n",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82318,
+                  "name": "Safety signage as applicable displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82319,
+                  "name": "Site safety rules displayed",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82320,
+                  "name": "Workers Compensation notice and Return to Work Program displayed",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 164554,
+              "checkpointId": 82321,
+              "note": "",
+              "label": "D",
+              "name": "Personal protective equipment (PPE)",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82322,
+                  "name": "Arragements for future issues of PPE in place",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82323,
+                  "name": "PPE issued to initial site employees",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 164555,
+              "checkpointId": 82324,
+              "note": "",
+              "label": "F",
+              "name": "Site access and parking",
+              "position": 5,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82325,
+                  "name": "Site access and parking arrangements in place",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 164556,
+              "checkpointId": 82326,
+              "note": "",
+              "label": "G",
+              "name": "Site fencing",
+              "position": 6,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82327,
+                  "name": "Site fencing in place",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 164557,
+              "checkpointId": 82328,
+              "note": "",
+              "label": "H",
+              "name": "Survey marks",
+              "position": 7,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82329,
+                  "name": "Survey marks identified and protected",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 164558,
+              "checkpointId": 82330,
+              "note": "",
+              "label": "I",
+              "name": "Waste management",
+              "position": 8,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82331,
+                  "name": "Waste management plan and arrangements in place",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 164559,
+              "checkpointId": 82332,
+              "note": "",
+              "label": "J",
+              "name": "Project signboard",
+              "position": 9,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82333,
+                  "name": "Project signboard erected",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 164560,
+              "checkpointId": 82334,
+              "note": "",
+              "label": "B",
+              "name": "Site amenities and facilities",
+              "position": 10,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82335,
+                  "name": "First aid facilities provided and contents checked",
+                  "descr": "no description"
+                },
+                {
+                  "id": 82336,
+                  "name": "Sufficient site amenities of appropriate standard provided",
+                  "descr": "no description"
+                }
+              ]
+            },
+            {
+              "id": 164561,
+              "checkpointId": 82337,
+              "note": "",
+              "label": "E",
+              "name": "Hazardous substances",
+              "position": 11,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": []
+            }
+          ]
+        }
+      ],
+      "complete": false
+    },
+    {
+      "checklistNumber": 18,
+      "checklistId": 3529,
+      "jobId": 2296,
+      "jobName": "Test2017-02-25",
+      "workareas": [
+        {
+          "workareaId": 7594,
+          "workAreaName": "West",
+          "status": "Closed",
+          "complete": 1,
+          "verificationPoints": [
+            {
+              "id": 69879,
+              "checkpointId": 82350,
+              "note": "",
+              "label": null,
+              "name": "fff",
+              "position": 1,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2017-05-07 00:41:03",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 82351,
+                  "name": "ccc",
+                  "descr": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "complete": true
+    }
+  ]
+}
