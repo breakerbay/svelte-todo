@@ -79,7 +79,23 @@
             {#if (project && project.checklists && project.checklists.length > 0) }
                 <ul>
                     {#each project.checklists as checklist (checklist.checklistId)}
-                        <li>{checklist.jobName}</li>
+                       <li>{checklist.jobName}
+                            {#if checklist.workareas}
+                                <ul>
+                                    {#each checklist.workareas as workarea (workarea.workareaId) }
+                                        <li>{workarea.workAreaName}
+                                            {#if workarea.verificationPoints}
+                                                <ul>
+                                                    {#each workarea.verificationPoints as point (point.id) }
+                                                        <li>{point.name}</li>
+                                                    {/each}
+                                                </ul>
+                                            {/if}
+                                        </li>
+                                    {/each}
+                                </ul>
+                            {/if}
+                        </li>                    
                     {/each}
                 </ul>
             {:else}
