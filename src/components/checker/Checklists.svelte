@@ -12,7 +12,8 @@
             response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all");
         } catch (e) {
             console.error(`CheckerProject, error: ${e}`);
-            response = await fetch("/static/api/projects/389/project-389.json");
+            // response = await fetch("/static/api/projects/389/project-389.json");
+            response = await fetch("/static/api/projects/292/project-292-with-criteria.json");  
         }
 
         if (!response.ok) {
