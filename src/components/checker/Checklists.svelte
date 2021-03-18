@@ -9,7 +9,7 @@
         console.log("CheckerProject, getProject, id: " + id);
         loading = true;
         try {
-            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all");
+            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all&criteria=true");
         } catch (e) {
             console.error(`CheckerProject, error: ${e}`);
             // response = await fetch("/static/api/projects/389/project-389.json");
