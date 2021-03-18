@@ -88,7 +88,15 @@
                                             {#if workarea.verificationPoints}
                                                 <ul>
                                                     {#each workarea.verificationPoints as point (point.id) }
-                                                        <li>{point.name}</li>
+                                                        <li>{point.name}
+                                                            {#if point.criteria }
+                                                                <ul>
+                                                                    {#each point.criteria as criterion (criterion.id) }
+                                                                        <li>{criterion.name}</li>
+                                                                    {/each}
+                                                                </ul>
+                                                            {/if}
+                                                        </li>
                                                     {/each}
                                                 </ul>
                                             {/if}
