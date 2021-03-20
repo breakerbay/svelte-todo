@@ -1,0 +1,15 @@
+{
+  "id": 290,
+  "status": null,
+  "statusId": null,
+  "milestoneStatus": -1,
+  "name": "Test",
+  "descr": "An example project with a checklist containing a hold point, process step and checkpoints ...",
+  "createdBy": 22,
+  "dateCreated": "2016-10-24 22:15:02",
+  "modifiedBy": 22,
+  "dateLastModified": "2020-10-25 00:27:17",
+  "accountId": 22,
+  "number": 4,
+  "place_number": 1
+}
