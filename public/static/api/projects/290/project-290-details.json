@@ -42,13 +42,6 @@
               "followupActionDateFixed": "2021-02-14 07:37:09",
               "vmemberId": 22,
               "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92058,
-                  "name": "Evidence of services clearances being obtained sighted, eg suitably completed clearances checklist sighted",
-                  "descr": "no description"
-                }
-              ],
               "images": [
                 {
                   "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144609.jpg"
@@ -80,63 +73,6 @@
                 {
                   "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_145120.jpg"
                 }
-              ],
-              "followupActions": [
-                {
-                  "ID": 224,
-                  "projectId": 290,
-                  "checkpointValueId": 164309,
-                  "name": "Check clearances obtained",
-                  "descr": null,
-                  "dateRaised": "2021-02-14 07:35:25",
-                  "approvalToFixDoneFlag": 0,
-                  "dateFixed": "2021-02-14 07:37:09",
-                  "actionType": 0,
-                  "category": 0,
-                  "improvementActionFlag": 0,
-                  "note": null,
-                  "notificationRequiredFlag": 0,
-                  "notificationDoneFlag": 0,
-                  "approvalToActionRequiredFlag": 0,
-                  "approvalToActionDoneFlag": 0,
-                  "approvalToFixRequiredFlag": 0,
-                  "rectificationCheckedOkFlag": 0,
-                  "closedOffFlag": 1,
-                  "dateRaisedString": null,
-                  "dateFixedString": null,
-                  "images": [
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144609.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144629.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144706.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144736.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144812.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144823.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144831.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144933.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_145009.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_145120.jpg"
-                    }
-                  ]
-                }
               ]
             },
             {
@@ -155,14 +91,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92060,
-                  "name": "WMS available",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164311,
@@ -198,14 +127,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92063,
-                  "name": "Marked locations and levels to drawings",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164313,
@@ -223,14 +145,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92065,
-                  "name": "Environmental control measures comply with Government standards.",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164314,
@@ -266,14 +181,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92068,
-                  "name": "As applicable, shoring in place.  Excavation fenced. ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164316,
@@ -309,14 +217,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92071,
-                  "name": " Bedding type and depth as specified. ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164318,
@@ -352,14 +253,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92074,
-                  "name": "Pipe, size, type and location to drawings\/specification.  Joints completed.     ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164320,
@@ -377,14 +271,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92076,
-                  "name": "Pressure looss within acceptable limits                                                                                                                                                                                                                        ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164321,
@@ -420,14 +307,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92079,
-                  "name": "No soft spots.  Density tests to Specification Clause _____.",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164323,
@@ -471,14 +351,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92058,
-                  "name": "Evidence of services clearances being obtained sighted, eg suitably completed clearances checklist sighted",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 14
             },
             {
               "id": 164400,
@@ -496,14 +369,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92060,
-                  "name": "WMS available",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 14
             },
             {
               "id": 164401,
@@ -539,14 +405,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92063,
-                  "name": "Marked locations and levels to drawings",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 14
             },
             {
               "id": 164403,
@@ -564,14 +423,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92065,
-                  "name": "Environmental control measures comply with Government standards.",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 14
             },
             {
               "id": 164404,
@@ -607,14 +459,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92068,
-                  "name": "As applicable, shoring in place.  Excavation fenced. ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 14
             },
             {
               "id": 164406,
@@ -650,14 +495,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92071,
-                  "name": " Bedding type and depth as specified. ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 14
             },
             {
               "id": 164408,
@@ -693,14 +531,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92074,
-                  "name": "Pipe, size, type and location to drawings\/specification.  Joints completed.     ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 14
             },
             {
               "id": 164410,
@@ -718,14 +549,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92076,
-                  "name": "Pressure looss within acceptable limits                                                                                                                                                                                                                        ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 14
             },
             {
               "id": 164411,
@@ -761,14 +585,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92079,
-                  "name": "No soft spots.  Density tests to Specification Clause _____.",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 14
             },
             {
               "id": 164413,
@@ -812,14 +629,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92058,
-                  "name": "Evidence of services clearances being obtained sighted, eg suitably completed clearances checklist sighted",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164455,
@@ -837,14 +647,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92060,
-                  "name": "WMS available",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164456,
@@ -880,14 +683,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92063,
-                  "name": "Marked locations and levels to drawings",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164458,
@@ -905,14 +701,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92065,
-                  "name": "Environmental control measures comply with Government standards.",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164459,
@@ -948,14 +737,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92068,
-                  "name": "As applicable, shoring in place.  Excavation fenced. ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164461,
@@ -991,14 +773,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92071,
-                  "name": " Bedding type and depth as specified. ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164463,
@@ -1034,14 +809,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92074,
-                  "name": "Pipe, size, type and location to drawings\/specification.  Joints completed.     ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164465,
@@ -1059,14 +827,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92076,
-                  "name": "Pressure looss within acceptable limits                                                                                                                                                                                                                        ",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164466,
@@ -1102,14 +863,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92079,
-                  "name": "No soft spots.  Density tests to Specification Clause _____.",
-                  "descr": "no description"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164468,
@@ -1204,19 +958,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 82470,
-                  "name": "cr1    - changed in live project",
-                  "descr": "Criteria 1 Updated in Full Screen Editor"
-                },
-                {
-                  "id": 91708,
-                  "name": "cr3",
-                  "descr": ""
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164176,
@@ -1234,119 +976,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91712,
-                  "name": "Checkpoint 2 - Criteria 1",
-                  "descr": "Checkpoint 2 - Criteria 1"
-                },
-                {
-                  "id": 91713,
-                  "name": "Checkpoint 2 - Criteria 2",
-                  "descr": "Checkpoint 2 - Criteria 2"
-                },
-                {
-                  "id": 91714,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91715,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91716,
-                  "name": "Checkpoint 2 - Criteria 1bb",
-                  "descr": "Checkpoint 2 - Criteria 1bb"
-                },
-                {
-                  "id": 91717,
-                  "name": "Checkpoint 2 - Criteria 2a",
-                  "descr": "Checkpoint 2 - Criteria 2a"
-                },
-                {
-                  "id": 91718,
-                  "name": "Checkpoint 2 - Criteria 1a",
-                  "descr": "Checkpoint 2 - Criteria 1a"
-                },
-                {
-                  "id": 91719,
-                  "name": "Checkpoint 2 - Criteria 1c",
-                  "descr": "Checkpoint 2 - Criteria 1c"
-                },
-                {
-                  "id": 91720,
-                  "name": "Checkpoint 2 - Criteria 1cc",
-                  "descr": "Checkpoint 2 - Criteria 1cc"
-                },
-                {
-                  "id": 91721,
-                  "name": "Checkpoint 2 - Criteria 1ddd",
-                  "descr": "Checkpoint 2 - Criteria 1ddd"
-                },
-                {
-                  "id": 91722,
-                  "name": "Checkpoint 2 - Criteria 1eee",
-                  "descr": "Checkpoint 2 - Criteria 1eee"
-                },
-                {
-                  "id": 91723,
-                  "name": "Checkpoint 2 - Criteria 2aaa",
-                  "descr": "Checkpoint 2 - Criteria 2aaa"
-                },
-                {
-                  "id": 91724,
-                  "name": "Checkpoint 2 - Criteria 2bbbb",
-                  "descr": "Checkpoint 2 - Criteria 2bbbb"
-                },
-                {
-                  "id": 91725,
-                  "name": "Checkpoint 2 - Criteria 2ccc",
-                  "descr": "Checkpoint 2 - Criteria 2ccc"
-                },
-                {
-                  "id": 91726,
-                  "name": "Checkpoint 2 - Criteria 2dddd",
-                  "descr": "Checkpoint 2 - Criteria 2dddd"
-                },
-                {
-                  "id": 91727,
-                  "name": "Checkpoint 2 - Criteria 2fffff",
-                  "descr": "Checkpoint 2 - Criteria 2fffff"
-                },
-                {
-                  "id": 91728,
-                  "name": "Checkpoint 2 - Criteria 2eeeee",
-                  "descr": "Checkpoint 2 - Criteria 2eeeee"
-                },
-                {
-                  "id": 91729,
-                  "name": "Checkpoint 2 - Criteria 222222",
-                  "descr": "Checkpoint 2 - Criteria 222222"
-                },
-                {
-                  "id": 91730,
-                  "name": "Checkpoint 2 - Criteria 2eeeeezzz",
-                  "descr": "Checkpoint 2 - Criteria 2eeeeezzz"
-                },
-                {
-                  "id": 91731,
-                  "name": "Checkpoint 2 - Criteria 2aaazzz",
-                  "descr": "Checkpoint 2 - Criteria 2aaazzz"
-                },
-                {
-                  "id": 91732,
-                  "name": "Checkpoint 2 - Criteria 2 - new Sibling",
-                  "descr": "Checkpoint 2 - Criteria 2 - new Sibling"
-                },
-                {
-                  "id": 91734,
-                  "name": "Checkpoint 2 - Criteria 3",
-                  "descr": "Checkpoint 2 - Criteria 3"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164178,
@@ -1364,14 +994,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91711,
-                  "name": "Checkpoint 3 - Criteria 1",
-                  "descr": "Checkpoint 3 - Criteria 1"
-                }
-              ]
+              "vcheckerId": 22
             }
           ]
         },
@@ -1433,19 +1056,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 82470,
-                  "name": "cr1    - changed in live project",
-                  "descr": "Criteria 1 Updated in Full Screen Editor"
-                },
-                {
-                  "id": 91708,
-                  "name": "cr3",
-                  "descr": ""
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164217,
@@ -1463,119 +1074,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91712,
-                  "name": "Checkpoint 2 - Criteria 1",
-                  "descr": "Checkpoint 2 - Criteria 1"
-                },
-                {
-                  "id": 91713,
-                  "name": "Checkpoint 2 - Criteria 2",
-                  "descr": "Checkpoint 2 - Criteria 2"
-                },
-                {
-                  "id": 91714,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91715,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91716,
-                  "name": "Checkpoint 2 - Criteria 1bb",
-                  "descr": "Checkpoint 2 - Criteria 1bb"
-                },
-                {
-                  "id": 91717,
-                  "name": "Checkpoint 2 - Criteria 2a",
-                  "descr": "Checkpoint 2 - Criteria 2a"
-                },
-                {
-                  "id": 91718,
-                  "name": "Checkpoint 2 - Criteria 1a",
-                  "descr": "Checkpoint 2 - Criteria 1a"
-                },
-                {
-                  "id": 91719,
-                  "name": "Checkpoint 2 - Criteria 1c",
-                  "descr": "Checkpoint 2 - Criteria 1c"
-                },
-                {
-                  "id": 91720,
-                  "name": "Checkpoint 2 - Criteria 1cc",
-                  "descr": "Checkpoint 2 - Criteria 1cc"
-                },
-                {
-                  "id": 91721,
-                  "name": "Checkpoint 2 - Criteria 1ddd",
-                  "descr": "Checkpoint 2 - Criteria 1ddd"
-                },
-                {
-                  "id": 91722,
-                  "name": "Checkpoint 2 - Criteria 1eee",
-                  "descr": "Checkpoint 2 - Criteria 1eee"
-                },
-                {
-                  "id": 91723,
-                  "name": "Checkpoint 2 - Criteria 2aaa",
-                  "descr": "Checkpoint 2 - Criteria 2aaa"
-                },
-                {
-                  "id": 91724,
-                  "name": "Checkpoint 2 - Criteria 2bbbb",
-                  "descr": "Checkpoint 2 - Criteria 2bbbb"
-                },
-                {
-                  "id": 91725,
-                  "name": "Checkpoint 2 - Criteria 2ccc",
-                  "descr": "Checkpoint 2 - Criteria 2ccc"
-                },
-                {
-                  "id": 91726,
-                  "name": "Checkpoint 2 - Criteria 2dddd",
-                  "descr": "Checkpoint 2 - Criteria 2dddd"
-                },
-                {
-                  "id": 91727,
-                  "name": "Checkpoint 2 - Criteria 2fffff",
-                  "descr": "Checkpoint 2 - Criteria 2fffff"
-                },
-                {
-                  "id": 91728,
-                  "name": "Checkpoint 2 - Criteria 2eeeee",
-                  "descr": "Checkpoint 2 - Criteria 2eeeee"
-                },
-                {
-                  "id": 91729,
-                  "name": "Checkpoint 2 - Criteria 222222",
-                  "descr": "Checkpoint 2 - Criteria 222222"
-                },
-                {
-                  "id": 91730,
-                  "name": "Checkpoint 2 - Criteria 2eeeeezzz",
-                  "descr": "Checkpoint 2 - Criteria 2eeeeezzz"
-                },
-                {
-                  "id": 91731,
-                  "name": "Checkpoint 2 - Criteria 2aaazzz",
-                  "descr": "Checkpoint 2 - Criteria 2aaazzz"
-                },
-                {
-                  "id": 91732,
-                  "name": "Checkpoint 2 - Criteria 2 - new Sibling",
-                  "descr": "Checkpoint 2 - Criteria 2 - new Sibling"
-                },
-                {
-                  "id": 91734,
-                  "name": "Checkpoint 2 - Criteria 3",
-                  "descr": "Checkpoint 2 - Criteria 3"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164218,
@@ -1593,14 +1092,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91711,
-                  "name": "Checkpoint 3 - Criteria 1",
-                  "descr": "Checkpoint 3 - Criteria 1"
-                }
-              ]
+              "vcheckerId": 22
             }
           ]
         },
@@ -1662,19 +1154,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 82470,
-                  "name": "cr1    - changed in live project",
-                  "descr": "Criteria 1 Updated in Full Screen Editor"
-                },
-                {
-                  "id": 91708,
-                  "name": "cr3",
-                  "descr": ""
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164227,
@@ -1692,119 +1172,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91712,
-                  "name": "Checkpoint 2 - Criteria 1",
-                  "descr": "Checkpoint 2 - Criteria 1"
-                },
-                {
-                  "id": 91713,
-                  "name": "Checkpoint 2 - Criteria 2",
-                  "descr": "Checkpoint 2 - Criteria 2"
-                },
-                {
-                  "id": 91714,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91715,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91716,
-                  "name": "Checkpoint 2 - Criteria 1bb",
-                  "descr": "Checkpoint 2 - Criteria 1bb"
-                },
-                {
-                  "id": 91717,
-                  "name": "Checkpoint 2 - Criteria 2a",
-                  "descr": "Checkpoint 2 - Criteria 2a"
-                },
-                {
-                  "id": 91718,
-                  "name": "Checkpoint 2 - Criteria 1a",
-                  "descr": "Checkpoint 2 - Criteria 1a"
-                },
-                {
-                  "id": 91719,
-                  "name": "Checkpoint 2 - Criteria 1c",
-                  "descr": "Checkpoint 2 - Criteria 1c"
-                },
-                {
-                  "id": 91720,
-                  "name": "Checkpoint 2 - Criteria 1cc",
-                  "descr": "Checkpoint 2 - Criteria 1cc"
-                },
-                {
-                  "id": 91721,
-                  "name": "Checkpoint 2 - Criteria 1ddd",
-                  "descr": "Checkpoint 2 - Criteria 1ddd"
-                },
-                {
-                  "id": 91722,
-                  "name": "Checkpoint 2 - Criteria 1eee",
-                  "descr": "Checkpoint 2 - Criteria 1eee"
-                },
-                {
-                  "id": 91723,
-                  "name": "Checkpoint 2 - Criteria 2aaa",
-                  "descr": "Checkpoint 2 - Criteria 2aaa"
-                },
-                {
-                  "id": 91724,
-                  "name": "Checkpoint 2 - Criteria 2bbbb",
-                  "descr": "Checkpoint 2 - Criteria 2bbbb"
-                },
-                {
-                  "id": 91725,
-                  "name": "Checkpoint 2 - Criteria 2ccc",
-                  "descr": "Checkpoint 2 - Criteria 2ccc"
-                },
-                {
-                  "id": 91726,
-                  "name": "Checkpoint 2 - Criteria 2dddd",
-                  "descr": "Checkpoint 2 - Criteria 2dddd"
-                },
-                {
-                  "id": 91727,
-                  "name": "Checkpoint 2 - Criteria 2fffff",
-                  "descr": "Checkpoint 2 - Criteria 2fffff"
-                },
-                {
-                  "id": 91728,
-                  "name": "Checkpoint 2 - Criteria 2eeeee",
-                  "descr": "Checkpoint 2 - Criteria 2eeeee"
-                },
-                {
-                  "id": 91729,
-                  "name": "Checkpoint 2 - Criteria 222222",
-                  "descr": "Checkpoint 2 - Criteria 222222"
-                },
-                {
-                  "id": 91730,
-                  "name": "Checkpoint 2 - Criteria 2eeeeezzz",
-                  "descr": "Checkpoint 2 - Criteria 2eeeeezzz"
-                },
-                {
-                  "id": 91731,
-                  "name": "Checkpoint 2 - Criteria 2aaazzz",
-                  "descr": "Checkpoint 2 - Criteria 2aaazzz"
-                },
-                {
-                  "id": 91732,
-                  "name": "Checkpoint 2 - Criteria 2 - new Sibling",
-                  "descr": "Checkpoint 2 - Criteria 2 - new Sibling"
-                },
-                {
-                  "id": 91734,
-                  "name": "Checkpoint 2 - Criteria 3",
-                  "descr": "Checkpoint 2 - Criteria 3"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164228,
@@ -1822,14 +1190,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91711,
-                  "name": "Checkpoint 3 - Criteria 1",
-                  "descr": "Checkpoint 3 - Criteria 1"
-                }
-              ]
+              "vcheckerId": 22
             }
           ]
         },
@@ -1891,19 +1252,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 82470,
-                  "name": "cr1    - changed in live project",
-                  "descr": "Criteria 1 Updated in Full Screen Editor"
-                },
-                {
-                  "id": 91708,
-                  "name": "cr3",
-                  "descr": ""
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164257,
@@ -1921,119 +1270,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91712,
-                  "name": "Checkpoint 2 - Criteria 1",
-                  "descr": "Checkpoint 2 - Criteria 1"
-                },
-                {
-                  "id": 91713,
-                  "name": "Checkpoint 2 - Criteria 2",
-                  "descr": "Checkpoint 2 - Criteria 2"
-                },
-                {
-                  "id": 91714,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91715,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91716,
-                  "name": "Checkpoint 2 - Criteria 1bb",
-                  "descr": "Checkpoint 2 - Criteria 1bb"
-                },
-                {
-                  "id": 91717,
-                  "name": "Checkpoint 2 - Criteria 2a",
-                  "descr": "Checkpoint 2 - Criteria 2a"
-                },
-                {
-                  "id": 91718,
-                  "name": "Checkpoint 2 - Criteria 1a",
-                  "descr": "Checkpoint 2 - Criteria 1a"
-                },
-                {
-                  "id": 91719,
-                  "name": "Checkpoint 2 - Criteria 1c",
-                  "descr": "Checkpoint 2 - Criteria 1c"
-                },
-                {
-                  "id": 91720,
-                  "name": "Checkpoint 2 - Criteria 1cc",
-                  "descr": "Checkpoint 2 - Criteria 1cc"
-                },
-                {
-                  "id": 91721,
-                  "name": "Checkpoint 2 - Criteria 1ddd",
-                  "descr": "Checkpoint 2 - Criteria 1ddd"
-                },
-                {
-                  "id": 91722,
-                  "name": "Checkpoint 2 - Criteria 1eee",
-                  "descr": "Checkpoint 2 - Criteria 1eee"
-                },
-                {
-                  "id": 91723,
-                  "name": "Checkpoint 2 - Criteria 2aaa",
-                  "descr": "Checkpoint 2 - Criteria 2aaa"
-                },
-                {
-                  "id": 91724,
-                  "name": "Checkpoint 2 - Criteria 2bbbb",
-                  "descr": "Checkpoint 2 - Criteria 2bbbb"
-                },
-                {
-                  "id": 91725,
-                  "name": "Checkpoint 2 - Criteria 2ccc",
-                  "descr": "Checkpoint 2 - Criteria 2ccc"
-                },
-                {
-                  "id": 91726,
-                  "name": "Checkpoint 2 - Criteria 2dddd",
-                  "descr": "Checkpoint 2 - Criteria 2dddd"
-                },
-                {
-                  "id": 91727,
-                  "name": "Checkpoint 2 - Criteria 2fffff",
-                  "descr": "Checkpoint 2 - Criteria 2fffff"
-                },
-                {
-                  "id": 91728,
-                  "name": "Checkpoint 2 - Criteria 2eeeee",
-                  "descr": "Checkpoint 2 - Criteria 2eeeee"
-                },
-                {
-                  "id": 91729,
-                  "name": "Checkpoint 2 - Criteria 222222",
-                  "descr": "Checkpoint 2 - Criteria 222222"
-                },
-                {
-                  "id": 91730,
-                  "name": "Checkpoint 2 - Criteria 2eeeeezzz",
-                  "descr": "Checkpoint 2 - Criteria 2eeeeezzz"
-                },
-                {
-                  "id": 91731,
-                  "name": "Checkpoint 2 - Criteria 2aaazzz",
-                  "descr": "Checkpoint 2 - Criteria 2aaazzz"
-                },
-                {
-                  "id": 91732,
-                  "name": "Checkpoint 2 - Criteria 2 - new Sibling",
-                  "descr": "Checkpoint 2 - Criteria 2 - new Sibling"
-                },
-                {
-                  "id": 91734,
-                  "name": "Checkpoint 2 - Criteria 3",
-                  "descr": "Checkpoint 2 - Criteria 3"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164258,
@@ -2051,14 +1288,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91711,
-                  "name": "Checkpoint 3 - Criteria 1",
-                  "descr": "Checkpoint 3 - Criteria 1"
-                }
-              ]
+              "vcheckerId": 22
             }
           ]
         },
@@ -2120,19 +1350,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 82470,
-                  "name": "cr1    - changed in live project",
-                  "descr": "Criteria 1 Updated in Full Screen Editor"
-                },
-                {
-                  "id": 91708,
-                  "name": "cr3",
-                  "descr": ""
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164452,
@@ -2150,119 +1368,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91712,
-                  "name": "Checkpoint 2 - Criteria 1",
-                  "descr": "Checkpoint 2 - Criteria 1"
-                },
-                {
-                  "id": 91713,
-                  "name": "Checkpoint 2 - Criteria 2",
-                  "descr": "Checkpoint 2 - Criteria 2"
-                },
-                {
-                  "id": 91714,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91715,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91716,
-                  "name": "Checkpoint 2 - Criteria 1bb",
-                  "descr": "Checkpoint 2 - Criteria 1bb"
-                },
-                {
-                  "id": 91717,
-                  "name": "Checkpoint 2 - Criteria 2a",
-                  "descr": "Checkpoint 2 - Criteria 2a"
-                },
-                {
-                  "id": 91718,
-                  "name": "Checkpoint 2 - Criteria 1a",
-                  "descr": "Checkpoint 2 - Criteria 1a"
-                },
-                {
-                  "id": 91719,
-                  "name": "Checkpoint 2 - Criteria 1c",
-                  "descr": "Checkpoint 2 - Criteria 1c"
-                },
-                {
-                  "id": 91720,
-                  "name": "Checkpoint 2 - Criteria 1cc",
-                  "descr": "Checkpoint 2 - Criteria 1cc"
-                },
-                {
-                  "id": 91721,
-                  "name": "Checkpoint 2 - Criteria 1ddd",
-                  "descr": "Checkpoint 2 - Criteria 1ddd"
-                },
-                {
-                  "id": 91722,
-                  "name": "Checkpoint 2 - Criteria 1eee",
-                  "descr": "Checkpoint 2 - Criteria 1eee"
-                },
-                {
-                  "id": 91723,
-                  "name": "Checkpoint 2 - Criteria 2aaa",
-                  "descr": "Checkpoint 2 - Criteria 2aaa"
-                },
-                {
-                  "id": 91724,
-                  "name": "Checkpoint 2 - Criteria 2bbbb",
-                  "descr": "Checkpoint 2 - Criteria 2bbbb"
-                },
-                {
-                  "id": 91725,
-                  "name": "Checkpoint 2 - Criteria 2ccc",
-                  "descr": "Checkpoint 2 - Criteria 2ccc"
-                },
-                {
-                  "id": 91726,
-                  "name": "Checkpoint 2 - Criteria 2dddd",
-                  "descr": "Checkpoint 2 - Criteria 2dddd"
-                },
-                {
-                  "id": 91727,
-                  "name": "Checkpoint 2 - Criteria 2fffff",
-                  "descr": "Checkpoint 2 - Criteria 2fffff"
-                },
-                {
-                  "id": 91728,
-                  "name": "Checkpoint 2 - Criteria 2eeeee",
-                  "descr": "Checkpoint 2 - Criteria 2eeeee"
-                },
-                {
-                  "id": 91729,
-                  "name": "Checkpoint 2 - Criteria 222222",
-                  "descr": "Checkpoint 2 - Criteria 222222"
-                },
-                {
-                  "id": 91730,
-                  "name": "Checkpoint 2 - Criteria 2eeeeezzz",
-                  "descr": "Checkpoint 2 - Criteria 2eeeeezzz"
-                },
-                {
-                  "id": 91731,
-                  "name": "Checkpoint 2 - Criteria 2aaazzz",
-                  "descr": "Checkpoint 2 - Criteria 2aaazzz"
-                },
-                {
-                  "id": 91732,
-                  "name": "Checkpoint 2 - Criteria 2 - new Sibling",
-                  "descr": "Checkpoint 2 - Criteria 2 - new Sibling"
-                },
-                {
-                  "id": 91734,
-                  "name": "Checkpoint 2 - Criteria 3",
-                  "descr": "Checkpoint 2 - Criteria 3"
-                }
-              ]
+              "vcheckerId": 22
             },
             {
               "id": 164453,
@@ -2280,14 +1386,7 @@
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
               "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91711,
-                  "name": "Checkpoint 3 - Criteria 1",
-                  "descr": "Checkpoint 3 - Criteria 1"
-                }
-              ]
+              "vcheckerId": 22
             }
           ]
         }
