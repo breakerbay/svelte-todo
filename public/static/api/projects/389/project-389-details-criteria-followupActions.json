@@ -1,0 +1,278 @@
+{
+  "id": 389,
+  "status": 3,
+  "statusId": null,
+  "milestoneStatus": null,
+  "name": "Feature List",
+  "descr": "These the features and functionality of the Checklist Engine Web Site.",
+  "createdBy": 22,
+  "dateCreated": "2020-08-29 22:25:18",
+  "modifiedBy": 22,
+  "dateLastModified": "2020-08-29 22:31:54",
+  "accountId": 89,
+  "number": 1,
+  "place_number": 1,
+  "checklists": [
+    {
+      "checklistNumber": 1,
+      "checklistId": 4044,
+      "jobId": 2432,
+      "jobName": "Account Checklist",
+      "workareas": [
+        {
+          "workareaId": 7762,
+          "workAreaName": "Brogo.net.au",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 164343,
+              "checkpointId": 92042,
+              "note": "",
+              "label": null,
+              "name": "Verify that the user who owns the account is the default Administrator",
+              "position": 1,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": "2021-02-14 00:49:45",
+              "complete": 1,
+              "followupActionId": 251,
+              "followupActionDateRaised": "2021-02-14 01:43:56",
+              "followupActionDateFixed": "2021-02-14 08:01:07",
+              "vmemberId": 13,
+              "vcheckerId": 22,
+              "images": [
+                {
+                  "url": "https:\/\/s3-ap-southeast-2.amazonaws.com\/images.brogo.net.au\/1613263858\/Barrett%E2%80%99s%20Reef.png"
+                },
+                {
+                  "url": "https:\/\/s3-ap-southeast-2.amazonaws.com\/images.brogo.net.au\/1613263900\/Pinnacles.png"
+                }
+              ],
+              "followupActions": [
+                {
+                  "ID": 251,
+                  "projectId": 0,
+                  "checkpointValueId": 164343,
+                  "name": "locationMontior exception",
+                  "descr": "Description",
+                  "dateRaised": "2021-02-14 01:43:56",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": "2021-02-14 08:01:07",
+                  "actionType": 0,
+                  "category": 0,
+                  "improvementActionFlag": 0,
+                  "note": "",
+                  "notificationRequiredFlag": 0,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 0,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 0,
+                  "rectificationCheckedOkFlag": 0,
+                  "closedOffFlag": 1,
+                  "dateRaisedString": null,
+                  "dateFixedString": null,
+                  "images": [
+                    {
+                      "url": "https:\/\/s3-ap-southeast-2.amazonaws.com\/images.brogo.net.au\/1613263858\/Barrett%E2%80%99s%20Reef.png"
+                    },
+                    {
+                      "url": "https:\/\/s3-ap-southeast-2.amazonaws.com\/images.brogo.net.au\/1613263900\/Pinnacles.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 164344,
+              "checkpointId": 92043,
+              "note": "",
+              "label": null,
+              "name": "Verify that Members can be add to the Account",
+              "position": 2,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": 252,
+              "followupActionDateRaised": "2021-02-14 00:55:10",
+              "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null,
+              "followupActions": [
+                {
+                  "ID": 252,
+                  "projectId": 389,
+                  "checkpointValueId": 164344,
+                  "name": "Verify that Members can be add to the Account",
+                  "descr": null,
+                  "dateRaised": "2021-02-14 00:55:10",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": null,
+                  "actionType": 0,
+                  "category": 0,
+                  "improvementActionFlag": 0,
+                  "note": null,
+                  "notificationRequiredFlag": 0,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 0,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 0,
+                  "rectificationCheckedOkFlag": 0,
+                  "closedOffFlag": 0,
+                  "dateRaisedString": null,
+                  "dateFixedString": null
+                }
+              ]
+            },
+            {
+              "id": 164345,
+              "checkpointId": 92044,
+              "note": "",
+              "label": null,
+              "name": "Verify that a new Account can be easily created",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null
+            }
+          ]
+        },
+        {
+          "workareaId": 7801,
+          "workAreaName": "Worklot 137",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 164515,
+              "checkpointId": 92042,
+              "note": "",
+              "label": null,
+              "name": "Verify that the user who owns the account is the default Administrator",
+              "position": 1,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": 0
+            },
+            {
+              "id": 164516,
+              "checkpointId": 92043,
+              "note": "",
+              "label": null,
+              "name": "Verify that Members can be add to the Account",
+              "position": 2,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": 0
+            },
+            {
+              "id": 164517,
+              "checkpointId": 92044,
+              "note": "",
+              "label": null,
+              "name": "Verify that a new Account can be easily created",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": 0
+            }
+          ]
+        },
+        {
+          "workareaId": 7809,
+          "workAreaName": "South137",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 164562,
+              "checkpointId": 92042,
+              "note": "",
+              "label": null,
+              "name": "Verify that the user who owns the account is the default Administrator",
+              "position": 1,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null
+            },
+            {
+              "id": 164563,
+              "checkpointId": 92043,
+              "note": "",
+              "label": null,
+              "name": "Verify that Members can be add to the Account",
+              "position": 2,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null
+            },
+            {
+              "id": 164564,
+              "checkpointId": 92044,
+              "note": "",
+              "label": null,
+              "name": "Verify that a new Account can be easily created",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": null,
+              "verifiedBy": null,
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null
+            }
+          ]
+        }
+      ],
+      "complete": false
+    }
+  ]
+}
