@@ -1,0 +1,918 @@
+{
+  "id": 416,
+  "status": 3,
+  "statusId": null,
+  "milestoneStatus": null,
+  "name": "Photo Testing Project",
+  "descr": "Project based on house inspection",
+  "createdBy": 13,
+  "dateCreated": "2021-03-05 04:04:25",
+  "modifiedBy": 13,
+  "dateLastModified": "2021-03-14 05:38:34",
+  "accountId": 13,
+  "number": 5,
+  "place_number": null,
+  "checklists": [
+    {
+      "checklistNumber": 44,
+      "checklistId": 4145,
+      "jobId": 2469,
+      "jobName": "Entrance",
+      "workareas": [
+        {
+          "workareaId": 7820,
+          "workAreaName": "Room",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 164623,
+              "checkpointId": 94122,
+              "note": "",
+              "label": null,
+              "name": "Working Light",
+              "position": 2,
+              "checkpointType": 1,
+              "checkerId": 15,
+              "verifiedBy": "Michael Evans",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 15,
+              "vcheckerId": 15,
+              "criteria": [
+                {
+                  "id": 94123,
+                  "name": "There must be adequate, operational lighting at or near entrance ways.",
+                  "descr": "Visually inspect that lighting is present and operational at the main front and back doors of the house."
+                }
+              ]
+            },
+            {
+              "id": 164624,
+              "checkpointId": 94124,
+              "note": "",
+              "label": null,
+              "name": "Securely locking doors",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 15,
+              "verifiedBy": "Michael Evans",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 15,
+              "vcheckerId": 15,
+              "criteria": [
+                {
+                  "id": 94125,
+                  "name": "The house must be able to be secured by means of lockable doors or entranceways.",
+                  "descr": "Confirm that locks are present and properly functioning for the main entrances to the house. \nAlso confirm that windows and other openings are able to be secured."
+                }
+              ]
+            },
+            {
+              "id": 164625,
+              "checkpointId": 94126,
+              "note": "",
+              "label": null,
+              "name": "Address clearly labeled and identifiable",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 15,
+              "verifiedBy": "Michael Evans",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 15,
+              "vcheckerId": 15,
+              "criteria": [
+                {
+                  "id": 94127,
+                  "name": "The house number and main entrance must be clearly labelled and identifiable.",
+                  "descr": "Visually inspect to confirm that the house number is clearly labelled and that the main entrance is clearly identifiable.\n\nNotes\nClear identification is important for visitation as well as to ensure that emergency services are able to locate the address."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "complete": false
+    },
+    {
+      "checklistNumber": 41,
+      "checklistId": 4142,
+      "jobId": 2466,
+      "jobName": "Kitchen",
+      "workareas": [
+        {
+          "workareaId": 7821,
+          "workAreaName": "Room",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 164626,
+              "checkpointId": 94066,
+              "note": "",
+              "label": null,
+              "name": "General room finish",
+              "position": 1,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94067,
+                  "name": "Are walls, ceiling, and floor linings intact?",
+                  "descr": "No holes or significant gaps in walls, ceiling or floor\nFloors covered in  timber, tiles, lino"
+                }
+              ]
+            },
+            {
+              "id": 164627,
+              "checkpointId": 94068,
+              "note": "",
+              "label": null,
+              "name": "Surfaces clear of mould",
+              "position": 2,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94069,
+                  "name": "The house must be reasonably free of visible mould, having no more in total area of mould than an A4 sheet of paper",
+                  "descr": "Visually inspect and sum up the estimated total area of mould throughout the whole house. Surfaces include: \n- Internal walls, ceilings and floors and floor coverings,\n- Internal surfaces of window frames and glazing,\n- Internal tiled surfaces,\n- Internal surfaces of doors and door frames,\n- Curtains, blinds and window furnishings.\n\nAny mould on furniture and clothing may be noted, but is not included in the total area. \nWardrobes and cupboards should not be inspected unless asked to do so and explicit permission has been given by the tenant and\/or landlord. \n\nNotes\nThe presence of mould is a sign of inadequate ventilation and excess moisture. Mould is known to contribute to poor health, particularly respiratory illness for occupants. \nResearch by the University of Otago suggests that bedrooms are the most likely place for mould to occur."
+                }
+              ]
+            },
+            {
+              "id": 164628,
+              "checkpointId": 94070,
+              "note": "",
+              "label": null,
+              "name": "There are cooking facilities",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94071,
+                  "name": "There must be at least one safe working element, hob or means of cooking as well as an oven",
+                  "descr": "- Visual inspection and verification that cooking facilities are in working condition. \n- No obviously visible unsafe wires, broken glass or gas connections"
+                }
+              ]
+            },
+            {
+              "id": 164629,
+              "checkpointId": 94072,
+              "note": "",
+              "label": null,
+              "name": "Effective Ventilation to outside",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": "2021-03-20 07:25:33",
+              "complete": 0,
+              "followupActionId": 256,
+              "followupActionDateRaised": "2021-03-14 04:47:44",
+              "followupActionDateFixed": "0000-00-00 00:00:00",
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94073,
+                  "name": "The  kitchen must have some form of ventilation to the outside.",
+                  "descr": "Check that either an opening window or mechanical vent is present and operational in the kitchen\nIf there is no mechanical ventilation such as an extracting hood above the stove in the kitchen, then an opening window should be no more than 2 metres away from the cooking facilities. \nIf the window or fastener, not accessible or in anyway not able to be opened by the tenant, it should be deemed as not compliant. Similarly, any fan or mechanical vent must be operational in order to comply. \nNotes\nAdequate ventilation is a requirement of the building code and is important for maintaining healthy internal conditions. \nWhile the provision of a fan or opening window does not guarantee the operation of these devices for ventilation, the scope of the WOF is to check that the house is able to be ventilated. The WOF is not a test of tenant behaviour."
+                }
+              ],
+              "images": [
+                {
+                  "url": "https:\/\/s3-ap-southeast-2.amazonaws.com\/images.brogo.net.au\/1615701239\/ventilation%20system%20over%20stove.png"
+                }
+              ],
+              "followupActions": [
+                {
+                  "ID": 256,
+                  "projectId": 0,
+                  "checkpointValueId": 164629,
+                  "name": "Over stove ventilation system - fan not working",
+                  "descr": "Electrician required to fix",
+                  "dateRaised": "2021-03-14 04:47:44",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": "0000-00-00 00:00:00",
+                  "actionType": 4,
+                  "category": 1,
+                  "improvementActionFlag": 0,
+                  "note": "",
+                  "notificationRequiredFlag": 0,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 0,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 0,
+                  "rectificationCheckedOkFlag": 0,
+                  "closedOffFlag": 0,
+                  "dateRaisedString": null,
+                  "dateFixedString": null,
+                  "images": [
+                    {
+                      "url": "https:\/\/s3-ap-southeast-2.amazonaws.com\/images.brogo.net.au\/1615701239\/ventilation%20system%20over%20stove.png"
+                    }
+                  ]
+                },
+                {
+                  "ID": 257,
+                  "projectId": 0,
+                  "checkpointValueId": 164629,
+                  "name": "no2 follow up action",
+                  "descr": "Description",
+                  "dateRaised": "2021-03-20 06:19:54",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": "0000-00-00 00:00:00",
+                  "actionType": 4,
+                  "category": 0,
+                  "improvementActionFlag": 0,
+                  "note": "",
+                  "notificationRequiredFlag": 0,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 0,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 0,
+                  "rectificationCheckedOkFlag": 0,
+                  "closedOffFlag": 0,
+                  "dateRaisedString": null,
+                  "dateFixedString": null
+                }
+              ]
+            },
+            {
+              "id": 164630,
+              "checkpointId": 94074,
+              "note": "",
+              "label": null,
+              "name": "Effective Window Latches",
+              "position": 5,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94075,
+                  "name": "Each opening window must have an effective latch or means of closure.",
+                  "descr": "- Visually inspect that window latches are present and that they effectively close and lock opening windows.\n- Confirm that latches effectively allow for weathertightness of the window when closed.\n\nNotes\nThe ability to open windows is a requirement for ventilation. Latches are required in order to be able to lock and secure the house from an intruder as well as contribute to the weather-tightness of the house."
+                }
+              ]
+            },
+            {
+              "id": 164631,
+              "checkpointId": 94076,
+              "note": "",
+              "label": null,
+              "name": "Window Security Stays",
+              "position": 6,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94077,
+                  "name": "Security stays must be present on any window where it is possible for a person to fall out of that window and where the possible fall height is more than 2m to the ground.",
+                  "descr": "Visually inspect the windows and check that security stays are present and operational on all windows with a possible fall height of 2m or more to the external ground and where the sill is less than 1.5m above the internal floor. \nEnsure that the stays; \n- restrict the opening space to no more than 100mm,\n- are not detachable (unless required for fire egress).\n\nExempt windows include the following: \n- High level or clerestory9 windows (where the lower edge is more than 1.5m above the floor).\n- Bottom pivot windows.\n- Windows that cannot be open more than 100mm along the opening edge.\n\nNotes\nSecurity stays allow for improved passive ventilation of the house while keeping the house secure from an intruder and prevent falls, particularly by children through windows."
+                }
+              ]
+            },
+            {
+              "id": 164632,
+              "checkpointId": 94078,
+              "note": "",
+              "label": null,
+              "name": "Food Preparation & Storage",
+              "position": 7,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94079,
+                  "name": "There must be adequate facilities to store, wash, and prepare food as per Acceptable Solution G3\/AS1 of the NZBC.",
+                  "descr": "Food preparation areas include:\n- A sink capable of fully containing a solid cylinder of 300 mm diameter and 125 mm depth. \n- Clear food preparation area of at least 600 mm x 500 mm. \n- Food storage capacity of at least: \n   - 0.5 m3 for a 1 bedroom house. \n   - 1.0 m3 for a 2 to 4 bedroom house. \n   - 1.0 m3 + 0.2 m3 per additional bedroom over 4 bedrooms. \n\nVisually inspect sink, bench top and dedicated food storage areas to check for general state of repair.\nConfirm dimensions with a tape measure if required."
+                }
+              ]
+            },
+            {
+              "id": 164633,
+              "checkpointId": 94080,
+              "note": "",
+              "label": null,
+              "name": "Hot Water Temperature",
+              "position": 8,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94081,
+                  "name": "Hot-water at the tap should be supplied at a temperature of 55 degrees C \u00b15 degrees C.",
+                  "descr": "Select the most easily locatable hot water tap which is closest to each hot water supply. \n- Measure temperature of water using either an electronic or analogue probe-style thermometer placed in the flow of the hot water supply. \n- Allow temperature to stabilise before confirming temperature. \n- Supplied temperature must not exceed 60\u00b0C. \n- Ensure that at least one measurement if taken for each separate hot water system in the house. \n\nNotes\n- The Assessor should place more emphasis on the upper limit (60 degrees C), than the lower limit (50 degrees C). While temperature above 60 degrees C should be recorded as a fail, a measured temperature of slightly below 50 degrees C may be passed if the Assessor deems the system to; \no be otherwise safe and of reasonable standard to effectively supply hot water to the house, and\/or \no show daily fluctuations in temperature because of heating regime and usage profile, (for example a storage system heated on a night-rate and measured after heavy morning use)."
+                }
+              ]
+            },
+            {
+              "id": 164634,
+              "checkpointId": 94082,
+              "note": "",
+              "label": null,
+              "name": "Potable water",
+              "position": 9,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94083,
+                  "name": "There must be a reliable and adequate source of hot and cold water, plumbed in to the house",
+                  "descr": "The first preference for assessing potable water should be at the kitchen tap. \n- Confirm that adequate water flows from both cold and hot taps.\n- Water should be visibly clean.\n- Fittings should be effective and not leaking.\n- Any non-potable water (such as untreated rainwater) must be clearly labelled.\n\nNotes\n- A slow dripping tap should be noted but should not fail an inspection.\n- For adequate flow, the rate should be at least 4 litres per minute (sufficient to fill a 1 litre jug in 15 seconds), but no more than 9 litres per minute for a kitchen or bathroom.\uf020"
+                }
+              ]
+            },
+            {
+              "id": 164635,
+              "checkpointId": 94084,
+              "note": "",
+              "label": null,
+              "name": "Waste water drainage with sound connection",
+              "position": 10,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94085,
+                  "name": "There are now leakages from plumbing under the sink",
+                  "descr": "- All connections securely tightened.\n- no visible leaks o ponding water"
+                }
+              ]
+            },
+            {
+              "id": 164636,
+              "checkpointId": 94086,
+              "note": "",
+              "label": null,
+              "name": "Working artificial light",
+              "position": 11,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94087,
+                  "name": "There must be at least one working light in each room and staircase, and staircases must have a working light switch at both the top and bottom of the stairs.",
+                  "descr": "- Visually inspect and confirm that a fixed electrical light is present and operational in each room.\n- Plug-in lighting, such as standard lamps, desk lamps and bedside lamps that are not permanently wired, should not be included.\n- For stairs, confirm that a safe and operational light switch is present at both the top and bottom of each staircase.\n- If sensor or automatic lighting is present and functioning, this may satisfy the need for dual switching.\n- Spare bulbs may be carried by the assessor to confirm that lighting circuits are functioning providing it is safe to do so and at their discretion.\n- Where it cannot be verified that a room has at least one working light, the house will need to be reassessed once remedial action is taken.\n\nNotes\nNZBC Clause D1 Access Routes."
+                }
+              ]
+            },
+            {
+              "id": 164637,
+              "checkpointId": 94088,
+              "note": "",
+              "label": null,
+              "name": "visibly safe power outlets and light switches",
+              "position": 12,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94089,
+                  "name": "All power outlets and light switches must be safe and in good working order, and wiring must be safe.",
+                  "descr": "Visually inspect that none of the following are present: \n- Cracked and broken, or missing faceplates.\n- Scorched or burnt faceplates.\n- Exposed wire.\n- Sockets or switches too close to a defined wet zone (see Figure 1 and Figure 2), for example; o not within 0.3 metres of the floor of a bathroom or laundry, \no not within 0.4 meters above or 0.15 lateral distance from the rim of a sink. \n- Sockets in a bathroom, laundry or wet area without a residual current device (RCD).\n- Unexplained humming, hissing or other noises from electrical fittings.\n\nWhere there is a mix of cabling, or older types of cables appear to be in use, the property owner should be advised to seek further professional advice of a qualified electrician. \n\nNotes:Socket outlets and switches are not permitted within zone 0 or zone 1, as defined by the New Zealand Electrical Code of Practice.  Refer diagram on WOF Fitness Assessment Manual"
+                }
+              ]
+            },
+            {
+              "id": 164638,
+              "checkpointId": 94090,
+              "note": "",
+              "label": null,
+              "name": "completed checklist approved by supervisor ",
+              "position": 13,
+              "checkpointType": 2,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94091,
+                  "name": "supervisor sign off ",
+                  "descr": "Description"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "complete": false
+    },
+    {
+      "checklistNumber": 43,
+      "checklistId": 4144,
+      "jobId": 2468,
+      "jobName": "Laundry",
+      "workareas": [
+        {
+          "workareaId": 7822,
+          "workAreaName": "Room",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 164639,
+              "checkpointId": 94110,
+              "note": "",
+              "label": null,
+              "name": "General room finish",
+              "position": 1,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "criteria": [
+                {
+                  "id": 94111,
+                  "name": "Are walls, ceiling, and floor linings intact?",
+                  "descr": "No holes or significant gaps in walls, ceiling or floor\nFloors covered in  timber, tiles, lino"
+                }
+              ]
+            },
+            {
+              "id": 164640,
+              "checkpointId": 94112,
+              "note": "",
+              "label": null,
+              "name": "Surfaces clear of mould",
+              "position": 2,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "criteria": [
+                {
+                  "id": 94113,
+                  "name": "The house must be reasonably free of visible mould, having no more in total area of mould than an A4 sheet of paper",
+                  "descr": "Visually inspect and sum up the estimated total area of mould throughout the whole house. Surfaces include: \n- Internal walls, ceilings and floors and floor coverings,\n- Internal surfaces of window frames and glazing,\n- Internal tiled surfaces,\n- Internal surfaces of doors and door frames,\n- Curtains, blinds and window furnishings.\n\nAny mould on furniture and clothing may be noted, but is not included in the total area. \nWardrobes and cupboards should not be inspected unless asked to do so and explicit permission has been given by the tenant and\/or landlord. \n\nNotes\nThe presence of mould is a sign of inadequate ventilation and excess moisture. Mould is known to contribute to poor health, particularly respiratory illness for occupants. \nResearch by the University of Otago suggests that bedrooms are the most likely place for mould to occur."
+                }
+              ]
+            },
+            {
+              "id": 164641,
+              "checkpointId": 94114,
+              "note": "",
+              "label": null,
+              "name": "Effective Ventilation to outside",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "criteria": [
+                {
+                  "id": 94115,
+                  "name": "The  kitchen must have some form of ventilation to the outside.",
+                  "descr": "Check that either an opening window or mechanical vent is present and operational in the kitchen\nIf there is no mechanical ventilation such as an extracting hood above the stove in the kitchen, then an opening window should be no more than 2 metres away from the cooking facilities. \nIf the window or fastener, not accessible or in anyway not able to be opened by the tenant, it should be deemed as not compliant. Similarly, any fan or mechanical vent must be operational in order to comply. \nNotes\nAdequate ventilation is a requirement of the building code and is important for maintaining healthy internal conditions. \nWhile the provision of a fan or opening window does not guarantee the operation of these devices for ventilation, the scope of the WOF is to check that the house is able to be ventilated. The WOF is not a test of tenant behaviour."
+                }
+              ]
+            },
+            {
+              "id": 164642,
+              "checkpointId": 94116,
+              "note": "",
+              "label": null,
+              "name": "Waste water drainage with sound connection",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "criteria": [
+                {
+                  "id": 94117,
+                  "name": "There are now leakages from plumbing under the sink",
+                  "descr": "- All connections securely tightened.\n- no visible leaks o ponding water"
+                }
+              ]
+            },
+            {
+              "id": 164643,
+              "checkpointId": 94118,
+              "note": "",
+              "label": null,
+              "name": "Working artificial light",
+              "position": 5,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "criteria": [
+                {
+                  "id": 94119,
+                  "name": "There must be at least one working light in each room and staircase, and staircases must have a working light switch at both the top and bottom of the stairs.",
+                  "descr": "- Visually inspect and confirm that a fixed electrical light is present and operational in each room.\n- Plug-in lighting, such as standard lamps, desk lamps and bedside lamps that are not permanently wired, should not be included.\n- For stairs, confirm that a safe and operational light switch is present at both the top and bottom of each staircase.\n- If sensor or automatic lighting is present and functioning, this may satisfy the need for dual switching.\n- Spare bulbs may be carried by the assessor to confirm that lighting circuits are functioning providing it is safe to do so and at their discretion.\n- Where it cannot be verified that a room has at least one working light, the house will need to be reassessed once remedial action is taken.\n\nNotes\nNZBC Clause D1 Access Routes."
+                }
+              ]
+            },
+            {
+              "id": 164644,
+              "checkpointId": 94120,
+              "note": "",
+              "label": null,
+              "name": "visibly safe power outlets and light switches",
+              "position": 6,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "criteria": [
+                {
+                  "id": 94121,
+                  "name": "All power outlets and light switches must be safe and in good working order, and wiring must be safe.",
+                  "descr": "Visually inspect that none of the following are present: \n- Cracked and broken, or missing faceplates.\n- Scorched or burnt faceplates.\n- Exposed wire.\n- Sockets or switches too close to a defined wet zone (see Figure 1 and Figure 2), for example; o not within 0.3 metres of the floor of a bathroom or laundry, \no not within 0.4 meters above or 0.15 lateral distance from the rim of a sink. \n- Sockets in a bathroom, laundry or wet area without a residual current device (RCD).\n- Unexplained humming, hissing or other noises from electrical fittings.\n\nWhere there is a mix of cabling, or older types of cables appear to be in use, the property owner should be advised to seek further professional advice of a qualified electrician. \n\nNotes:Socket outlets and switches are not permitted within zone 0 or zone 1, as defined by the New Zealand Electrical Code of Practice.  Refer diagram on WOF Fitness Assessment Manual"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "complete": false
+    },
+    {
+      "checklistNumber": 42,
+      "checklistId": 4143,
+      "jobId": 2467,
+      "jobName": "Living Room",
+      "workareas": [
+        {
+          "workareaId": 7823,
+          "workAreaName": "Room",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 164645,
+              "checkpointId": 94092,
+              "note": "",
+              "label": null,
+              "name": "General room finish",
+              "position": 1,
+              "checkpointType": 1,
+              "checkerId": 21,
+              "verifiedBy": "Rob Beasley 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 21,
+              "vcheckerId": 21,
+              "criteria": [
+                {
+                  "id": 94093,
+                  "name": "Are walls, ceiling, and floor linings intact?",
+                  "descr": "No holes or significant gaps in walls, ceiling or floor\nFloors covered in  timber, tiles, lino"
+                }
+              ]
+            },
+            {
+              "id": 164646,
+              "checkpointId": 94094,
+              "note": "",
+              "label": null,
+              "name": "Surfaces clear of mould",
+              "position": 2,
+              "checkpointType": 1,
+              "checkerId": 21,
+              "verifiedBy": "Rob Beasley 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 21,
+              "vcheckerId": 21,
+              "criteria": [
+                {
+                  "id": 94095,
+                  "name": "The house must be reasonably free of visible mould, having no more in total area of mould than an A4 sheet of paper",
+                  "descr": "Visually inspect and sum up the estimated total area of mould throughout the whole house. Surfaces include: \n- Internal walls, ceilings and floors and floor coverings,\n- Internal surfaces of window frames and glazing,\n- Internal tiled surfaces,\n- Internal surfaces of doors and door frames,\n- Curtains, blinds and window furnishings.\n\nAny mould on furniture and clothing may be noted, but is not included in the total area. \nWardrobes and cupboards should not be inspected unless asked to do so and explicit permission has been given by the tenant and\/or landlord. \n\nNotes\nThe presence of mould is a sign of inadequate ventilation and excess moisture. Mould is known to contribute to poor health, particularly respiratory illness for occupants. \nResearch by the University of Otago suggests that bedrooms are the most likely place for mould to occur."
+                }
+              ]
+            },
+            {
+              "id": 164647,
+              "checkpointId": 94096,
+              "note": "",
+              "label": null,
+              "name": "Effective Ventilation to outside",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 21,
+              "verifiedBy": "Rob Beasley 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 21,
+              "vcheckerId": 21,
+              "criteria": [
+                {
+                  "id": 94097,
+                  "name": "The  kitchen must have some form of ventilation to the outside.",
+                  "descr": "Check that either an opening window or mechanical vent is present and operational in each of the following: \n- Kitchen\n- Bathrooms and ensuites,\n- All bedrooms\n- Living areas.\nIf there is no mechanical ventilation such as an extracting hood above the stove in the kitchen, then an opening window should be no more than 2 metres away from the cooking facilities. \nIf the window or fastened, not accessible or in anyway not able to be opened by the tenant, it should be deemed as not compliant. Similarly, any fan or mechanical vent must be operational in order to comply. \nIf there is provision for a dryer within the habitable building envelope, there must be venting to the outside for that dryer. Dryers in garages or other locations outside the habitable building envelope are excluded. \n\nNotes\nAdequate ventilation is a requirement of the building code and is important for maintaining healthy internal conditions. \nWhile the provision of a fan or opening window does not guarantee the operation of these devices for ventilation, the scope of the WOF is to check that the house is able to be ventilated. The WOF is not a test of tenant behaviour."
+                }
+              ]
+            },
+            {
+              "id": 164648,
+              "checkpointId": 94098,
+              "note": "",
+              "label": null,
+              "name": "Effective Window Latches",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 21,
+              "verifiedBy": "Rob Beasley 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 21,
+              "vcheckerId": 21,
+              "criteria": [
+                {
+                  "id": 94099,
+                  "name": "Each opening window must have an effective latch or means of closure.",
+                  "descr": "- Visually inspect that window latches are present and that they effectively close and lock opening windows.\n- Confirm that latches effectively allow for weathertightness of the window when closed.\n\nNotes\nThe ability to open windows is a requirement for ventilation. Latches are required in order to be able to lock and secure the house from an intruder as well as contribute to the weather-tightness of the house."
+                }
+              ]
+            },
+            {
+              "id": 164649,
+              "checkpointId": 94100,
+              "note": "",
+              "label": null,
+              "name": "Window Security Stays",
+              "position": 5,
+              "checkpointType": 1,
+              "checkerId": 21,
+              "verifiedBy": "Rob Beasley 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 21,
+              "vcheckerId": 21,
+              "criteria": [
+                {
+                  "id": 94101,
+                  "name": "Security stays must be present on any window where it is possible for a person to fall out of that window and where the possible fall height is more than 2m to the ground.",
+                  "descr": "Visually inspect the windows and check that security stays are present and operational on all windows with a possible fall height of 2m or more to the external ground and where the sill is less than 1.5m above the internal floor. \nEnsure that the stays; \n- restrict the opening space to no more than 100mm,\n- are not detachable (unless required for fire egress).\n\nExempt windows include the following: \n- High level or clerestory9 windows (where the lower edge is more than 1.5m above the floor).\n- Bottom pivot windows.\n- Windows that cannot be open more than 100mm along the opening edge.\n\nNotes\nSecurity stays allow for improved passive ventilation of the house while keeping the house secure from an intruder and prevent falls, particularly by children through windows."
+                }
+              ]
+            },
+            {
+              "id": 164650,
+              "checkpointId": 94102,
+              "note": "",
+              "label": null,
+              "name": "Working artificial light",
+              "position": 6,
+              "checkpointType": 1,
+              "checkerId": 21,
+              "verifiedBy": "Rob Beasley 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 21,
+              "vcheckerId": 21,
+              "criteria": [
+                {
+                  "id": 94103,
+                  "name": "There must be at least one working light in each room and staircase, and staircases must have a working light switch at both the top and bottom of the stairs.",
+                  "descr": "- Visually inspect and confirm that a fixed electrical light is present and operational in each room.\n- Plug-in lighting, such as standard lamps, desk lamps and bedside lamps that are not permanently wired, should not be included.\n- For stairs, confirm that a safe and operational light switch is present at both the top and bottom of each staircase.\n- If sensor or automatic lighting is present and functioning, this may satisfy the need for dual switching.\n- Spare bulbs may be carried by the assessor to confirm that lighting circuits are functioning providing it is safe to do so and at their discretion.\n- Where it cannot be verified that a room has at least one working light, the house will need to be reassessed once remedial action is taken.\n\nNotes\nNZBC Clause D1 Access Routes."
+                }
+              ]
+            },
+            {
+              "id": 164651,
+              "checkpointId": 94104,
+              "note": "",
+              "label": null,
+              "name": "visibly safe power outlets and light switches",
+              "position": 7,
+              "checkpointType": 1,
+              "checkerId": 21,
+              "verifiedBy": "Rob Beasley 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 21,
+              "vcheckerId": 21,
+              "criteria": [
+                {
+                  "id": 94105,
+                  "name": "All power outlets and light switches must be safe and in good working order, and wiring must be safe.",
+                  "descr": "Visually inspect that none of the following are present: \n- Cracked and broken, or missing faceplates.\n- Scorched or burnt faceplates.\n- Exposed wire.\n- Sockets or switches too close to a defined wet zone (see Figure 1 and Figure 2), for example; o not within 0.3 metres of the floor of a bathroom or laundry, \no not within 0.4 meters above or 0.15 lateral distance from the rim of a sink. \n- Sockets in a bathroom, laundry or wet area without a residual current device (RCD).\n- Unexplained humming, hissing or other noises from electrical fittings.\n\nWhere there is a mix of cabling, or older types of cables appear to be in use, the property owner should be advised to seek further professional advice of a qualified electrician. \n\nNotes:Socket outlets and switches are not permitted within zone 0 or zone 1, as defined by the New Zealand Electrical Code of Practice.  Refer diagram on WOF Fitness Assessment Manual"
+                }
+              ]
+            },
+            {
+              "id": 164652,
+              "checkpointId": 94106,
+              "note": "",
+              "label": null,
+              "name": "Heating, fixed , effective and safe",
+              "position": 8,
+              "checkpointType": 1,
+              "checkerId": 21,
+              "verifiedBy": "Rob Beasley 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 21,
+              "vcheckerId": 21,
+              "criteria": [
+                {
+                  "id": 94107,
+                  "name": "The house must contain an adequate form of safe and effective space heating.",
+                  "descr": "Confirm that at least one form of adequate heating is present and is in working condition.\n- The appliance is to be located within the main living area (living, dining, lounge) or where heat can be delivered to the main living area of the dwelling.\n- Where the total floor area of the conditioned space (excluding garage) of the dwelling;\no is equal to or greater than 50m2, the heater must be fixed, \no is less than 50m2, a plug-in type heater can be deemed as adequate, providing all other criteria are met for this point. \n- Unflued gas heaters do not comply.\n- Open fires do not comply.\n- Certified passive houses are exempt\n\nNotes\n - Most houses in New Zealand will require an effective means of space heating in order to achieve and maintain healthy living conditions.\n- A form of fixed heating should be present to ensure that:\no Heating is a permanent feature of the house and is not likely to be removed. \no The risk of fire or injury is minimised due to the secured nature of the heater. \n- In some instances, such as small units or apartments, a small, portable heater may be more practical and effective than an inappropriately sized or placed fixed heater.\n- Unflued gas heaters emit high levels of moisture and toxic gases. These gases will accumulate in the area if it is not adequately ventilated.\n- A minimum heating output (Wattage) is not required for the purposes of the WOF, as this can often be hard to assess. For information purposes, the minimum outputs shown in Table 2 are the requirements in Clause G5 of the NZBC. \n- Log burners are deemed to be compliant if they\u2019re operational and providing they can be legally used under normal circumstances in the specific region\/council area."
+                }
+              ]
+            },
+            {
+              "id": 164653,
+              "checkpointId": 94108,
+              "note": "",
+              "label": null,
+              "name": "Curtains or blinds",
+              "position": 9,
+              "checkpointType": 1,
+              "checkerId": 21,
+              "verifiedBy": "Rob Beasley 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 21,
+              "vcheckerId": 21,
+              "criteria": [
+                {
+                  "id": 94109,
+                  "name": "Windows in bedrooms and living areas are required to either be doubled glazed or have effective curtains or blinds installed.",
+                  "descr": "Visually inspect any windows in the lounge (including open plan lounge\/dining areas) and bedrooms where the sill is below 2 metres above floor level (i.e. high level and clerestory windows are excluded). \nIf the windows are not double or secondary glazed (with an R value of at least 0.26), then curtains or blinds must be present with the following features: \n- Either a single layer of heavy weight, non-translucent material or lighter weight material with a thermal backing.\n- Cover at least 100% of the glazed area of the window.\n- Able to be easily opened and closed.\nCurtains or blinds are not required in the following locations: \n- Bathrooms\n- Kitchens\n- Entrance areas\n- High level (clerestory) windows\n- Skylights\n\nVenetian or slat blinds can be deemed to comply if they are in good working condition. \n\nNotes\nFor the purpose of a warrant, curtains on a working track or blinds (such as Roman-style blinds) should be at least 100% of the size of the glazed area. However, for improved performance, the following is recommended: \n- The minimum length is at least 200 mm below the bottom of the window frame.\n- Curtains should be at least 2 times as wide as the window so as to not fit completely flat and taut across the window.\n\nVenetian and slat blinds are deemed compliant for the purposes of a warrant because they will help contribute to privacy and can also reduce overheating. It should be recognised however that their thermal performance for heat retention is negligible. \nTranslucent material such as netting does not comply. \nMaterial pinned or secured in a manner other than a work track and which doesn\u2019t allow for the curtain to be easily opened and closed, does not comply."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "complete": false
+    }
+  ]
+}
