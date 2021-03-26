@@ -13,13 +13,15 @@
         } catch (e) {
             console.error(`CheckerProject, error: ${e}`);
             // response = await fetch("/static/api/projects/389/project-389.json");
-            response = await fetch("/static/api/projects/292/project-292-with-criteria.json");  
+            response = await fetch("/static/api/projects/389/project-389-details-criteria-followupActions.json");
+            // response = await fetch("/static/api/projects/416/project-416-details-criteria-followupActions-v2.json");
         }
 
         if (!response.ok) {
             console.error(`CheckerProject, fetch error: ${response.status}`);
             // response = await fetch("/static/api/projects/389/project-389.json");
-            response = await fetch("/static/api/projects/292/project-292-with-criteria.json");            
+            response = await fetch("/static/api/projects/389/project-389-details-criteria-followupActions.json");
+            // response = await fetch("/static/api/projects/416/project-416-details-criteria-followupActions-v2.json");           
         }
 
         project = await response.json();
