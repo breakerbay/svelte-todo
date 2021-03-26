@@ -94,8 +94,17 @@
                                                         <li>{point.name}
                                                             {#if point.criteria }
                                                                 <ul>
+                                                                    <li><strong>Criteria</strong></li>
                                                                     {#each point.criteria as criterion (criterion.id) }
                                                                         <li>{criterion.name}</li>
+                                                                    {/each}
+                                                                </ul>
+                                                            {/if}
+                                                            {#if point.followupActions }
+                                                                <ul>
+                                                                    <li><strong>Followup Actions</strong></li>
+                                                                    {#each point.followupActions as followupAction(followupAction.ID) }
+                                                                        <li>{followupAction.name}</li>
                                                                     {/each}
                                                                 </ul>
                                                             {/if}
