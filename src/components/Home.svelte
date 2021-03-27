@@ -1,3 +1,7 @@
+<script>
+	import { ChevronLeftIcon, ChevronRightIcon } from 'svelte-feather-icons';
+</script>
+
 <svelte:head>
   <title>Construction Assurance Checker</title>
 </svelte:head>
@@ -11,6 +15,14 @@
     <a href="#/lorem/2">Lorem ipsum</a>
 </p>
 
+<footer>
+	<div>Testing feather icons ... </div>
+	<span class="feather">
+		<ChevronLeftIcon size="200"/>
+		<ChevronRightIcon size="200"/>
+	</span>
+</footer>
+
 <style>
 	h1 {
 		color: #ff3e00;
@@ -18,4 +30,8 @@
 		font-size: 4em;
 		font-weight: 100;
 	}
+	
+	 .feather {
+		 color: #ff3e00;
+	 }	
 </style>

@@ -9,19 +9,19 @@
         console.log("CheckerProject, getProject, id: " + id);
         loading = true;
         try {
-            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all&criteria=true&followupActions=true");
+            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all&criteria=true");
         } catch (e) {
             console.error(`CheckerProject, error: ${e}`);
             // response = await fetch("/static/api/projects/389/project-389.json");
-            // response = await fetch("/static/api/projects/292/project-292-with-criteria.json");
-            response = await fetch("/static/api/projects/290/project-290-criteria-followupactions.json");
+            response = await fetch("/static/api/projects/389/project-389-details-criteria-followupActions.json");
+            // response = await fetch("/static/api/projects/416/project-416-details-criteria-followupActions-v2.json");
         }
 
         if (!response.ok) {
             console.error(`CheckerProject, fetch error: ${response.status}`);
             // response = await fetch("/static/api/projects/389/project-389.json");
-            // response = await fetch("/static/api/projects/292/project-292-with-criteria.json");
-            response = await fetch("/static/api/projects/290/project-290-criteria-followupactions.json");
+            response = await fetch("/static/api/projects/389/project-389-details-criteria-followupActions.json");
+            // response = await fetch("/static/api/projects/416/project-416-details-criteria-followupActions-v2.json");
         }
 
         project = await response.json();
@@ -94,8 +94,17 @@
                                                         <li>{point.name}
                                                             {#if point.criteria }
                                                                 <ul>
+                                                                    <li><strong>Criteria</strong></li>
                                                                     {#each point.criteria as criterion (criterion.id) }
                                                                         <li>{criterion.name}</li>
+                                                                    {/each}
+                                                                </ul>
+                                                            {/if}
+                                                            {#if point.followupActions }
+                                                                <ul>
+                                                                    <li><strong>Followup Actions</strong></li>
+                                                                    {#each point.followupActions as followupAction(followupAction.ID) }
+                                                                        <li>{followupAction.name}</li>
                                                                     {/each}
                                                                 </ul>
                                                             {/if}
