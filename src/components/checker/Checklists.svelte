@@ -9,17 +9,19 @@
         console.log("CheckerProject, getProject, id: " + id);
         loading = true;
         try {
-            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all&criteria=true");
+            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all&criteria=true&followupActions=true");
         } catch (e) {
             console.error(`CheckerProject, error: ${e}`);
             // response = await fetch("/static/api/projects/389/project-389.json");
-            response = await fetch("/static/api/projects/292/project-292-with-criteria.json");  
+            // response = await fetch("/static/api/projects/292/project-292-with-criteria.json");
+            response = await fetch("/static/api/projects/290/project-290-criteria-followupactions.json");
         }
 
         if (!response.ok) {
             console.error(`CheckerProject, fetch error: ${response.status}`);
             // response = await fetch("/static/api/projects/389/project-389.json");
-            response = await fetch("/static/api/projects/292/project-292-with-criteria.json");            
+            // response = await fetch("/static/api/projects/292/project-292-with-criteria.json");
+            response = await fetch("/static/api/projects/290/project-290-criteria-followupactions.json");
         }
 
         project = await response.json();
@@ -105,7 +107,7 @@
                                     {/each}
                                 </ul>
                             {/if}
-                        </li>                    
+                        </li>
                     {/each}
                 </ul>
             {:else}
