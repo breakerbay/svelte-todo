@@ -22,8 +22,8 @@
         {
           "workareaId": 7773,
           "workAreaName": "Bathroom",
-          "status": "Open",
-          "complete": 0,
+          "status": "Closed",
+          "complete": 1,
           "verificationPoints": [
             {
               "id": 164309,
@@ -35,11 +35,8 @@
               "checkpointType": 1,
               "checkerId": 22,
               "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "followupActionId": 224,
-              "followupActionDateRaised": "2021-02-14 07:35:25",
-              "followupActionDateFixed": "2021-02-14 07:37:09",
+              "dateChecked": "2021-03-21 05:02:30",
+              "complete": 1,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -47,38 +44,6 @@
                   "id": 92058,
                   "name": "Evidence of services clearances being obtained sighted, eg suitably completed clearances checklist sighted",
                   "descr": "no description"
-                }
-              ],
-              "images": [
-                {
-                  "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144609.jpg"
-                },
-                {
-                  "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144629.jpg"
-                },
-                {
-                  "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144706.jpg"
-                },
-                {
-                  "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144736.jpg"
-                },
-                {
-                  "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144812.jpg"
-                },
-                {
-                  "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144823.jpg"
-                },
-                {
-                  "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144831.jpg"
-                },
-                {
-                  "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144933.jpg"
-                },
-                {
-                  "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_145009.jpg"
-                },
-                {
-                  "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_145120.jpg"
                 }
               ],
               "followupActions": [
@@ -136,6 +101,29 @@
                       "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_145120.jpg"
                     }
                   ]
+                },
+                {
+                  "ID": 225,
+                  "projectId": 290,
+                  "checkpointValueId": 164309,
+                  "name": "Clearances missing",
+                  "descr": null,
+                  "dateRaised": "2021-03-29 02:00:17",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": null,
+                  "actionType": 4,
+                  "category": 3,
+                  "improvementActionFlag": 0,
+                  "note": null,
+                  "notificationRequiredFlag": 0,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 0,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 0,
+                  "rectificationCheckedOkFlag": 0,
+                  "closedOffFlag": 0,
+                  "dateRaisedString": null,
+                  "dateFixedString": null
                 }
               ]
             },
@@ -149,11 +137,8 @@
               "checkpointType": 1,
               "checkerId": 22,
               "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
+              "dateChecked": "2021-03-21 06:12:39",
+              "complete": 1,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -176,9 +161,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -192,11 +174,8 @@
               "checkpointType": 1,
               "checkerId": 22,
               "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
+              "dateChecked": "2021-03-21 05:02:35",
+              "complete": 1,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -217,11 +196,8 @@
               "checkpointType": 1,
               "checkerId": 22,
               "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
+              "dateChecked": "2021-03-21 05:02:37",
+              "complete": 1,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -244,9 +220,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -260,11 +233,8 @@
               "checkpointType": 1,
               "checkerId": 22,
               "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
+              "dateChecked": "2021-03-21 05:02:42",
+              "complete": 1,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -287,9 +257,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -303,11 +270,8 @@
               "checkpointType": 1,
               "checkerId": 22,
               "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
+              "dateChecked": "2021-03-21 05:02:47",
+              "complete": 1,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -330,9 +294,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -346,11 +307,8 @@
               "checkpointType": 1,
               "checkerId": 22,
               "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
+              "dateChecked": "2021-03-21 05:02:49",
+              "complete": 1,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -371,11 +329,8 @@
               "checkpointType": 1,
               "checkerId": 22,
               "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
+              "dateChecked": "2021-03-21 05:02:53",
+              "complete": 1,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -398,9 +353,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -414,11 +366,8 @@
               "checkpointType": 1,
               "checkerId": 22,
               "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
+              "dateChecked": "2021-03-21 05:02:54",
+              "complete": 1,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -441,9 +390,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             }
@@ -467,9 +413,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14,
               "criteria": [
@@ -492,9 +435,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14,
               "criteria": [
@@ -517,9 +457,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14
             },
@@ -535,9 +472,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14,
               "criteria": [
@@ -560,9 +494,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14,
               "criteria": [
@@ -585,9 +516,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14
             },
@@ -603,9 +531,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14,
               "criteria": [
@@ -628,9 +553,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14
             },
@@ -646,9 +568,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14,
               "criteria": [
@@ -671,9 +590,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14
             },
@@ -689,9 +605,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14,
               "criteria": [
@@ -714,9 +627,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14,
               "criteria": [
@@ -739,9 +649,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14
             },
@@ -757,9 +664,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14,
               "criteria": [
@@ -782,9 +686,6 @@
               "verifiedBy": "Martin Boyd",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 14,
               "vcheckerId": 14
             }
@@ -808,9 +709,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -833,9 +731,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -858,9 +753,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -876,9 +768,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -901,9 +790,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -926,9 +812,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -944,9 +827,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -969,9 +849,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -987,9 +864,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1012,9 +886,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -1030,9 +901,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1055,9 +923,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1080,9 +945,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -1098,9 +960,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1123,9 +982,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             }
@@ -1164,9 +1020,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -1182,9 +1035,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -1200,9 +1050,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1230,9 +1077,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1360,9 +1204,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1393,9 +1234,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -1411,9 +1249,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -1429,9 +1264,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1459,9 +1291,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1589,9 +1418,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1622,9 +1448,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -1640,9 +1463,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -1658,9 +1478,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1688,9 +1505,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1818,9 +1632,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1851,9 +1662,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -1869,9 +1677,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -1887,9 +1692,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -1917,9 +1719,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -2047,9 +1846,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -2080,9 +1876,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 1,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -2098,9 +1891,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22
             },
@@ -2116,9 +1906,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -2146,9 +1933,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -2276,9 +2060,6 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
