@@ -102,12 +102,20 @@
                                                                 </ul>
                                                             {/if}
                                                             {#if point.followupActions }
+                                                            <!--
                                                                 <ul>
                                                                     <li><strong>Followup Actions</strong></li>
                                                                     {#each point.followupActions as followupAction(followupAction.ID) }
                                                                         <li>{followupAction.name}</li>
                                                                     {/each}
                                                                 </ul>
+                                                             -->
+                                                              <div>
+                                                                 <strong>Followup Actions</strong>
+                                                                {#each point.followupActions as followupAction(followupAction.ID) }
+                                                                   <FollowupAction  {followupAction}  tooltip="FollowupAction" />
+                                                                 {/each}
+                                                                </div>
                                                             {/if}
                                                         </li>
                                                     {/each}
