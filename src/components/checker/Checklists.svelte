@@ -1,5 +1,6 @@
 <!-- Collection of Checklists used by Project-->
 <script>
+    import FollowupAction from './FollowupAction.svelte'
     let project;
     let response = {};
     let loading = false;
