@@ -111,12 +111,9 @@
                                                                     {/each}
                                                                 </ul>
                                                              -->
-                                                              <div>
-                                                                 <strong>Followup Actions</strong>
                                                                 {#each point.followupActions as followupAction(followupAction.ID) }
                                                                    <FollowupAction  {followupAction}  tooltip="FollowupAction" />
                                                                  {/each}
-                                                                </div>
                                                             {/if}
                                                         </li>
                                                     {/each}
