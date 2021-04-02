@@ -6,6 +6,7 @@ import Checklists from './components/checker/Checklists.svelte'
 import Worklots from './components/checker/Worklots.svelte'
 import FollowupActions from './components/checker/FollowupActions.svelte'
 import ToDos from './components/ToDos.svelte'
+import CollapsibleCards from './components/CollapsibleCards.svelte'
 import Images from './components/Images.svelte'
 import StaticImages from './components/StaticImages.svelte'
 import Login from './components/Login.svelte'
@@ -22,6 +23,7 @@ export default {
     '/images': Images,
     '/static-images': StaticImages,
     '/todos': ToDos,
+    '/cards': CollapsibleCards,
     '/login': Login,
     // Catch-all route, must be last
     '*': NotFound

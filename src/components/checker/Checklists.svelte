@@ -1,5 +1,6 @@
 <!-- Collection of Checklists used by Project-->
 <script>
+    import FollowupAction from './FollowupAction.svelte'
     let project;
     let response = {};
     let loading = false;
@@ -9,7 +10,8 @@
         console.log("CheckerProject, getProject, id: " + id);
         loading = true;
         try {
-            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all&criteria=true");
+            // response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all&criteria=true");
+            response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all&criteria=true&followupActions=true");
         } catch (e) {
             console.error(`CheckerProject, error: ${e}`);
             // response = await fetch("/static/api/projects/389/project-389.json");
@@ -101,12 +103,17 @@
                                                                 </ul>
                                                             {/if}
                                                             {#if point.followupActions }
+                                                            <!--
                                                                 <ul>
                                                                     <li><strong>Followup Actions</strong></li>
                                                                     {#each point.followupActions as followupAction(followupAction.ID) }
                                                                         <li>{followupAction.name}</li>
                                                                     {/each}
                                                                 </ul>
+                                                             -->
+                                                                {#each point.followupActions as followupAction(followupAction.ID) }
+                                                                   <FollowupAction  {followupAction}  tooltip="FollowupAction" />
+                                                                 {/each}
                                                             {/if}
                                                         </li>
                                                     {/each}

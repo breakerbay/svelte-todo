@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Followup Action Example</title>
+    <meta name="description" content="A Followup Action Example"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#ff9900"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<form class="form-Wrapper" id="redemption" method="post">
+    <div class="form-Intro">
+        <h1>Over stove ventilation system - fan not working</h1>
+        <b>* indicates required field</b>
+    </div>
+    <fieldset class="form-About_Wrapper">
+        <legend>Followup Action</span></legend>
+        <div class="form-Input_Wrapper">
+            <input id="followup-action-name" name="followup-action-name" type="text"
+                   placeholder="Over stove ventilation system - fan not working" required/>
+            <label for="followup-action-name">Name</label>
+        </div>
+        <div class="form-Input_Wrapper">
+            <input id="followup-action-descr" name="followup-action-descr" type="text"
+                   placeholder="Electrician required to fix" required/>
+            <label for="followup-action-descr">Description</label>
+        </div>
+      <div class="form-Input_Wrapper">
+        <input id="followup-action-type" name="followup-action-type" type="text" list="followup-action-types" placeholder="Non-Complying Work"/>
+        <datalist id="followup-action-types">
+          <select>
+            <option label="Non-Complying Work" value="Non-Complying Work"></option>
+            <option label="Not Defined" value="Not Defined"></option>
+            <option label="Safety" value="Safety"></option>
+            <option label="Environmental" value="Environmental"></option>
+            <option label="Other" value="Other"></option>
+          </select>
+        </datalist>
+        <label for="followup-action-type">Type</label>
+      </div>
+      <div class="form-Input_Wrapper">
+        <input id="followup-action-category" name="awardWon" type="text" list="followup-action-categories" placeholder="Not Defined"/>
+        <datalist id="followup-action-categories">
+          <select>
+            <option label="Not Defined" value="Not Defined"></option>
+            <option label="Operator Error" value="Operator Error"></option>
+            <option label="Machine Malfunction" value="Machine Malfunction"></option>
+            <option label="Communication Mistake" value="Communication Mistake"></option>
+             <option label="Other" value="Other"></option>
+            <option label="Poor Contract Documentation" value="Poor Contract Documentation"></option>
+          </select>
+        </datalist>
+        <label for="followup-action-category">Category</label>
+      </div>
+        <div class="form-Input_Wrapper">
+            <input id="yearOfCrime" name="yearOfCrime" type="number" min="1929" max="2015" required/>
+            <label for="yearOfCrime">Year Of Crime</label>
+        </div>
+        <div class="form-Input_Wrapper">
+            <textarea id="whyItsWrong" name="whyItsWrong" placeholder="I fell asleep within 20 minutes..."
+                      required></textarea>
+            <label for="whyItsWrong">Tell us why that's wrong?</label>
+        </div>
+        <div class="form-Input_Wrapper">
+          <span class="form-Slider_Wrapper">
+            <input id="howYouRateIt" name="howYouRateIt" type="range" min="1" max="10" value="5"
+                   onchange="showValue(this.value)"/>
+            <span id="range">5</span>
+          </span>
+            <label for="howYouRateIt">How you rate it (1 is woeful, 10 is great)</label>
+        </div>
+        <script>
+            function showValue(newValue) {
+                document.getElementById("range").innerHTML = newValue;
+            }
+        </script>
+    </fieldset>
+
+    <fieldset class="form-What_Wrapper">
+        <legend>What should have won? <span>(part 2 of 3)</span></legend>
+
+        <div class="form-Input_Wrapper">
+            <input id="filmGood" name="filmGood" type="text" placeholder="e.g. Cable Guy" required/>
+            <label for="filmGood">The film that should have won?</label>
+        </div>
+
+        <div class="form-Input_Wrapper">
+            <textarea id="whyItShould" name="whyItShould" placeholder="Hello? CAABBLLLLE GUUUY!!!!!"
+                      required></textarea>
+            <label for="whyItShould">Tell us why it should have won?</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="form-You_Wrapper">
+        <legend>About you? <span>(part 3 of 3)</span></legend>
+
+        <div class="form-Input_Wrapper">
+            <input id="name" name="name" pattern="^([\D]{2,30}\s+)+([a-zA-Z]{2,30})$" placeholder="Dwight Schultz"
+                   required/>
+            <label for="name">Your Name</label>
+        </div>
+        <div class="form-Input_Wrapper">
+            <input id="color" name="color" type="color"/>
+            <label for="color">Your favorite color</label>
+        </div>
+        <div class="form-Input_Wrapper">
+            <input id="date" class="pickDate" type="date" name="date"/>
+            <label for="date">Date/Time</label>
+        </div>
+        <div class="form-Input_Wrapper">
+            <input id="tel" name="tel" type="tel" placeholder="1-234-546758" autocomplete="off" required/>
+            <label for="tel">Telephone (so we can berate you if you're wrong)</label>
+        </div>
+        <div class="form-Input_Wrapper">
+            <input id="email" name="email" type="email" placeholder="dwight.schultz@gmail.com" required/>
+            <label for="email">Your Email address</label>
+        </div>
+        <div class="form-Input_Wrapper">
+            <input id="web" name="web" type="url" placeholder="http://www.mysite.com"/>
+            <label for="web">Your Web address</label>
+        </div>
+    </fieldset>
+    <button class="form-Submit_Btn" type="submit" value="Submit Redemption">
+        <span class="flipper">
+          <span class="flipper-object flipper-vertical">
+            <span class="panel front">Ready?</span>
+            <span class="panel back">Submit</span>
+          </span>
+        </span>
+    </button>
+</form>
+
+<!--<div class="modal-dialog ">
+    <div class="modal-content" uib-modal-transclude="">
+        <div class="ng-scope">
+            <div class="modal-header">
+                <h3 class="modal-title">Followup Action
+                    <button id="close-button" type="button" class="close" ng-click="$dismiss()" data-dismiss="modal"
+                            aria-hidden="false" uib-tooltip="Close"><span
+                            class="glyphicon glyphicon-remove-circle"></span></button>
+                </h3>
+            </div>
+            <div class="modal-body">
+
+                <form name="followupActionEditor" ng-submit="save()" class="ng-pristine ng-valid ng-valid-maxlength">
+
+                    <div ng-show="!showFollowupImages">
+                        <div class="row">
+
+                            <div class="form-group col-sm-6">
+                                <label class="control-label" for="category">Category</label>
+
+                                <div>
+                                    <select id="type" name="category"
+                                            ng-options="c.id as c.name for c in actionCategories"
+                                            ng-model="followup.category"
+                                            class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                                        <option label="Not Defined" value="number:0">Not Defined</option>
+                                        <option label="Operator Error" value="number:1" selected="selected">Operator
+                                            Error
+                                        </option>
+                                        <option label="Machine Malfunction" value="number:2">Machine Malfunction
+                                        </option>
+                                        <option label="Communication Mistake" value="number:3">Communication Mistake
+                                        </option>
+                                        <option label="Other" value="number:4">Other</option>
+                                        <option label="Poor Contract Documentation" value="number:5">Poor Contract
+                                            Documentation
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label" for="description">Description</label>
+
+                            <div class="controls">
+                                <textarea id="description" name="description"
+                                          class="form-control ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-maxlength"
+                                          placeholder="Description" rows="2" ng-maxlength="255"
+                                          ng-model="followup.descr"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="control-label" for="type">Rectification Ok</label>
+
+                                <div class="controls">
+                                    <div class="btn-group">
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty active"
+                                               ng-model="followup.rectificationCheckedOkFlag"
+                                               uib-btn-radio="0">No</label>
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty"
+                                               ng-model="followup.rectificationCheckedOkFlag"
+                                               uib-btn-radio="1">Yes</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-sm-6" uib-tooltip="Process improvement required"
+                                 tooltip-placement="top-left">
+                                <label class="control-label" for="type">Improvement Action</label>
+
+                                <div class="controls">
+                                    <div class="btn-group">
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty active"
+                                               ng-model="followup.improvementActionFlag" uib-btn-radio="0">No</label>
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty"
+                                               ng-model="followup.improvementActionFlag" uib-btn-radio="1">Yes</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-12" uib-tooltip="Click Yes to close the Followup Action"
+                                 tooltip-placement="top-left">
+                                <label class="control-label" for="type">Closed Off</label>
+
+                                <div class="controls">
+                                    <div class="btn-group">
+                                        <label class="btn btn-warning ng-pristine ng-untouched ng-valid ng-not-empty active"
+                                               ng-model="followup.closedOffFlag" uib-btn-radio="0">No</label>
+                                        <label class="btn btn-warning ng-pristine ng-untouched ng-valid ng-not-empty"
+                                               ng-model="followup.closedOffFlag" uib-btn-radio="1">Yes</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6" ng-show="followup.dateRaised">
+                                <label class="control-label" for="dateRaised">Date Raised</label>
+
+                                <div id="dateRaised" class="controls ng-binding">
+                                    2021-03-14 04:47:44
+                                </div>
+                            </div>
+                            <div class="form-group col-sm-6" ng-show="followup.dateFixed">
+                                <label class="control-label" for="dateFixed">Date Fixed</label>
+
+                                <div id="dateFixed" class="controls ng-binding">
+                                    0000-00-00 00:00:00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row ng-hide" ng-show="showFollowupImages">
+                        <div style="height: 435px; max-width:900px; margin: 0 auto;">
+                            <div uib-carousel="" active="active" interval="myInterval" no-wrap="noWrapSlides"
+                                 class="ng-isolate-scope carousel">
+                                <div class="carousel-inner" ng-transclude="">
+                                    &lt;!&ndash; ngRepeat: slide in slides track by slide.id &ndash;&gt;
+                                    <div uib-slide="" ng-repeat="slide in slides track by slide.id" index="slide.id"
+                                         style="background-color: black;" class="ng-scope ng-isolate-scope item active">
+                                        <div class="text-center" ng-transclude="">
+                                            <img ng-src="https://s3-ap-southeast-2.amazonaws.com/images.brogo.net.au/1615701239/ventilation%20system%20over%20stove.png"
+                                                 style="margin:auto; max-height:425px;" class="ng-scope"
+                                                 src="https://s3-ap-southeast-2.amazonaws.com/images.brogo.net.au/1615701239/ventilation%20system%20over%20stove.png">
+                                            <div class="carousel-caption ng-scope">
+                                                <h4 class="ng-binding">Slide 0</h4>
+                                                <p class="ng-binding">ventilation system over stove</p>
+                                            </div>
+                                        </div>
+                                    </div>&lt;!&ndash; end ngRepeat: slide in slides track by slide.id &ndash;&gt;
+                                </div>
+                                <a role="button" href="" class="left carousel-control ng-hide" ng-click="prev()"
+                                   ng-class="{ disabled: isPrevDisabled() }" ng-show="slides.length > 1">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">previous</span>
+                                </a>
+                                <a role="button" href="" class="right carousel-control ng-hide" ng-click="next()"
+                                   ng-class="{ disabled: isNextDisabled() }" ng-show="slides.length > 1">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">next</span>
+                                </a>
+                                <ol class="carousel-indicators ng-hide" ng-show="slides.length > 1">
+                                    &lt;!&ndash; ngRepeat: slide in slides | orderBy:indexOfSlide track by $index &ndash;&gt;
+                                    <li ng-repeat="slide in slides | orderBy:indexOfSlide track by $index"
+                                        ng-class="{ active: isActive(slide) }" ng-click="select(slide)"
+                                        class="ng-scope active">
+                                        <span class="sr-only ng-binding">slide 1 of 1&lt;!&ndash; ngIf: isActive(slide) &ndash;&gt;<span
+                                                ng-if="isActive(slide)" class="ng-scope">, currently active</span>
+                                            &lt;!&ndash; end ngIf: isActive(slide) &ndash;&gt;</span>
+                                    </li>&lt;!&ndash; end ngRepeat: slide in slides | orderBy:indexOfSlide track by $index &ndash;&gt;
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group form-inline col-sm-12">
+                            <input type="checkbox" ng-model="showFollowupImages"
+                                   class="ng-pristine ng-untouched ng-valid ng-empty"><span class="checkbox-label">Show Images</span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group form-inline col-sm-12">
+                            <input type="checkbox" ng-model="showFollowupNotifications"
+                                   class="ng-pristine ng-untouched ng-valid ng-empty"><span class="checkbox-label">Show Client Notifications</span>
+                        </div>
+                    </div>
+
+                    <fieldset ng-show="showFollowupNotifications" class="ng-hide">
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="control-label" for="type">Notification Required</label>
+
+                                <div class="controls">
+                                    <div class="btn-group">
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty active"
+                                               ng-model="followup.notificationRequiredFlag" uib-btn-radio="0">No</label>
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty"
+                                               ng-model="followup.notificationRequiredFlag"
+                                               uib-btn-radio="1">Yes</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-sm-6" uib-tooltip="Followup Action can be closed off"
+                                 tooltip-placement="top-left">
+                                <label class="control-label" for="type">Notification Done</label>
+
+                                <div class="controls">
+                                    <div class="btn-group">
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty active"
+                                               ng-model="followup.notificationDoneFlag" uib-btn-radio="0">No</label>
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty"
+                                               ng-model="followup.notificationDoneFlag" uib-btn-radio="1">Yes</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="control-label" for="type">Approval To Action Required</label>
+
+                                <div class="controls">
+                                    <div class="btn-group">
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty active"
+                                               ng-model="followup.approvalToActionRequiredFlag"
+                                               uib-btn-radio="0">No</label>
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty"
+                                               ng-model="followup.approvalToActionRequiredFlag"
+                                               uib-btn-radio="1">Yes</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-sm-6" uib-tooltip="Followup Action can be closed off"
+                                 tooltip-placement="top-left">
+                                <label class="control-label" for="type">Approval To Action Done</label>
+
+                                <div class="controls">
+                                    <div class="btn-group">
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty active"
+                                               ng-model="followup.approvalToActionDoneFlag" uib-btn-radio="0">No</label>
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty"
+                                               ng-model="followup.approvalToActionDoneFlag"
+                                               uib-btn-radio="1">Yes</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="control-label" for="type">Approval To Fix Required</label>
+
+                                <div class="controls">
+                                    <div class="btn-group">
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty active"
+                                               ng-model="followup.approvalToFixRequiredFlag"
+                                               uib-btn-radio="0">No</label>
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty"
+                                               ng-model="followup.approvalToFixRequiredFlag"
+                                               uib-btn-radio="1">Yes</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-sm-6" uib-tooltip="Followup Action can be closed off"
+                                 tooltip-placement="top-left">
+                                <label class="control-label" for="type">Approval To Fix Done</label>
+
+                                <div class="controls">
+                                    <div class="btn-group">
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty active"
+                                               ng-model="followup.approvalToFixDoneFlag" uib-btn-radio="0">No</label>
+                                        <label class="btn btn-success ng-pristine ng-untouched ng-valid ng-not-empty"
+                                               ng-model="followup.approvalToFixDoneFlag" uib-btn-radio="1">Yes</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    &lt;!&ndash;
+                          <div class="form-group">
+                            <label class="control-label" for="notes">Notes</label>
+                            <div class="controls">
+                              <textarea id="description" name="notes" class="form-control" placeholder="Notes" rows="3" ng-maxlength="255"
+                                        ng-model="followup.note"></textarea>
+                            </div>
+                          </div>
+                    &ndash;&gt;
+
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" type="submit" ng-disabled="followupActionEditor.$invalid"
+                                ng-click="save()">Save
+                        </button>
+                        <button class="btn btn-primary" type="button" ng-click="$dismiss()">Cancel</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>-->
+
+</body>
+</html>
+<!--
+"followupActions": [
+{
+"ID": 256,
+"projectId": 0,
+"checkpointValueId": 164629,
+"name": "Over stove ventilation system - fan not working",
+"descr": "Electrician required to fix",
+"dateRaised": "2021-03-14 04:47:44",
+"approvalToFixDoneFlag": 0,
+"dateFixed": "0000-00-00 00:00:00",
+"actionType": 4,
+"category": 1,
+"improvementActionFlag": 0,
+"note": "",
+"notificationRequiredFlag": 0,
+"notificationDoneFlag": 0,
+"approvalToActionRequiredFlag": 0,
+"approvalToActionDoneFlag": 0,
+"approvalToFixRequiredFlag": 0,
+"rectificationCheckedOkFlag": 0,
+"closedOffFlag": 0,
+"dateRaisedString": null,
+"dateFixedString": null,
+"images": [
+{
+"url": "https:\/\/s3-ap-southeast-2.amazonaws.com\/images.brogo.net.au\/1615701239\/ventilation%20system%20over%20stove.png"
+}
+]
+},
+{
+"ID": 257,
+"projectId": 0,
+"checkpointValueId": 164629,
+"name": "no2 follow up action",
+"descr": "Description",
+"dateRaised": "2021-03-20 06:19:54",
+"approvalToFixDoneFlag": 0,
+"dateFixed": "0000-00-00 00:00:00",
+"actionType": 4,
+"category": 0,
+"improvementActionFlag": 0,
+"note": "",
+"notificationRequiredFlag": 0,
+"notificationDoneFlag": 0,
+"approvalToActionRequiredFlag": 0,
+"approvalToActionDoneFlag": 0,
+"approvalToFixRequiredFlag": 0,
+"rectificationCheckedOkFlag": 0,
+"closedOffFlag": 0,
+"dateRaisedString": null,
+"dateFixedString": null
+}
+]
+-->
