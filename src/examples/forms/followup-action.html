@@ -76,13 +76,17 @@
             </label>
         </div>
 
-        <div class="form-Input_Wrapper">
-                <div id="dateRaised" name="dateRaised">2021-04-02 21:01:33</div>
-                <label for="dateRaised"><span>Date Raised</span></label>
-
-                <div id="dateFixed" name="dateFixed">2021-04-02 21:04:40</div>
-                <label for="dateFixed"><span>Date Fixed</span></label>
+        <div class="followup-action-dates">
+            <div class="followup-action-date">
+                <label for="dateRaised2"><span>Date Raised</span></label>
+                <div id="dateRaised2" name="dateRaised2">2021-04-02 21:01:33</div>
             </div>
+
+            <div class="followup-action-date">
+                <label for="dateFixed2"><span>Date Fixed</span></label>
+                <div id="dateFixed2" name="dateFixed2">2021-04-02 21:04:40</div>
+            </div>
+        </div>
 
     </fieldset>
 
@@ -90,18 +94,32 @@
         <legend>Client Notifications</legend>
         <div class="form-Input_Wrapper">
             <label>
-                <input type="checkbox" name="checkbox-button2"/>
-                <span>Improvement Action</span>
+                <input type="checkbox" name="checkbox-button1" checked/>
+                <span>Notification Done</span>
             </label>
             <label>
-                <input type="checkbox" name="checkbox-button1" checked/>
-                <span>Rectification Ok</span>
+                <input type="checkbox" name="checkbox-button2"/>
+                <span>Notification Required</span>
             </label>
         </div>
         <div class="form-Input_Wrapper">
             <label>
                 <input type="checkbox" name="checkbox-button3"/>
-                <span>Closed Off</span>
+                <span>Approval To Action Done</span>
+            </label>
+            <label>
+                <input type="checkbox" name="checkbox-button3"/>
+                <span>Approval To Action Required</span>
+            </label>
+        </div>
+        <div class="form-Input_Wrapper">
+            <label>
+                <input type="checkbox" name="checkbox-button3"/>
+                <span>Approval To Fix Done</span>
+            </label>
+            <label>
+                <input type="checkbox" name="checkbox-button3"/>
+                <span>Approval To Fix Required</span>
             </label>
         </div>
     </fieldset>
@@ -109,6 +127,52 @@
 
     <fieldset class="form-You_Wrapper">
         <legend>Images</legend>
+        <div class="portfolio">
+            <figure>
+                <img src="/svelte-todo/public/static/images/followup-actions/action-image.png" alt="action-image" />
+                <figcaption>action-image</figcaption>
+            </figure>
+            <figure>
+                <img src="/svelte-todo/public/static/images/followup-actions/brogo-king-parrot.png" alt="brogo-king-parrot" />
+                <figcaption>brogo-king-parrot</figcaption>
+            </figure>
+            <figure>
+                <img src="/svelte-todo/public/static/images/followup-actions/coding.png" alt="coding" />
+                <figcaption>coding</figcaption>
+            </figure>
+            <figure>
+                <img src="/svelte-todo/public/static/images/followup-actions/finish.png" alt="finish" />
+                <figcaption>finish</figcaption>
+            </figure>
+            <figure>
+                <img src="/svelte-todo/public/static/images/followup-actions/flowers.png" alt="action-image" />
+                <figcaption>flowers</figcaption>
+            </figure>
+            <figure>
+                <img src="/svelte-todo/public/static/images/followup-actions/garden-centre.png" alt="garden-centre" />
+                <figcaption>garden-centre</figcaption>
+            </figure>
+            <figure>
+                <img src="/svelte-todo/public/static/images/followup-actions/harbour-entrance.png" alt="harbour-entrance" />
+                <figcaption>harbour-entrance</figcaption>
+            </figure>
+            <figure>
+                <img src="/svelte-todo/public/static/images/followup-actions/image test.png" alt="image test" />
+                <figcaption>image test</figcaption>
+            </figure>
+            <figure>
+                <img src="/svelte-todo/public/static/images/followup-actions/kitchen-island.png" alt="kitchen-island" />
+                <figcaption>kitchen-island</figcaption>
+            </figure>
+            <figure>
+                <img src="/svelte-todo/public/static/images/followup-actions/pinnacles.png" alt="pinnacles" />
+                <figcaption>pinnacles</figcaption>
+            </figure>
+            <figure>
+                <img src="/svelte-todo/public/static/images/followup-actions/ventilation-system-over-stove.png" alt="ventilation-system-over-stove" />
+                <figcaption>ventilation-system-over-stove</figcaption>
+            </figure>
+        </div>
 
     </fieldset>
     <button class="form-Submit_Btn" type="submit" value="Submit Redemption">

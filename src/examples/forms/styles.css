@@ -301,16 +301,74 @@ label > input[type="radio"] + * {
 
 .form-What_Wrapper label:hover {
   font-weight: bold;
+  background: #f5425d;
+  opacity: 100%;
 }
+
+.followup-action-dates {
+  display: flex;
+  align-items: flex-start;
+}
+
+.followup-action-date {
+  width: 100%;
+  background-color: #e3fafc;
+  border: 1px solid #99e9f2;
+  margin: 1em 1em 1em 0em;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .followup-action-date {
+    /*width: 100%;*/
+  }
+}
+
+.portfolio {
+  background: black;
+}
+
+.portfolio > figure {
+  display: inline-block;
+  max-width: 300px;
+  margin: 0;
+}
+
+.portfolio img {
+  max-width: 100%;
+  /*object-fit: cover;*/
+  object-fit: contain;
+}
+
+.portfolio figcaption {
+  padding: 0.3em 0.8em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: right;
+}
+
+@supports (display: grid) {
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 1em;
+    grid-auto-flow: dense;
+  }
+
+  .portfolio > figure {
+    display: flex;
+    flex-direction: column;
+    max-width: initial;
+  }
+
+  .portfolio img {
+    flex: 1;
+  }
 /*
-
-.form-Input_Wrapper input[type="radio"]:focus,input[type="checkbox"]:focus {
-  border: 1px solid #cc3232;
-  box-shadow: inset 0 -3px 0 #cc3232;
-}
-
-.form-About_Wrapper input[type="radio"]:focus,input[type="checkbox"]:focus {
-  border: 1px solid #cc3232;
-  box-shadow: inset 0 -3px 0 #cc3232;
-}
+  .portfolio .featured {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
 */
+}
