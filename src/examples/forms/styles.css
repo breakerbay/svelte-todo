@@ -147,13 +147,26 @@ input:not([type="range"]):focus:placeholder-shown {
 .form-About_Wrapper legend {
   background-color: #cc3232;
 }
-.form-About_Wrapper input:not([type="range"]){
+.form-About_Wrapper input:not([type="range"]):not([type="checkbox"]){
   box-shadow: inset 0 -3px 0 #cc3232;
 }
 .form-About_Wrapper input:not([type="range"]):focus {
   border: 1px solid #cc3232;
   box-shadow: inset 0 -3px 0 #cc3232, 0 0 15px 5px #ebebeb;
 }
+/*
+.form-About_Wrapper .form-Input_Wrapper input[type="radio"],input[type="checkbox"] {
+  border: 1px solid black;
+  box-shadow: inset 0 -3px 0 black;
+  background: black;
+}*/
+/*
+.form-About_Wrapper .followup-checkboxes input[type="checkbox"]:focus {
+  border: 1px solid #cc3232;
+  box-shadow: inset 0 -3px 0 #cc3232;
+  background: #008cff;
+}
+*/
 
 /*The What should have won section legends and inputs*/
 .form-What_Wrapper {
@@ -276,7 +289,28 @@ label > input[type="radio"] + * {
   padding: 0.5rem 1rem;
 }
 
-.form-You_Wrapper input[type="radio"]:focus {
+.form-You_Wrapper input[type="radio"]:focus,input[type="checkbox"]:focus {
   border: 1px solid #cc3232;
   box-shadow: inset 0 -3px 0 #cc3232;
 }
+
+.form-What_Wrapper input[type="checkbox"]:focus,input[type="checkbox"]:hover {
+  border: 1px solid #cc3232;
+  box-shadow: inset 0 -3px 0 #cc3232;
+}
+
+.form-What_Wrapper label:hover {
+  font-weight: bold;
+}
+/*
+
+.form-Input_Wrapper input[type="radio"]:focus,input[type="checkbox"]:focus {
+  border: 1px solid #cc3232;
+  box-shadow: inset 0 -3px 0 #cc3232;
+}
+
+.form-About_Wrapper input[type="radio"]:focus,input[type="checkbox"]:focus {
+  border: 1px solid #cc3232;
+  box-shadow: inset 0 -3px 0 #cc3232;
+}
+*/

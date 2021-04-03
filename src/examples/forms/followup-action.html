@@ -58,6 +58,35 @@
     </fieldset>
 
     <fieldset class="form-What_Wrapper">
+        <legend>Verification</legend>
+        <div class="form-Input_Wrapper">
+            <label>
+                <input type="checkbox" name="checkbox-button2"/>
+                <span>Improvement Action</span>
+            </label>
+            <label>
+                <input type="checkbox" name="checkbox-button1" checked/>
+                <span>Rectification Ok</span>
+            </label>
+        </div>
+        <div class="form-Input_Wrapper">
+            <label>
+                <input type="checkbox" name="checkbox-button3"/>
+                <span>Closed Off</span>
+            </label>
+        </div>
+
+        <div class="form-Input_Wrapper">
+                <div id="dateRaised" name="dateRaised">2021-04-02 21:01:33</div>
+                <label for="dateRaised"><span>Date Raised</span></label>
+
+                <div id="dateFixed" name="dateFixed">2021-04-02 21:04:40</div>
+                <label for="dateFixed"><span>Date Fixed</span></label>
+            </div>
+
+    </fieldset>
+
+    <fieldset class="form-What_Wrapper">
         <legend>Client Notifications</legend>
         <div class="form-Input_Wrapper">
             <label>
@@ -77,81 +106,10 @@
         </div>
     </fieldset>
 
+
     <fieldset class="form-You_Wrapper">
         <legend>Images</legend>
 
-    </fieldset>
-
-    <fieldset class="form-You_Wrapper">
-        <legend>About you? <span>(part 3 of 3)</span></legend>
-
-        <div class="form-Input_Wrapper">
-            <input id="name" name="name" pattern="^([\D]{2,30}\s+)+([a-zA-Z]{2,30})$" placeholder="Dwight Schultz"
-                   required/>
-            <label for="name">Your Name</label>
-        </div>
-        <div class="form-Input_Wrapper">
-            <input id="color" name="color" type="color"/>
-            <label for="color">Your favorite color</label>
-        </div>
-        <div class="form-Input_Wrapper">
-            <input id="date" class="pickDate" type="date" name="date"/>
-            <label for="date">Date/Time</label>
-        </div>
-        <div class="form-Input_Wrapper">
-            <input id="tel" name="tel" type="tel" placeholder="1-234-546758" autocomplete="off" required/>
-            <label for="tel">Telephone (so we can berate you if you're wrong)</label>
-        </div>
-        <div class="form-Input_Wrapper">
-            <input id="email" name="email" type="email" placeholder="dwight.schultz@gmail.com" required/>
-            <label for="email">Your Email address</label>
-        </div>
-        <div class="form-Input_Wrapper">
-            <input id="web" name="web" type="url" placeholder="http://www.mysite.com"/>
-            <label for="web">Your Web address</label>
-        </div>
-    </fieldset>
-    <fieldset class="form-You_Wrapper">
-        <legend>Pretty Radio Buttons</legend>
-        <div class="form-Input_Wrapper">
-            <label>
-                <input type="radio" name="radio-button" value="css" checked/>
-                <span>CSS-only fully stylable radio button</span>
-            </label>
-            <label>
-                <input type="radio" name="radio-button" value="no"/>
-                <span>No icons or unnecessary DOM</span>
-            </label>
-            <label>
-                <input type="radio" name="radio-button" value="no"/>
-                <span>No icons or unnecessary DOM2</span>
-            </label>
-        </div>
-    </fieldset>
-    <fieldset class="form-About_Wrapper">
-        <legend>Examples</span></legend>
-        <div class="form-Input_Wrapper">
-            <input id="yearOfCrime" name="yearOfCrime" type="number" min="1929" max="2015" required/>
-            <label for="yearOfCrime">Year Of Crime</label>
-        </div>
-        <div class="form-Input_Wrapper">
-            <textarea id="whyItsWrong" name="whyItsWrong" placeholder="I fell asleep within 20 minutes..."
-                      required></textarea>
-            <label for="whyItsWrong">Tell us why that's wrong?</label>
-        </div>
-        <div class="form-Input_Wrapper">
-          <span class="form-Slider_Wrapper">
-            <input id="howYouRateIt" name="howYouRateIt" type="range" min="1" max="10" value="5"
-                   onchange="showValue(this.value)"/>
-            <span id="range">5</span>
-          </span>
-            <label for="howYouRateIt">How you rate it (1 is woeful, 10 is great)</label>
-        </div>
-        <script>
-            function showValue(newValue) {
-                document.getElementById("range").innerHTML = newValue;
-            }
-        </script>
     </fieldset>
     <button class="form-Submit_Btn" type="submit" value="Submit Redemption">
         <span class="flipper">
@@ -514,3 +472,4 @@
 }
 ]
 -->
+
