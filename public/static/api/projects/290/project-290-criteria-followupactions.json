@@ -4,60 +4,135 @@
   "statusId": null,
   "milestoneStatus": -1,
   "name": "Test",
-  "descr": "An example project with a checklist containing a hold point, process step and checkpoints ...",
+  "descr": "An example project with a checklist containing a hold point, process step and checkpoints.",
   "createdBy": 22,
   "dateCreated": "2016-10-24 22:15:02",
   "modifiedBy": 22,
-  "dateLastModified": "2020-10-25 00:27:17",
+  "dateLastModified": "2020-12-15 04:24:35",
   "accountId": 22,
   "number": 4,
-  "place_number": 1,
+  "place_number": 4,
   "checklists": [
     {
-      "checklistNumber": 62,
-      "checklistId": 4033,
-      "jobId": 2426,
-      "jobName": "4-05 External Services - Gas(1)",
+      "checklistNumber": 30,
+      "checklistId": 3559,
+      "jobId": 2313,
+      "jobName": "Hold Point Checklist1",
+      "checklistDescription": "Basic checklist for testing hold points (Imported)",
       "workareas": [
         {
-          "workareaId": 7773,
-          "workAreaName": "Bathroom",
+          "workareaId": 7647,
+          "workAreaName": "Wset",
           "status": "Closed",
           "complete": 1,
           "verificationPoints": [
             {
-              "id": 164309,
-              "checkpointId": 92057,
+              "id": 163592,
+              "checkpointId": 82467,
               "note": "",
-              "label": "A",
-              "name": "Check clearances obtained",
+              "label": null,
+              "name": "Process Step 1",
               "position": 1,
+              "checkpointType": 4,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22
+            },
+            {
+              "id": 163593,
+              "checkpointId": 82468,
+              "note": "",
+              "label": null,
+              "name": "Hold Point1",
+              "position": 2,
+              "checkpointType": 2,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2019-03-09 20:01:21",
+              "complete": 1,
+              "followupActionId": 247,
+              "followupActionDateRaised": "2021-02-13 00:38:57",
+              "followupActionDateFixed": "2021-02-13 00:40:54",
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "followupActions": [
+                {
+                  "ID": 247,
+                  "projectId": 290,
+                  "checkpointValueId": 163593,
+                  "name": "Hold Point1",
+                  "descr": null,
+                  "dateRaised": "2021-02-13 00:38:57",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": "2021-02-13 00:40:54",
+                  "actionType": 0,
+                  "category": 0,
+                  "improvementActionFlag": 1,
+                  "note": null,
+                  "notificationRequiredFlag": 0,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 0,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 0,
+                  "rectificationCheckedOkFlag": 1,
+                  "closedOffFlag": 1,
+                  "dateRaisedString": null,
+                  "dateFixedString": null
+                }
+              ]
+            },
+            {
+              "id": 163594,
+              "checkpointId": 82469,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 1",
+              "position": 3,
               "checkpointType": 1,
               "checkerId": 22,
               "verifiedBy": "Richard Hancock 1",
-              "dateChecked": "2021-03-21 05:02:30",
+              "dateChecked": "2019-03-09 20:01:23",
               "complete": 1,
+              "followupActionId": 250,
+              "followupActionDateRaised": "2021-02-14 00:23:19",
+              "followupActionDateFixed": "2021-02-14 00:23:19",
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
                 {
-                  "id": 92058,
-                  "name": "Evidence of services clearances being obtained sighted, eg suitably completed clearances checklist sighted",
-                  "descr": "no description"
+                  "id": 82470,
+                  "name": "cr1",
+                  "descr": "Criteria 1"
+                },
+                {
+                  "id": 92033,
+                  "name": "cr2 - edited by full screen editor",
+                  "descr": "edited by full screen editor"
+                },
+                {
+                  "id": 92035,
+                  "name": "cr4",
+                  "descr": ""
                 }
               ],
               "followupActions": [
                 {
-                  "ID": 224,
+                  "ID": 250,
                   "projectId": 290,
-                  "checkpointValueId": 164309,
-                  "name": "Check clearances obtained",
-                  "descr": null,
-                  "dateRaised": "2021-02-14 07:35:25",
+                  "checkpointValueId": 163594,
+                  "name": "Wset Checkpoint 1",
+                  "descr": "Stuff",
+                  "dateRaised": "2021-02-14 00:23:19",
                   "approvalToFixDoneFlag": 0,
-                  "dateFixed": "2021-02-14 07:37:09",
-                  "actionType": 0,
-                  "category": 0,
+                  "dateFixed": "2021-02-14 00:23:19",
+                  "actionType": 2,
+                  "category": 2,
                   "improvementActionFlag": 0,
                   "note": null,
                   "notificationRequiredFlag": 0,
@@ -68,53 +143,457 @@
                   "rectificationCheckedOkFlag": 0,
                   "closedOffFlag": 1,
                   "dateRaisedString": null,
-                  "dateFixedString": null,
-                  "images": [
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144609.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144629.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144706.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144736.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144812.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144823.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144831.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_144933.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_145009.jpg"
-                    },
-                    {
-                      "url": "http:\/\/localhost\/~richardhancock\/studio\/20190531\/20190531_145120.jpg"
-                    }
-                  ]
+                  "dateFixedString": null
+                }
+              ]
+            },
+            {
+              "id": 163595,
+              "checkpointId": 82471,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 2",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2019-03-09 20:01:25",
+              "complete": 1,
+              "followupActionId": 249,
+              "followupActionDateRaised": "2021-02-14 00:00:57",
+              "followupActionDateFixed": "2021-02-14 00:01:32",
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "followupActions": [
+                {
+                  "ID": 249,
+                  "projectId": 290,
+                  "checkpointValueId": 163595,
+                  "name": "Wset Checkpoint 2",
+                  "descr": null,
+                  "dateRaised": "2021-02-14 00:00:57",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": "2021-02-14 00:01:32",
+                  "actionType": 1,
+                  "category": 0,
+                  "improvementActionFlag": 1,
+                  "note": null,
+                  "notificationRequiredFlag": 0,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 0,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 0,
+                  "rectificationCheckedOkFlag": 0,
+                  "closedOffFlag": 1,
+                  "dateRaisedString": null,
+                  "dateFixedString": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "workareaId": 7793,
+          "workAreaName": "East",
+          "status": "Closed",
+          "complete": 1,
+          "verificationPoints": [
+            {
+              "id": 164497,
+              "checkpointId": 82467,
+              "note": "",
+              "label": null,
+              "name": "Process Step 1",
+              "position": 1,
+              "checkpointType": 4,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22
+            },
+            {
+              "id": 164498,
+              "checkpointId": 82468,
+              "note": "",
+              "label": null,
+              "name": "Hold Point1",
+              "position": 2,
+              "checkpointType": 2,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:29:40",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22
+            },
+            {
+              "id": 164499,
+              "checkpointId": 82469,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 1",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:30:05",
+              "complete": 1,
+              "followupActionId": 248,
+              "followupActionDateRaised": "2021-02-13 04:43:10",
+              "followupActionDateFixed": "2021-02-13 05:03:02",
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "criteria": [
+                {
+                  "id": 82470,
+                  "name": "cr1",
+                  "descr": "Criteria 1"
                 },
                 {
-                  "ID": 225,
+                  "id": 92033,
+                  "name": "cr2 - edited by full screen editor",
+                  "descr": "edited by full screen editor"
+                },
+                {
+                  "id": 92035,
+                  "name": "cr4",
+                  "descr": ""
+                }
+              ],
+              "followupActions": [
+                {
+                  "ID": 248,
                   "projectId": 290,
-                  "checkpointValueId": 164309,
-                  "name": "Clearances missing",
+                  "checkpointValueId": 164499,
+                  "name": "East Checkpoint 1",
                   "descr": null,
-                  "dateRaised": "2021-03-29 02:00:17",
+                  "dateRaised": "2021-02-13 04:43:10",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": "2021-02-13 05:03:02",
+                  "actionType": 0,
+                  "category": 0,
+                  "improvementActionFlag": 1,
+                  "note": null,
+                  "notificationRequiredFlag": 0,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 0,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 0,
+                  "rectificationCheckedOkFlag": 1,
+                  "closedOffFlag": 1,
+                  "dateRaisedString": null,
+                  "dateFixedString": null
+                }
+              ]
+            },
+            {
+              "id": 164500,
+              "checkpointId": 82471,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 2",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:30:07",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22
+            }
+          ]
+        },
+        {
+          "workareaId": 7794,
+          "workAreaName": "West",
+          "status": "Closed",
+          "complete": 1,
+          "verificationPoints": [
+            {
+              "id": 164501,
+              "checkpointId": 82467,
+              "note": "",
+              "label": null,
+              "name": "Process Step 1",
+              "position": 1,
+              "checkpointType": 4,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22
+            },
+            {
+              "id": 164502,
+              "checkpointId": 82468,
+              "note": "",
+              "label": null,
+              "name": "Hold Point1",
+              "position": 2,
+              "checkpointType": 2,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:29:48",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22
+            },
+            {
+              "id": 164503,
+              "checkpointId": 82469,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 1",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:35:24",
+              "complete": 1,
+              "followupActionId": 229,
+              "followupActionDateRaised": "2020-12-15 04:32:36",
+              "followupActionDateFixed": "2021-02-14 00:25:05",
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "criteria": [
+                {
+                  "id": 82470,
+                  "name": "cr1",
+                  "descr": "Criteria 1"
+                },
+                {
+                  "id": 92033,
+                  "name": "cr2 - edited by full screen editor",
+                  "descr": "edited by full screen editor"
+                },
+                {
+                  "id": 92035,
+                  "name": "cr4",
+                  "descr": ""
+                }
+              ],
+              "followupActions": [
+                {
+                  "ID": 229,
+                  "projectId": 290,
+                  "checkpointValueId": 164503,
+                  "name": "West Checkpoint 1",
+                  "descr": null,
+                  "dateRaised": "2020-12-15 04:32:36",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": "2021-02-14 00:25:05",
+                  "actionType": 1,
+                  "category": 0,
+                  "improvementActionFlag": 0,
+                  "note": "Stuff to do",
+                  "notificationRequiredFlag": 1,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 1,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 1,
+                  "rectificationCheckedOkFlag": 0,
+                  "closedOffFlag": 1,
+                  "dateRaisedString": null,
+                  "dateFixedString": null
+                }
+              ]
+            },
+            {
+              "id": 164504,
+              "checkpointId": 82471,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 2",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:35:25",
+              "complete": 1,
+              "followupActionId": 233,
+              "followupActionDateRaised": "2021-01-06 21:46:53",
+              "followupActionDateFixed": "2021-02-14 00:26:07",
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "followupActions": [
+                {
+                  "ID": 233,
+                  "projectId": 290,
+                  "checkpointValueId": 164504,
+                  "name": "Checkpoint 2 Test Followup Action",
+                  "descr": "Checkpoint 2 Test Followup Action Description",
+                  "dateRaised": "2021-01-06 21:46:53",
+                  "approvalToFixDoneFlag": 1,
+                  "dateFixed": "2021-02-14 00:26:07",
+                  "actionType": 1,
+                  "category": 1,
+                  "improvementActionFlag": 0,
+                  "note": "Checkpoint 2 Test Followup Action Description",
+                  "notificationRequiredFlag": 1,
+                  "notificationDoneFlag": 1,
+                  "approvalToActionRequiredFlag": 1,
+                  "approvalToActionDoneFlag": 1,
+                  "approvalToFixRequiredFlag": 1,
+                  "rectificationCheckedOkFlag": 0,
+                  "closedOffFlag": 1,
+                  "dateRaisedString": null,
+                  "dateFixedString": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "workareaId": 7811,
+          "workAreaName": "Stairwell",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 164565,
+              "checkpointId": 82467,
+              "note": "",
+              "label": null,
+              "name": "Process Step 1",
+              "position": 1,
+              "checkpointType": 4,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22
+            },
+            {
+              "id": 164566,
+              "checkpointId": 82468,
+              "note": "",
+              "label": null,
+              "name": "Hold Point1",
+              "position": 2,
+              "checkpointType": 2,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-12-15 04:56:52",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22
+            },
+            {
+              "id": 164567,
+              "checkpointId": 82469,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 1",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": 230,
+              "followupActionDateRaised": "2020-12-15 04:57:42",
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "criteria": [
+                {
+                  "id": 82470,
+                  "name": "cr1",
+                  "descr": "Criteria 1"
+                },
+                {
+                  "id": 92033,
+                  "name": "cr2 - edited by full screen editor",
+                  "descr": "edited by full screen editor"
+                },
+                {
+                  "id": 92035,
+                  "name": "cr4",
+                  "descr": ""
+                }
+              ],
+              "followupActions": [
+                {
+                  "ID": 230,
+                  "projectId": 290,
+                  "checkpointValueId": 164567,
+                  "name": "Checkpoint 1",
+                  "descr": null,
+                  "dateRaised": "2020-12-15 04:57:42",
                   "approvalToFixDoneFlag": 0,
                   "dateFixed": null,
-                  "actionType": 4,
-                  "category": 3,
-                  "improvementActionFlag": 0,
+                  "actionType": 1,
+                  "category": 0,
+                  "improvementActionFlag": 1,
                   "note": null,
+                  "notificationRequiredFlag": 1,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 1,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 1,
+                  "rectificationCheckedOkFlag": 0,
+                  "closedOffFlag": 0,
+                  "dateRaisedString": null,
+                  "dateFixedString": null
+                }
+              ]
+            },
+            {
+              "id": 164568,
+              "checkpointId": 82471,
+              "note": "",
+              "label": null,
+              "name": "Checkpoint 2",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": 231,
+              "followupActionDateRaised": "2020-12-15 04:58:48",
+              "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
+              "followupActions": [
+                {
+                  "ID": 231,
+                  "projectId": 290,
+                  "checkpointValueId": 164568,
+                  "name": "Checkpoint 2",
+                  "descr": null,
+                  "dateRaised": "2020-12-15 04:58:48",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": null,
+                  "actionType": 0,
+                  "category": 0,
+                  "improvementActionFlag": 1,
+                  "note": "Stuff",
                   "notificationRequiredFlag": 0,
                   "notificationDoneFlag": 0,
                   "approvalToActionRequiredFlag": 0,
@@ -124,1949 +603,6 @@
                   "closedOffFlag": 0,
                   "dateRaisedString": null,
                   "dateFixedString": null
-                }
-              ]
-            },
-            {
-              "id": 164310,
-              "checkpointId": 92059,
-              "note": "",
-              "label": "B",
-              "name": "Work Method Statement",
-              "position": 2,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": "2021-03-21 06:12:39",
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92060,
-                  "name": "WMS available",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164311,
-              "checkpointId": 92061,
-              "note": "",
-              "label": 1,
-              "name": "Set Out",
-              "position": 3,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164312,
-              "checkpointId": 92062,
-              "note": "",
-              "label": "C",
-              "name": "Confirm setting out",
-              "position": 4,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": "2021-03-21 05:02:35",
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92063,
-                  "name": "Marked locations and levels to drawings",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164313,
-              "checkpointId": 92064,
-              "note": "",
-              "label": "D",
-              "name": "Environmental control measures",
-              "position": 5,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": "2021-03-21 05:02:37",
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92065,
-                  "name": "Environmental control measures comply with Government standards.",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164314,
-              "checkpointId": 92066,
-              "note": "",
-              "label": 2,
-              "name": "Excavate",
-              "position": 6,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164315,
-              "checkpointId": 92067,
-              "note": "",
-              "label": "E",
-              "name": "Safety Check",
-              "position": 7,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": "2021-03-21 05:02:42",
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92068,
-                  "name": "As applicable, shoring in place.  Excavation fenced. ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164316,
-              "checkpointId": 92069,
-              "note": "",
-              "label": 3,
-              "name": "Place bedding",
-              "position": 8,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164317,
-              "checkpointId": 92070,
-              "note": "",
-              "label": "F",
-              "name": "Check Bedding",
-              "position": 9,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": "2021-03-21 05:02:47",
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92071,
-                  "name": " Bedding type and depth as specified. ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164318,
-              "checkpointId": 92072,
-              "note": "",
-              "label": 4,
-              "name": "Lay and joint pipe",
-              "position": 10,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164319,
-              "checkpointId": 92073,
-              "note": "",
-              "label": "G",
-              "name": "Check pipe position, type, alignment and joints",
-              "position": 11,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": "2021-03-21 05:02:49",
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92074,
-                  "name": "Pipe, size, type and location to drawings\/specification.  Joints completed.     ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164320,
-              "checkpointId": 92075,
-              "note": "",
-              "label": "H",
-              "name": "Test Pipe",
-              "position": 12,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": "2021-03-21 05:02:53",
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92076,
-                  "name": "Pressure looss within acceptable limits                                                                                                                                                                                                                        ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164321,
-              "checkpointId": 92077,
-              "note": "",
-              "label": 5,
-              "name": "Backfill and compact",
-              "position": 13,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164322,
-              "checkpointId": 92078,
-              "note": "",
-              "label": "I",
-              "name": "Check compaction",
-              "position": 14,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": "2021-03-21 05:02:54",
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92079,
-                  "name": "No soft spots.  Density tests to Specification Clause _____.",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164323,
-              "checkpointId": 92080,
-              "note": "",
-              "label": 6,
-              "name": "Make good surface",
-              "position": 15,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            }
-          ]
-        },
-        {
-          "workareaId": 7779,
-          "workAreaName": "East",
-          "status": "Open",
-          "complete": 0,
-          "verificationPoints": [
-            {
-              "id": 164399,
-              "checkpointId": 92057,
-              "note": "",
-              "label": "A",
-              "name": "Check clearances obtained",
-              "position": 1,
-              "checkpointType": 1,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92058,
-                  "name": "Evidence of services clearances being obtained sighted, eg suitably completed clearances checklist sighted",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164400,
-              "checkpointId": 92059,
-              "note": "",
-              "label": "B",
-              "name": "Work Method Statement",
-              "position": 2,
-              "checkpointType": 1,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92060,
-                  "name": "WMS available",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164401,
-              "checkpointId": 92061,
-              "note": "",
-              "label": 1,
-              "name": "Set Out",
-              "position": 3,
-              "checkpointType": 4,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 14,
-              "vcheckerId": 14
-            },
-            {
-              "id": 164402,
-              "checkpointId": 92062,
-              "note": "",
-              "label": "C",
-              "name": "Confirm setting out",
-              "position": 4,
-              "checkpointType": 1,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92063,
-                  "name": "Marked locations and levels to drawings",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164403,
-              "checkpointId": 92064,
-              "note": "",
-              "label": "D",
-              "name": "Environmental control measures",
-              "position": 5,
-              "checkpointType": 1,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92065,
-                  "name": "Environmental control measures comply with Government standards.",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164404,
-              "checkpointId": 92066,
-              "note": "",
-              "label": 2,
-              "name": "Excavate",
-              "position": 6,
-              "checkpointType": 4,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 14,
-              "vcheckerId": 14
-            },
-            {
-              "id": 164405,
-              "checkpointId": 92067,
-              "note": "",
-              "label": "E",
-              "name": "Safety Check",
-              "position": 7,
-              "checkpointType": 1,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92068,
-                  "name": "As applicable, shoring in place.  Excavation fenced. ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164406,
-              "checkpointId": 92069,
-              "note": "",
-              "label": 3,
-              "name": "Place bedding",
-              "position": 8,
-              "checkpointType": 4,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 14,
-              "vcheckerId": 14
-            },
-            {
-              "id": 164407,
-              "checkpointId": 92070,
-              "note": "",
-              "label": "F",
-              "name": "Check Bedding",
-              "position": 9,
-              "checkpointType": 1,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92071,
-                  "name": " Bedding type and depth as specified. ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164408,
-              "checkpointId": 92072,
-              "note": "",
-              "label": 4,
-              "name": "Lay and joint pipe",
-              "position": 10,
-              "checkpointType": 4,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 14,
-              "vcheckerId": 14
-            },
-            {
-              "id": 164409,
-              "checkpointId": 92073,
-              "note": "",
-              "label": "G",
-              "name": "Check pipe position, type, alignment and joints",
-              "position": 11,
-              "checkpointType": 1,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92074,
-                  "name": "Pipe, size, type and location to drawings\/specification.  Joints completed.     ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164410,
-              "checkpointId": 92075,
-              "note": "",
-              "label": "H",
-              "name": "Test Pipe",
-              "position": 12,
-              "checkpointType": 1,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92076,
-                  "name": "Pressure looss within acceptable limits                                                                                                                                                                                                                        ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164411,
-              "checkpointId": 92077,
-              "note": "",
-              "label": 5,
-              "name": "Backfill and compact",
-              "position": 13,
-              "checkpointType": 4,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 14,
-              "vcheckerId": 14
-            },
-            {
-              "id": 164412,
-              "checkpointId": 92078,
-              "note": "",
-              "label": "I",
-              "name": "Check compaction",
-              "position": 14,
-              "checkpointType": 1,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 14,
-              "vcheckerId": 14,
-              "criteria": [
-                {
-                  "id": 92079,
-                  "name": "No soft spots.  Density tests to Specification Clause _____.",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164413,
-              "checkpointId": 92080,
-              "note": "",
-              "label": 6,
-              "name": "Make good surface",
-              "position": 15,
-              "checkpointType": 4,
-              "checkerId": 14,
-              "verifiedBy": "Martin Boyd",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 14,
-              "vcheckerId": 14
-            }
-          ]
-        },
-        {
-          "workareaId": 7784,
-          "workAreaName": "StudioEnsuite",
-          "status": "Open",
-          "complete": 0,
-          "verificationPoints": [
-            {
-              "id": 164454,
-              "checkpointId": 92057,
-              "note": "",
-              "label": "A",
-              "name": "Check clearances obtained",
-              "position": 1,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92058,
-                  "name": "Evidence of services clearances being obtained sighted, eg suitably completed clearances checklist sighted",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164455,
-              "checkpointId": 92059,
-              "note": "",
-              "label": "B",
-              "name": "Work Method Statement",
-              "position": 2,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92060,
-                  "name": "WMS available",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164456,
-              "checkpointId": 92061,
-              "note": "",
-              "label": 1,
-              "name": "Set Out",
-              "position": 3,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164457,
-              "checkpointId": 92062,
-              "note": "",
-              "label": "C",
-              "name": "Confirm setting out",
-              "position": 4,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92063,
-                  "name": "Marked locations and levels to drawings",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164458,
-              "checkpointId": 92064,
-              "note": "",
-              "label": "D",
-              "name": "Environmental control measures",
-              "position": 5,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92065,
-                  "name": "Environmental control measures comply with Government standards.",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164459,
-              "checkpointId": 92066,
-              "note": "",
-              "label": 2,
-              "name": "Excavate",
-              "position": 6,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164460,
-              "checkpointId": 92067,
-              "note": "",
-              "label": "E",
-              "name": "Safety Check",
-              "position": 7,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92068,
-                  "name": "As applicable, shoring in place.  Excavation fenced. ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164461,
-              "checkpointId": 92069,
-              "note": "",
-              "label": 3,
-              "name": "Place bedding",
-              "position": 8,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164462,
-              "checkpointId": 92070,
-              "note": "",
-              "label": "F",
-              "name": "Check Bedding",
-              "position": 9,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92071,
-                  "name": " Bedding type and depth as specified. ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164463,
-              "checkpointId": 92072,
-              "note": "",
-              "label": 4,
-              "name": "Lay and joint pipe",
-              "position": 10,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164464,
-              "checkpointId": 92073,
-              "note": "",
-              "label": "G",
-              "name": "Check pipe position, type, alignment and joints",
-              "position": 11,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92074,
-                  "name": "Pipe, size, type and location to drawings\/specification.  Joints completed.     ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164465,
-              "checkpointId": 92075,
-              "note": "",
-              "label": "H",
-              "name": "Test Pipe",
-              "position": 12,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92076,
-                  "name": "Pressure looss within acceptable limits                                                                                                                                                                                                                        ",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164466,
-              "checkpointId": 92077,
-              "note": "",
-              "label": 5,
-              "name": "Backfill and compact",
-              "position": 13,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164467,
-              "checkpointId": 92078,
-              "note": "",
-              "label": "I",
-              "name": "Check compaction",
-              "position": 14,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 92079,
-                  "name": "No soft spots.  Density tests to Specification Clause _____.",
-                  "descr": "no description"
-                }
-              ]
-            },
-            {
-              "id": 164468,
-              "checkpointId": 92080,
-              "note": "",
-              "label": 6,
-              "name": "Make good surface",
-              "position": 15,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            }
-          ]
-        }
-      ],
-      "complete": false
-    },
-    {
-      "checklistNumber": 61,
-      "checklistId": 4032,
-      "jobId": 2425,
-      "jobName": "Checklist 2"
-    },
-    {
-      "checklistNumber": 30,
-      "checklistId": 3559,
-      "jobId": 2313,
-      "jobName": "Hold Point Checklist1",
-      "workareas": [
-        {
-          "workareaId": 7747,
-          "workAreaName": "South",
-          "status": "Open",
-          "complete": 0,
-          "verificationPoints": [
-            {
-              "id": 164173,
-              "checkpointId": 82467,
-              "note": "",
-              "label": null,
-              "name": "Process Step 1",
-              "position": 1,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164174,
-              "checkpointId": 82468,
-              "note": "",
-              "label": null,
-              "name": "Hold Point1",
-              "position": 2,
-              "checkpointType": 2,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164175,
-              "checkpointId": 82469,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 1",
-              "position": 3,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 82470,
-                  "name": "cr1    - changed in live project",
-                  "descr": "Criteria 1 Updated in Full Screen Editor"
-                },
-                {
-                  "id": 91708,
-                  "name": "cr3",
-                  "descr": ""
-                }
-              ]
-            },
-            {
-              "id": 164176,
-              "checkpointId": 82471,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 22",
-              "position": 4,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91712,
-                  "name": "Checkpoint 2 - Criteria 1",
-                  "descr": "Checkpoint 2 - Criteria 1"
-                },
-                {
-                  "id": 91713,
-                  "name": "Checkpoint 2 - Criteria 2",
-                  "descr": "Checkpoint 2 - Criteria 2"
-                },
-                {
-                  "id": 91714,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91715,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91716,
-                  "name": "Checkpoint 2 - Criteria 1bb",
-                  "descr": "Checkpoint 2 - Criteria 1bb"
-                },
-                {
-                  "id": 91717,
-                  "name": "Checkpoint 2 - Criteria 2a",
-                  "descr": "Checkpoint 2 - Criteria 2a"
-                },
-                {
-                  "id": 91718,
-                  "name": "Checkpoint 2 - Criteria 1a",
-                  "descr": "Checkpoint 2 - Criteria 1a"
-                },
-                {
-                  "id": 91719,
-                  "name": "Checkpoint 2 - Criteria 1c",
-                  "descr": "Checkpoint 2 - Criteria 1c"
-                },
-                {
-                  "id": 91720,
-                  "name": "Checkpoint 2 - Criteria 1cc",
-                  "descr": "Checkpoint 2 - Criteria 1cc"
-                },
-                {
-                  "id": 91721,
-                  "name": "Checkpoint 2 - Criteria 1ddd",
-                  "descr": "Checkpoint 2 - Criteria 1ddd"
-                },
-                {
-                  "id": 91722,
-                  "name": "Checkpoint 2 - Criteria 1eee",
-                  "descr": "Checkpoint 2 - Criteria 1eee"
-                },
-                {
-                  "id": 91723,
-                  "name": "Checkpoint 2 - Criteria 2aaa",
-                  "descr": "Checkpoint 2 - Criteria 2aaa"
-                },
-                {
-                  "id": 91724,
-                  "name": "Checkpoint 2 - Criteria 2bbbb",
-                  "descr": "Checkpoint 2 - Criteria 2bbbb"
-                },
-                {
-                  "id": 91725,
-                  "name": "Checkpoint 2 - Criteria 2ccc",
-                  "descr": "Checkpoint 2 - Criteria 2ccc"
-                },
-                {
-                  "id": 91726,
-                  "name": "Checkpoint 2 - Criteria 2dddd",
-                  "descr": "Checkpoint 2 - Criteria 2dddd"
-                },
-                {
-                  "id": 91727,
-                  "name": "Checkpoint 2 - Criteria 2fffff",
-                  "descr": "Checkpoint 2 - Criteria 2fffff"
-                },
-                {
-                  "id": 91728,
-                  "name": "Checkpoint 2 - Criteria 2eeeee",
-                  "descr": "Checkpoint 2 - Criteria 2eeeee"
-                },
-                {
-                  "id": 91729,
-                  "name": "Checkpoint 2 - Criteria 222222",
-                  "descr": "Checkpoint 2 - Criteria 222222"
-                },
-                {
-                  "id": 91730,
-                  "name": "Checkpoint 2 - Criteria 2eeeeezzz",
-                  "descr": "Checkpoint 2 - Criteria 2eeeeezzz"
-                },
-                {
-                  "id": 91731,
-                  "name": "Checkpoint 2 - Criteria 2aaazzz",
-                  "descr": "Checkpoint 2 - Criteria 2aaazzz"
-                },
-                {
-                  "id": 91732,
-                  "name": "Checkpoint 2 - Criteria 2 - new Sibling",
-                  "descr": "Checkpoint 2 - Criteria 2 - new Sibling"
-                },
-                {
-                  "id": 91734,
-                  "name": "Checkpoint 2 - Criteria 3",
-                  "descr": "Checkpoint 2 - Criteria 3"
-                }
-              ]
-            },
-            {
-              "id": 164178,
-              "checkpointId": 91710,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 3",
-              "position": 5,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91711,
-                  "name": "Checkpoint 3 - Criteria 1",
-                  "descr": "Checkpoint 3 - Criteria 1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "workareaId": 7754,
-          "workAreaName": "North",
-          "status": "Open",
-          "complete": 0,
-          "verificationPoints": [
-            {
-              "id": 164214,
-              "checkpointId": 82467,
-              "note": "",
-              "label": null,
-              "name": "Process Step 1",
-              "position": 1,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164215,
-              "checkpointId": 82468,
-              "note": "",
-              "label": null,
-              "name": "Hold Point1",
-              "position": 2,
-              "checkpointType": 2,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164216,
-              "checkpointId": 82469,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 1",
-              "position": 3,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 82470,
-                  "name": "cr1    - changed in live project",
-                  "descr": "Criteria 1 Updated in Full Screen Editor"
-                },
-                {
-                  "id": 91708,
-                  "name": "cr3",
-                  "descr": ""
-                }
-              ]
-            },
-            {
-              "id": 164217,
-              "checkpointId": 82471,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 22",
-              "position": 4,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91712,
-                  "name": "Checkpoint 2 - Criteria 1",
-                  "descr": "Checkpoint 2 - Criteria 1"
-                },
-                {
-                  "id": 91713,
-                  "name": "Checkpoint 2 - Criteria 2",
-                  "descr": "Checkpoint 2 - Criteria 2"
-                },
-                {
-                  "id": 91714,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91715,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91716,
-                  "name": "Checkpoint 2 - Criteria 1bb",
-                  "descr": "Checkpoint 2 - Criteria 1bb"
-                },
-                {
-                  "id": 91717,
-                  "name": "Checkpoint 2 - Criteria 2a",
-                  "descr": "Checkpoint 2 - Criteria 2a"
-                },
-                {
-                  "id": 91718,
-                  "name": "Checkpoint 2 - Criteria 1a",
-                  "descr": "Checkpoint 2 - Criteria 1a"
-                },
-                {
-                  "id": 91719,
-                  "name": "Checkpoint 2 - Criteria 1c",
-                  "descr": "Checkpoint 2 - Criteria 1c"
-                },
-                {
-                  "id": 91720,
-                  "name": "Checkpoint 2 - Criteria 1cc",
-                  "descr": "Checkpoint 2 - Criteria 1cc"
-                },
-                {
-                  "id": 91721,
-                  "name": "Checkpoint 2 - Criteria 1ddd",
-                  "descr": "Checkpoint 2 - Criteria 1ddd"
-                },
-                {
-                  "id": 91722,
-                  "name": "Checkpoint 2 - Criteria 1eee",
-                  "descr": "Checkpoint 2 - Criteria 1eee"
-                },
-                {
-                  "id": 91723,
-                  "name": "Checkpoint 2 - Criteria 2aaa",
-                  "descr": "Checkpoint 2 - Criteria 2aaa"
-                },
-                {
-                  "id": 91724,
-                  "name": "Checkpoint 2 - Criteria 2bbbb",
-                  "descr": "Checkpoint 2 - Criteria 2bbbb"
-                },
-                {
-                  "id": 91725,
-                  "name": "Checkpoint 2 - Criteria 2ccc",
-                  "descr": "Checkpoint 2 - Criteria 2ccc"
-                },
-                {
-                  "id": 91726,
-                  "name": "Checkpoint 2 - Criteria 2dddd",
-                  "descr": "Checkpoint 2 - Criteria 2dddd"
-                },
-                {
-                  "id": 91727,
-                  "name": "Checkpoint 2 - Criteria 2fffff",
-                  "descr": "Checkpoint 2 - Criteria 2fffff"
-                },
-                {
-                  "id": 91728,
-                  "name": "Checkpoint 2 - Criteria 2eeeee",
-                  "descr": "Checkpoint 2 - Criteria 2eeeee"
-                },
-                {
-                  "id": 91729,
-                  "name": "Checkpoint 2 - Criteria 222222",
-                  "descr": "Checkpoint 2 - Criteria 222222"
-                },
-                {
-                  "id": 91730,
-                  "name": "Checkpoint 2 - Criteria 2eeeeezzz",
-                  "descr": "Checkpoint 2 - Criteria 2eeeeezzz"
-                },
-                {
-                  "id": 91731,
-                  "name": "Checkpoint 2 - Criteria 2aaazzz",
-                  "descr": "Checkpoint 2 - Criteria 2aaazzz"
-                },
-                {
-                  "id": 91732,
-                  "name": "Checkpoint 2 - Criteria 2 - new Sibling",
-                  "descr": "Checkpoint 2 - Criteria 2 - new Sibling"
-                },
-                {
-                  "id": 91734,
-                  "name": "Checkpoint 2 - Criteria 3",
-                  "descr": "Checkpoint 2 - Criteria 3"
-                }
-              ]
-            },
-            {
-              "id": 164218,
-              "checkpointId": 91710,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 3",
-              "position": 5,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91711,
-                  "name": "Checkpoint 3 - Criteria 1",
-                  "descr": "Checkpoint 3 - Criteria 1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "workareaId": 7756,
-          "workAreaName": "Bedroom",
-          "status": "Open",
-          "complete": 0,
-          "verificationPoints": [
-            {
-              "id": 164224,
-              "checkpointId": 82467,
-              "note": "",
-              "label": null,
-              "name": "Process Step 1",
-              "position": 1,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164225,
-              "checkpointId": 82468,
-              "note": "",
-              "label": null,
-              "name": "Hold Point1",
-              "position": 2,
-              "checkpointType": 2,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164226,
-              "checkpointId": 82469,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 1",
-              "position": 3,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 82470,
-                  "name": "cr1    - changed in live project",
-                  "descr": "Criteria 1 Updated in Full Screen Editor"
-                },
-                {
-                  "id": 91708,
-                  "name": "cr3",
-                  "descr": ""
-                }
-              ]
-            },
-            {
-              "id": 164227,
-              "checkpointId": 82471,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 22",
-              "position": 4,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91712,
-                  "name": "Checkpoint 2 - Criteria 1",
-                  "descr": "Checkpoint 2 - Criteria 1"
-                },
-                {
-                  "id": 91713,
-                  "name": "Checkpoint 2 - Criteria 2",
-                  "descr": "Checkpoint 2 - Criteria 2"
-                },
-                {
-                  "id": 91714,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91715,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91716,
-                  "name": "Checkpoint 2 - Criteria 1bb",
-                  "descr": "Checkpoint 2 - Criteria 1bb"
-                },
-                {
-                  "id": 91717,
-                  "name": "Checkpoint 2 - Criteria 2a",
-                  "descr": "Checkpoint 2 - Criteria 2a"
-                },
-                {
-                  "id": 91718,
-                  "name": "Checkpoint 2 - Criteria 1a",
-                  "descr": "Checkpoint 2 - Criteria 1a"
-                },
-                {
-                  "id": 91719,
-                  "name": "Checkpoint 2 - Criteria 1c",
-                  "descr": "Checkpoint 2 - Criteria 1c"
-                },
-                {
-                  "id": 91720,
-                  "name": "Checkpoint 2 - Criteria 1cc",
-                  "descr": "Checkpoint 2 - Criteria 1cc"
-                },
-                {
-                  "id": 91721,
-                  "name": "Checkpoint 2 - Criteria 1ddd",
-                  "descr": "Checkpoint 2 - Criteria 1ddd"
-                },
-                {
-                  "id": 91722,
-                  "name": "Checkpoint 2 - Criteria 1eee",
-                  "descr": "Checkpoint 2 - Criteria 1eee"
-                },
-                {
-                  "id": 91723,
-                  "name": "Checkpoint 2 - Criteria 2aaa",
-                  "descr": "Checkpoint 2 - Criteria 2aaa"
-                },
-                {
-                  "id": 91724,
-                  "name": "Checkpoint 2 - Criteria 2bbbb",
-                  "descr": "Checkpoint 2 - Criteria 2bbbb"
-                },
-                {
-                  "id": 91725,
-                  "name": "Checkpoint 2 - Criteria 2ccc",
-                  "descr": "Checkpoint 2 - Criteria 2ccc"
-                },
-                {
-                  "id": 91726,
-                  "name": "Checkpoint 2 - Criteria 2dddd",
-                  "descr": "Checkpoint 2 - Criteria 2dddd"
-                },
-                {
-                  "id": 91727,
-                  "name": "Checkpoint 2 - Criteria 2fffff",
-                  "descr": "Checkpoint 2 - Criteria 2fffff"
-                },
-                {
-                  "id": 91728,
-                  "name": "Checkpoint 2 - Criteria 2eeeee",
-                  "descr": "Checkpoint 2 - Criteria 2eeeee"
-                },
-                {
-                  "id": 91729,
-                  "name": "Checkpoint 2 - Criteria 222222",
-                  "descr": "Checkpoint 2 - Criteria 222222"
-                },
-                {
-                  "id": 91730,
-                  "name": "Checkpoint 2 - Criteria 2eeeeezzz",
-                  "descr": "Checkpoint 2 - Criteria 2eeeeezzz"
-                },
-                {
-                  "id": 91731,
-                  "name": "Checkpoint 2 - Criteria 2aaazzz",
-                  "descr": "Checkpoint 2 - Criteria 2aaazzz"
-                },
-                {
-                  "id": 91732,
-                  "name": "Checkpoint 2 - Criteria 2 - new Sibling",
-                  "descr": "Checkpoint 2 - Criteria 2 - new Sibling"
-                },
-                {
-                  "id": 91734,
-                  "name": "Checkpoint 2 - Criteria 3",
-                  "descr": "Checkpoint 2 - Criteria 3"
-                }
-              ]
-            },
-            {
-              "id": 164228,
-              "checkpointId": 91710,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 3",
-              "position": 5,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91711,
-                  "name": "Checkpoint 3 - Criteria 1",
-                  "descr": "Checkpoint 3 - Criteria 1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "workareaId": 7762,
-          "workAreaName": "1 Bedroom Superior Apartment",
-          "status": "Open",
-          "complete": 0,
-          "verificationPoints": [
-            {
-              "id": 164254,
-              "checkpointId": 82467,
-              "note": "",
-              "label": null,
-              "name": "Process Step 1",
-              "position": 1,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164255,
-              "checkpointId": 82468,
-              "note": "",
-              "label": null,
-              "name": "Hold Point1",
-              "position": 2,
-              "checkpointType": 2,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164256,
-              "checkpointId": 82469,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 1",
-              "position": 3,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 82470,
-                  "name": "cr1    - changed in live project",
-                  "descr": "Criteria 1 Updated in Full Screen Editor"
-                },
-                {
-                  "id": 91708,
-                  "name": "cr3",
-                  "descr": ""
-                }
-              ]
-            },
-            {
-              "id": 164257,
-              "checkpointId": 82471,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 22",
-              "position": 4,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91712,
-                  "name": "Checkpoint 2 - Criteria 1",
-                  "descr": "Checkpoint 2 - Criteria 1"
-                },
-                {
-                  "id": 91713,
-                  "name": "Checkpoint 2 - Criteria 2",
-                  "descr": "Checkpoint 2 - Criteria 2"
-                },
-                {
-                  "id": 91714,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91715,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91716,
-                  "name": "Checkpoint 2 - Criteria 1bb",
-                  "descr": "Checkpoint 2 - Criteria 1bb"
-                },
-                {
-                  "id": 91717,
-                  "name": "Checkpoint 2 - Criteria 2a",
-                  "descr": "Checkpoint 2 - Criteria 2a"
-                },
-                {
-                  "id": 91718,
-                  "name": "Checkpoint 2 - Criteria 1a",
-                  "descr": "Checkpoint 2 - Criteria 1a"
-                },
-                {
-                  "id": 91719,
-                  "name": "Checkpoint 2 - Criteria 1c",
-                  "descr": "Checkpoint 2 - Criteria 1c"
-                },
-                {
-                  "id": 91720,
-                  "name": "Checkpoint 2 - Criteria 1cc",
-                  "descr": "Checkpoint 2 - Criteria 1cc"
-                },
-                {
-                  "id": 91721,
-                  "name": "Checkpoint 2 - Criteria 1ddd",
-                  "descr": "Checkpoint 2 - Criteria 1ddd"
-                },
-                {
-                  "id": 91722,
-                  "name": "Checkpoint 2 - Criteria 1eee",
-                  "descr": "Checkpoint 2 - Criteria 1eee"
-                },
-                {
-                  "id": 91723,
-                  "name": "Checkpoint 2 - Criteria 2aaa",
-                  "descr": "Checkpoint 2 - Criteria 2aaa"
-                },
-                {
-                  "id": 91724,
-                  "name": "Checkpoint 2 - Criteria 2bbbb",
-                  "descr": "Checkpoint 2 - Criteria 2bbbb"
-                },
-                {
-                  "id": 91725,
-                  "name": "Checkpoint 2 - Criteria 2ccc",
-                  "descr": "Checkpoint 2 - Criteria 2ccc"
-                },
-                {
-                  "id": 91726,
-                  "name": "Checkpoint 2 - Criteria 2dddd",
-                  "descr": "Checkpoint 2 - Criteria 2dddd"
-                },
-                {
-                  "id": 91727,
-                  "name": "Checkpoint 2 - Criteria 2fffff",
-                  "descr": "Checkpoint 2 - Criteria 2fffff"
-                },
-                {
-                  "id": 91728,
-                  "name": "Checkpoint 2 - Criteria 2eeeee",
-                  "descr": "Checkpoint 2 - Criteria 2eeeee"
-                },
-                {
-                  "id": 91729,
-                  "name": "Checkpoint 2 - Criteria 222222",
-                  "descr": "Checkpoint 2 - Criteria 222222"
-                },
-                {
-                  "id": 91730,
-                  "name": "Checkpoint 2 - Criteria 2eeeeezzz",
-                  "descr": "Checkpoint 2 - Criteria 2eeeeezzz"
-                },
-                {
-                  "id": 91731,
-                  "name": "Checkpoint 2 - Criteria 2aaazzz",
-                  "descr": "Checkpoint 2 - Criteria 2aaazzz"
-                },
-                {
-                  "id": 91732,
-                  "name": "Checkpoint 2 - Criteria 2 - new Sibling",
-                  "descr": "Checkpoint 2 - Criteria 2 - new Sibling"
-                },
-                {
-                  "id": 91734,
-                  "name": "Checkpoint 2 - Criteria 3",
-                  "descr": "Checkpoint 2 - Criteria 3"
-                }
-              ]
-            },
-            {
-              "id": 164258,
-              "checkpointId": 91710,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 3",
-              "position": 5,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91711,
-                  "name": "Checkpoint 3 - Criteria 1",
-                  "descr": "Checkpoint 3 - Criteria 1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "workareaId": 7783,
-          "workAreaName": "Bathroom and Toilet",
-          "status": "Open",
-          "complete": 0,
-          "verificationPoints": [
-            {
-              "id": 164449,
-              "checkpointId": 82467,
-              "note": "",
-              "label": null,
-              "name": "Process Step 1",
-              "position": 1,
-              "checkpointType": 4,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 1,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164450,
-              "checkpointId": 82468,
-              "note": "",
-              "label": null,
-              "name": "Hold Point1",
-              "position": 2,
-              "checkpointType": 2,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22
-            },
-            {
-              "id": 164451,
-              "checkpointId": 82469,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 1",
-              "position": 3,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 82470,
-                  "name": "cr1    - changed in live project",
-                  "descr": "Criteria 1 Updated in Full Screen Editor"
-                },
-                {
-                  "id": 91708,
-                  "name": "cr3",
-                  "descr": ""
-                }
-              ]
-            },
-            {
-              "id": 164452,
-              "checkpointId": 82471,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 22",
-              "position": 4,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91712,
-                  "name": "Checkpoint 2 - Criteria 1",
-                  "descr": "Checkpoint 2 - Criteria 1"
-                },
-                {
-                  "id": 91713,
-                  "name": "Checkpoint 2 - Criteria 2",
-                  "descr": "Checkpoint 2 - Criteria 2"
-                },
-                {
-                  "id": 91714,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91715,
-                  "name": "Checkpoint 2 - Criteria 1b",
-                  "descr": "Checkpoint 2 - Criteria 1b"
-                },
-                {
-                  "id": 91716,
-                  "name": "Checkpoint 2 - Criteria 1bb",
-                  "descr": "Checkpoint 2 - Criteria 1bb"
-                },
-                {
-                  "id": 91717,
-                  "name": "Checkpoint 2 - Criteria 2a",
-                  "descr": "Checkpoint 2 - Criteria 2a"
-                },
-                {
-                  "id": 91718,
-                  "name": "Checkpoint 2 - Criteria 1a",
-                  "descr": "Checkpoint 2 - Criteria 1a"
-                },
-                {
-                  "id": 91719,
-                  "name": "Checkpoint 2 - Criteria 1c",
-                  "descr": "Checkpoint 2 - Criteria 1c"
-                },
-                {
-                  "id": 91720,
-                  "name": "Checkpoint 2 - Criteria 1cc",
-                  "descr": "Checkpoint 2 - Criteria 1cc"
-                },
-                {
-                  "id": 91721,
-                  "name": "Checkpoint 2 - Criteria 1ddd",
-                  "descr": "Checkpoint 2 - Criteria 1ddd"
-                },
-                {
-                  "id": 91722,
-                  "name": "Checkpoint 2 - Criteria 1eee",
-                  "descr": "Checkpoint 2 - Criteria 1eee"
-                },
-                {
-                  "id": 91723,
-                  "name": "Checkpoint 2 - Criteria 2aaa",
-                  "descr": "Checkpoint 2 - Criteria 2aaa"
-                },
-                {
-                  "id": 91724,
-                  "name": "Checkpoint 2 - Criteria 2bbbb",
-                  "descr": "Checkpoint 2 - Criteria 2bbbb"
-                },
-                {
-                  "id": 91725,
-                  "name": "Checkpoint 2 - Criteria 2ccc",
-                  "descr": "Checkpoint 2 - Criteria 2ccc"
-                },
-                {
-                  "id": 91726,
-                  "name": "Checkpoint 2 - Criteria 2dddd",
-                  "descr": "Checkpoint 2 - Criteria 2dddd"
-                },
-                {
-                  "id": 91727,
-                  "name": "Checkpoint 2 - Criteria 2fffff",
-                  "descr": "Checkpoint 2 - Criteria 2fffff"
-                },
-                {
-                  "id": 91728,
-                  "name": "Checkpoint 2 - Criteria 2eeeee",
-                  "descr": "Checkpoint 2 - Criteria 2eeeee"
-                },
-                {
-                  "id": 91729,
-                  "name": "Checkpoint 2 - Criteria 222222",
-                  "descr": "Checkpoint 2 - Criteria 222222"
-                },
-                {
-                  "id": 91730,
-                  "name": "Checkpoint 2 - Criteria 2eeeeezzz",
-                  "descr": "Checkpoint 2 - Criteria 2eeeeezzz"
-                },
-                {
-                  "id": 91731,
-                  "name": "Checkpoint 2 - Criteria 2aaazzz",
-                  "descr": "Checkpoint 2 - Criteria 2aaazzz"
-                },
-                {
-                  "id": 91732,
-                  "name": "Checkpoint 2 - Criteria 2 - new Sibling",
-                  "descr": "Checkpoint 2 - Criteria 2 - new Sibling"
-                },
-                {
-                  "id": 91734,
-                  "name": "Checkpoint 2 - Criteria 3",
-                  "descr": "Checkpoint 2 - Criteria 3"
-                }
-              ]
-            },
-            {
-              "id": 164453,
-              "checkpointId": 91710,
-              "note": "",
-              "label": null,
-              "name": "Checkpoint 3",
-              "position": 5,
-              "checkpointType": 1,
-              "checkerId": 22,
-              "verifiedBy": "Richard Hancock 1",
-              "dateChecked": null,
-              "complete": 0,
-              "vmemberId": 22,
-              "vcheckerId": 22,
-              "criteria": [
-                {
-                  "id": 91711,
-                  "name": "Checkpoint 3 - Criteria 1",
-                  "descr": "Checkpoint 3 - Criteria 1"
                 }
               ]
             }

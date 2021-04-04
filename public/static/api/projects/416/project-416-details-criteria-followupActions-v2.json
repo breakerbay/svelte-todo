@@ -18,6 +18,7 @@
       "checklistId": 4145,
       "jobId": 2469,
       "jobName": "Entrance",
+      "checklistDescription": "(Imported)",
       "workareas": [
         {
           "workareaId": 7820,
@@ -110,6 +111,7 @@
       "checklistId": 4142,
       "jobId": 2466,
       "jobName": "Kitchen",
+      "checklistDescription": "(Imported)",
       "workareas": [
         {
           "workareaId": 7821,
@@ -219,6 +221,84 @@
               "images": [
                 {
                   "url": "https:\/\/s3-ap-southeast-2.amazonaws.com\/images.brogo.net.au\/1615701239\/ventilation%20system%20over%20stove.png"
+                }
+              ],
+              "followupActions": [
+                {
+                  "ID": 256,
+                  "projectId": 0,
+                  "checkpointValueId": 164629,
+                  "name": "Over stove ventilation system - fan not working",
+                  "descr": "Electrician required to fix",
+                  "dateRaised": "2021-03-14 04:47:44",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": "0000-00-00 00:00:00",
+                  "actionType": 4,
+                  "category": 1,
+                  "improvementActionFlag": 0,
+                  "note": "",
+                  "notificationRequiredFlag": 0,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 0,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 0,
+                  "rectificationCheckedOkFlag": 0,
+                  "closedOffFlag": 0,
+                  "dateRaisedString": null,
+                  "dateFixedString": null,
+                  "images": [
+                    {
+                      "url": "https:\/\/s3-ap-southeast-2.amazonaws.com\/images.brogo.net.au\/1615701239\/ventilation%20system%20over%20stove.png"
+                    }
+                  ]
+                },
+                {
+                  "ID": 257,
+                  "projectId": 0,
+                  "checkpointValueId": 164629,
+                  "name": "no2 follow up action",
+                  "descr": "Description",
+                  "dateRaised": "2021-03-20 06:19:54",
+                  "approvalToFixDoneFlag": 0,
+                  "dateFixed": "0000-00-00 00:00:00",
+                  "actionType": 4,
+                  "category": 0,
+                  "improvementActionFlag": 0,
+                  "note": "",
+                  "notificationRequiredFlag": 0,
+                  "notificationDoneFlag": 0,
+                  "approvalToActionRequiredFlag": 0,
+                  "approvalToActionDoneFlag": 0,
+                  "approvalToFixRequiredFlag": 0,
+                  "rectificationCheckedOkFlag": 0,
+                  "closedOffFlag": 0,
+                  "dateRaisedString": null,
+                  "dateFixedString": null
+                }
+              ]
+            },
+            {
+              "id": 164629,
+              "checkpointId": 94072,
+              "note": "",
+              "label": null,
+              "name": "Effective Ventilation to outside",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 13,
+              "verifiedBy": "John Anderson",
+              "dateChecked": "2021-03-20 07:25:33",
+              "complete": 0,
+              "followupActionId": 257,
+              "followupActionDateRaised": "2021-03-20 06:19:54",
+              "followupActionDateFixed": "0000-00-00 00:00:00",
+              "vmemberId": 13,
+              "vcheckerId": 13,
+              "criteria": [
+                {
+                  "id": 94073,
+                  "name": "The  kitchen must have some form of ventilation to the outside.",
+                  "descr": "Check that either an opening window or mechanical vent is present and operational in the kitchen\nIf there is no mechanical ventilation such as an extracting hood above the stove in the kitchen, then an opening window should be no more than 2 metres away from the cooking facilities. \nIf the window or fastener, not accessible or in anyway not able to be opened by the tenant, it should be deemed as not compliant. Similarly, any fan or mechanical vent must be operational in order to comply. \nNotes\nAdequate ventilation is a requirement of the building code and is important for maintaining healthy internal conditions. \nWhile the provision of a fan or opening window does not guarantee the operation of these devices for ventilation, the scope of the WOF is to check that the house is able to be ventilated. The WOF is not a test of tenant behaviour."
                 }
               ],
               "followupActions": [
@@ -510,6 +590,7 @@
       "checklistId": 4144,
       "jobId": 2468,
       "jobName": "Laundry",
+      "checklistDescription": "(Imported)",
       "workareas": [
         {
           "workareaId": 7822,
@@ -529,9 +610,9 @@
               "verifiedBy": "Richard Hancock 1",
               "dateChecked": null,
               "complete": 0,
-              "followupActionId": null,
-              "followupActionDateRaised": null,
-              "followupActionDateFixed": null,
+              "followupActionId": 258,
+              "followupActionDateRaised": "2021-04-02 21:01:33",
+              "followupActionDateFixed": "2021-04-02 21:04:40",
               "vmemberId": 22,
               "vcheckerId": 22,
               "criteria": [
@@ -539,6 +620,31 @@
                   "id": 94111,
                   "name": "Are walls, ceiling, and floor linings intact?",
                   "descr": "No holes or significant gaps in walls, ceiling or floor\nFloors covered in  timber, tiles, lino"
+                }
+              ],
+              "followupActions": [
+                {
+                  "ID": 258,
+                  "projectId": 416,
+                  "checkpointValueId": 164639,
+                  "name": "General room finish - some additional painting required",
+                  "descr": "Painting of window trims required",
+                  "dateRaised": "2021-04-02 21:01:33",
+                  "approvalToFixDoneFlag": 1,
+                  "dateFixed": "2021-04-02 21:04:40",
+                  "actionType": 0,
+                  "category": 0,
+                  "improvementActionFlag": 1,
+                  "note": null,
+                  "notificationRequiredFlag": 1,
+                  "notificationDoneFlag": 1,
+                  "approvalToActionRequiredFlag": 1,
+                  "approvalToActionDoneFlag": 1,
+                  "approvalToFixRequiredFlag": 1,
+                  "rectificationCheckedOkFlag": 1,
+                  "closedOffFlag": 1,
+                  "dateRaisedString": null,
+                  "dateFixedString": null
                 }
               ]
             },
@@ -677,6 +783,7 @@
       "checklistId": 4143,
       "jobId": 2467,
       "jobName": "Living Room",
+      "checklistDescription": "Things to check in living areas (Imported)",
       "workareas": [
         {
           "workareaId": 7823,
