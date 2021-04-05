@@ -151,7 +151,7 @@
         <p class="center">Loading ...</p>
     </div>
 {:else}
-    <div class="wrapper">
+<!--    <div class="wrapper">
         <h4 class="center">{project.name}</h4>
         <div>
             <div>Checklists</div>
@@ -178,14 +178,14 @@
                                                                 </ul>
                                                             {/if}
                                                             {#if point.followupActions }
-                                                            <!--
+                                                            &lt;!&ndash;
                                                                 <ul>
                                                                     <li><strong>Followup Actions</strong></li>
                                                                     {#each point.followupActions as followupAction(followupAction.ID) }
                                                                         <li>{followupAction.name}</li>
                                                                     {/each}
                                                                 </ul>
-                                                             -->
+                                                             &ndash;&gt;
                                                                 {#each point.followupActions as followupAction(followupAction.ID) }
                                                                    <FollowupAction  {followupAction}  tooltip="FollowupAction" />
                                                                  {/each}
@@ -207,9 +207,9 @@
                 </div>
             {/if}
         </div>
-    </div>
+    </div>-->
+    <!--
     <div class='cards'>
-
         <CollapsibleCard>
             <h2 slot='header' class='header'>Header 1</h2>
             <div slot='body' class='body'>
@@ -219,7 +219,6 @@
                 </div>
             </div>
         </CollapsibleCard>
-
         <CollapsibleCard>
             <h2 slot='header' class='header'>Header 2</h2>
             <div slot='body' class='body'>
@@ -230,7 +229,6 @@
                 </div>
             </div>
         </CollapsibleCard>
-
         <CollapsibleCard>
             <h2 slot='header' class='header'>Header 3</h2>
             <div slot='body' class='body'>
@@ -242,8 +240,8 @@
                 </div>
             </div>
         </CollapsibleCard>
-
     </div>
+    -->
     <div class="cards checklists">
         {#if (project && project.checklists && project.checklists.length > 0) }
             <ul class="checklist">
