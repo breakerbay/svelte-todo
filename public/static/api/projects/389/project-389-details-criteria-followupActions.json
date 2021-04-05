@@ -23,6 +23,7 @@
         {
           "workareaId": 7762,
           "workAreaName": "Brogo.net.au",
+          "workareaDescription": "The project checks the web site features on brogo.net.au",
           "status": "Open",
           "complete": 0,
           "verificationPoints": [
@@ -151,6 +152,7 @@
         {
           "workareaId": 7801,
           "workAreaName": "Worklot 137",
+          "workareaDescription": "Added Worklot 137",
           "status": "Open",
           "complete": 0,
           "verificationPoints": [
@@ -213,6 +215,7 @@
         {
           "workareaId": 7809,
           "workAreaName": "South137",
+          "workareaDescription": "Work Area South137 for account 89",
           "status": "Open",
           "complete": 0,
           "verificationPoints": [

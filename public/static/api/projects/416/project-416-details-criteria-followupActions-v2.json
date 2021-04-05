@@ -23,6 +23,7 @@
         {
           "workareaId": 7820,
           "workAreaName": "Room",
+          "workareaDescription": "Entrance Room",
           "status": "Open",
           "complete": 0,
           "verificationPoints": [
@@ -116,6 +117,7 @@
         {
           "workareaId": 7821,
           "workAreaName": "Room",
+          "workareaDescription": "Kitchen Room",
           "status": "Open",
           "complete": 0,
           "verificationPoints": [
@@ -595,6 +597,7 @@
         {
           "workareaId": 7822,
           "workAreaName": "Room",
+          "workareaDescription": "Area for doing Laundry",
           "status": "Open",
           "complete": 0,
           "verificationPoints": [
@@ -788,6 +791,7 @@
         {
           "workareaId": 7823,
           "workAreaName": "Room",
+          "workareaDescription": "General Living Room",
           "status": "Open",
           "complete": 0,
           "verificationPoints": [

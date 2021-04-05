@@ -23,6 +23,7 @@
         {
           "workareaId": 7589,
           "workAreaName": "East",
+          "workareaDescription": "East",
           "status": "Closed",
           "complete": 1,
           "verificationPoints": [
@@ -327,6 +328,7 @@
         {
           "workareaId": 7590,
           "workAreaName": "West",
+          "workareaDescription": "Somewhere west",
           "status": "Closed",
           "complete": 1,
           "verificationPoints": [
@@ -631,6 +633,7 @@
         {
           "workareaId": 7807,
           "workAreaName": "North",
+          "workareaDescription": "North should create a worklot",
           "status": "Open",
           "complete": 0,
           "verificationPoints": [
@@ -945,6 +948,7 @@
         {
           "workareaId": 7594,
           "workAreaName": "West",
+          "workareaDescription": "West",
           "status": "Closed",
           "complete": 1,
           "verificationPoints": [

@@ -23,6 +23,7 @@
         {
           "workareaId": 7647,
           "workAreaName": "Wset",
+          "workareaDescription": "Wset - sort of west, up the hill behind the studio",
           "status": "Closed",
           "complete": 1,
           "verificationPoints": [
@@ -195,6 +196,7 @@
         {
           "workareaId": 7793,
           "workAreaName": "East",
+          "workareaDescription": "Lawn area at front of property",
           "status": "Closed",
           "complete": 1,
           "verificationPoints": [
@@ -317,6 +319,7 @@
         {
           "workareaId": 7794,
           "workAreaName": "West",
+          "workareaDescription": "Area behind the main house",
           "status": "Closed",
           "complete": 1,
           "verificationPoints": [
@@ -464,6 +467,7 @@
         {
           "workareaId": 7811,
           "workAreaName": "Stairwell",
+          "workareaDescription": "The old stairwell area, now to be converted into a storage area.",
           "status": "Open",
           "complete": 0,
           "verificationPoints": [
