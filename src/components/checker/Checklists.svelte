@@ -151,63 +151,65 @@
         <p class="center">Loading ...</p>
     </div>
 {:else}
-<!--    <div class="wrapper">
+    <div class="wrapper">
         <h4 class="center">{project.name}</h4>
         <div>
             <div>Checklists</div>
         </div>
-        <div class="checklists">
-            {#if (project && project.checklists && project.checklists.length > 0) }
-                <ul>
-                    {#each project.checklists as checklist (checklist.checklistId)}
-                       <li>{checklist.jobName}
-                            {#if checklist.workareas}
-                                <ul>
-                                    {#each checklist.workareas as workarea (workarea.workareaId) }
-                                        <li>{workarea.workAreaName}
-                                            {#if workarea.verificationPoints}
-                                                <ul>
-                                                    {#each workarea.verificationPoints as point (point.id) }
-                                                        <li>{point.name}
-                                                            {#if point.criteria }
-                                                                <ul>
-                                                                    <li><strong>Criteria</strong></li>
-                                                                    {#each point.criteria as criterion (criterion.id) }
-                                                                        <li>{criterion.name}</li>
-                                                                    {/each}
-                                                                </ul>
-                                                            {/if}
-                                                            {#if point.followupActions }
-                                                            &lt;!&ndash;
-                                                                <ul>
-                                                                    <li><strong>Followup Actions</strong></li>
+    </div>
+    <!--
+            <div class="checklists">
+                {#if (project && project.checklists && project.checklists.length > 0) }
+                    <ul>
+                        {#each project.checklists as checklist (checklist.checklistId)}
+                           <li>{checklist.jobName}
+                                {#if checklist.workareas}
+                                    <ul>
+                                        {#each checklist.workareas as workarea (workarea.workareaId) }
+                                            <li>{workarea.workAreaName}
+                                                {#if workarea.verificationPoints}
+                                                    <ul>
+                                                        {#each workarea.verificationPoints as point (point.id) }
+                                                            <li>{point.name}
+                                                                {#if point.criteria }
+                                                                    <ul>
+                                                                        <li><strong>Criteria</strong></li>
+                                                                        {#each point.criteria as criterion (criterion.id) }
+                                                                            <li>{criterion.name}</li>
+                                                                        {/each}
+                                                                    </ul>
+                                                                {/if}
+                                                                {#if point.followupActions }
+                                                                &lt;!&ndash;
+                                                                    <ul>
+                                                                        <li><strong>Followup Actions</strong></li>
+                                                                        {#each point.followupActions as followupAction(followupAction.ID) }
+                                                                            <li>{followupAction.name}</li>
+                                                                        {/each}
+                                                                    </ul>
+                                                                 &ndash;&gt;
                                                                     {#each point.followupActions as followupAction(followupAction.ID) }
-                                                                        <li>{followupAction.name}</li>
-                                                                    {/each}
-                                                                </ul>
-                                                             &ndash;&gt;
-                                                                {#each point.followupActions as followupAction(followupAction.ID) }
-                                                                   <FollowupAction  {followupAction}  tooltip="FollowupAction" />
-                                                                 {/each}
-                                                            {/if}
-                                                        </li>
-                                                    {/each}
-                                                </ul>
-                                            {/if}
-                                        </li>
-                                    {/each}
-                                </ul>
-                            {/if}
-                        </li>
-                    {/each}
-                </ul>
-            {:else}
-                <div>
-                    <p>No Checklists for this Project ...</p>
-                </div>
-            {/if}
-        </div>
-    </div>-->
+                                                                       <FollowupAction  {followupAction}  tooltip="FollowupAction" />
+                                                                     {/each}
+                                                                {/if}
+                                                            </li>
+                                                        {/each}
+                                                    </ul>
+                                                {/if}
+                                            </li>
+                                        {/each}
+                                    </ul>
+                                {/if}
+                            </li>
+                        {/each}
+                    </ul>
+                {:else}
+                    <div>
+                        <p>No Checklists for this Project ...</p>
+                    </div>
+                {/if}
+            </div>
+        </div>-->
     <!--
     <div class='cards'>
         <CollapsibleCard>
