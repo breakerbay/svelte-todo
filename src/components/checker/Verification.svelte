@@ -1,6 +1,7 @@
-<!-- Collection of Followup Actions for a TestPlan-->
+<!-- WorkArea details-->
 <script>
     import {CollapsibleCard} from 'svelte-collapsible';
+    import FollowupActions from './FollowupActions.svelte';
     export let verificationPoint;
 </script>
 
@@ -48,10 +49,6 @@
         border-radius: 5px;
     }
 
-    .text {
-        margin-left: 1em;
-    }
-
     .body p {
         color: rgb(40, 40, 40);
         display: block;
@@ -65,8 +62,7 @@
 
     ul {
         list-style: none;
-        /*padding-left: 0.25em;*/
-        padding: 0px;
+        padding-left: 0.25em;
     }
 
     .description {
@@ -75,74 +71,38 @@
         font-weight: lighter;
     }
 
-    .verification {
-        width: 100%;
-        background-color: #004d00;
-    }
-
 </style>
-<!--
-<style>
-    * {
-        box-sizing: border-box;
-    }
-
-    .wrapper > * {
-        padding: 0.25rem;
-        margin: 0;
-    }
-
-    .wrapper h4 {
-        padding-top: 1rem;
-        padding-bottom: 0.5rem;
-    }
-
-    .center {
-        text-align: center;
-    }
-
-    @media (min-width: 767px) {
-        .wrapper div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .wrapper div div{
-            width: 75%;
-        }
-    }
-</style>
--->
-<svelte:head>
-    <title>Followup Actions</title>
-</svelte:head>
-
-<!--
-<div class="wrapper">
-    <h4 class="center">Followup Actions</h4>
-    <div>
-        <div>The Collection of Followup Actions for a TestPlan, i.e. Checklist as applied to a Worklot</div>
-    </div>
-</div>
--->
 
 <div class="cards">
     <CollapsibleCard>
-        <h2 slot='header' class='header'>Followup Actions</h2>
+        <h2 slot='header' class='header'>{verificationPoint.name}</h2>
         <div slot='body' class='body'>
             <ul>
                 <li>
-                    <div class="description">Add a Followup Action</div>
+                    {#if verificationPoint.criteria }
+                        <ul>
+                            <li><strong>Criteria</strong></li>
+                            {#each verificationPoint.criteria as criterion (criterion.id) }
+                                <li>{criterion.name}</li>
+                            {/each}
+                        </ul>
+                    {/if}
                 </li>
-            {#if verificationPoint && verificationPoint.followupActions }
-                <ul>
-                    {#each verificationPoint.followupActions as followupAction(followupAction.ID) }
-                        <li>{followupAction.name}</li>
-                    {/each}
-                </ul>
-            {/if}
+                <li>
+                    <FollowupActions {verificationPoint}/>
+                </li>
             </ul>
+            <!--
+                        {#if verificationPoint.followupActions }
+                            <ul>
+                                <li><strong>Followup Actions</strong></li>
+                                {#each verificationPoint.followupActions as followupAction(followupAction.ID) }
+                                    <li>{followupAction.name}</li>
+                                {/each}
+                            </ul>
+                        {/if}
+            -->
+
         </div>
     </CollapsibleCard>
 </div>

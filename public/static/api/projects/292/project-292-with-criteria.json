@@ -18,10 +18,12 @@
       "checklistId": 3519,
       "jobId": 2293,
       "jobName": "1-01  Preliminaries",
+      "checklistDescription": "(Imported)",
       "workareas": [
         {
           "workareaId": 7589,
           "workAreaName": "East",
+          "workareaDescription": "East",
           "status": "Closed",
           "complete": 1,
           "verificationPoints": [
@@ -40,7 +42,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
-              "criteria": []
+              "vmemberId": 22,
+              "vcheckerId": 22
             },
             {
               "id": 69853,
@@ -57,6 +60,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82313,
@@ -80,6 +85,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82315,
@@ -128,6 +135,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82322,
@@ -156,6 +165,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82325,
@@ -179,6 +190,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82327,
@@ -202,6 +215,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82329,
@@ -225,6 +240,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82331,
@@ -248,6 +265,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82333,
@@ -271,6 +290,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82335,
@@ -299,13 +320,15 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
-              "criteria": []
+              "vmemberId": 22,
+              "vcheckerId": 22
             }
           ]
         },
         {
           "workareaId": 7590,
           "workAreaName": "West",
+          "workareaDescription": "Somewhere west",
           "status": "Closed",
           "complete": 1,
           "verificationPoints": [
@@ -324,7 +347,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
-              "criteria": []
+              "vmemberId": 22,
+              "vcheckerId": 22
             },
             {
               "id": 69864,
@@ -341,6 +365,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82313,
@@ -364,6 +390,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82315,
@@ -412,6 +440,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82322,
@@ -440,6 +470,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82325,
@@ -463,6 +495,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82327,
@@ -486,6 +520,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82329,
@@ -509,6 +545,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82331,
@@ -532,6 +570,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82333,
@@ -555,6 +595,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82335,
@@ -583,13 +625,15 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
-              "criteria": []
+              "vmemberId": 22,
+              "vcheckerId": 22
             }
           ]
         },
         {
           "workareaId": 7807,
           "workAreaName": "North",
+          "workareaDescription": "North should create a worklot",
           "status": "Open",
           "complete": 0,
           "verificationPoints": [
@@ -608,7 +652,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
-              "criteria": []
+              "vmemberId": null,
+              "vcheckerId": null
             },
             {
               "id": 164552,
@@ -625,6 +670,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null,
               "criteria": [
                 {
                   "id": 82313,
@@ -648,6 +695,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null,
               "criteria": [
                 {
                   "id": 82315,
@@ -696,6 +745,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null,
               "criteria": [
                 {
                   "id": 82322,
@@ -724,6 +775,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null,
               "criteria": [
                 {
                   "id": 82325,
@@ -747,6 +800,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null,
               "criteria": [
                 {
                   "id": 82327,
@@ -770,6 +825,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null,
               "criteria": [
                 {
                   "id": 82329,
@@ -793,6 +850,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null,
               "criteria": [
                 {
                   "id": 82331,
@@ -816,6 +875,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null,
               "criteria": [
                 {
                   "id": 82333,
@@ -839,6 +900,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": null,
+              "vcheckerId": null,
               "criteria": [
                 {
                   "id": 82335,
@@ -867,7 +930,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
-              "criteria": []
+              "vmemberId": null,
+              "vcheckerId": null
             }
           ]
         }
@@ -879,10 +943,12 @@
       "checklistId": 3529,
       "jobId": 2296,
       "jobName": "Test2017-02-25",
+      "checklistDescription": "Test2017-02-25 (Imported)",
       "workareas": [
         {
           "workareaId": 7594,
           "workAreaName": "West",
+          "workareaDescription": "West",
           "status": "Closed",
           "complete": 1,
           "verificationPoints": [
@@ -901,6 +967,8 @@
               "followupActionId": null,
               "followupActionDateRaised": null,
               "followupActionDateFixed": null,
+              "vmemberId": 22,
+              "vcheckerId": 22,
               "criteria": [
                 {
                   "id": 82351,
