@@ -69,7 +69,9 @@
 
     ul {
         list-style: none;
-        padding-left: 0.25em;
+        /*padding-left: 0.25em;*/
+        /*padding-left: 2px;*/
+        padding: 0px;
         width: 100%;
     }
 
@@ -98,47 +100,12 @@
                     <li class="workarea"><WorkArea {workarea} /></li>
                 {/each}
             </ul>
-        {/if}
-    </div>
-</CollapsibleCard>
-
-<!--
-<CollapsibleCard>
-    <h2 slot='header' class='header'>{checklist.jobName}</h2>
-    <div slot='body' class='body'>
-        <div class="description">{checklist.checklistDescription}</div>
-        {#if checklist.workareas}
+        {:else}
             <ul>
-                {#each checklist.workareas as workarea (workarea.workareaId) }
-                    <li>{workarea.workAreaName}
-                        {#if workarea.verificationPoints}
-                            <ul>
-                                {#each workarea.verificationPoints as point (point.id) }
-                                    <li>{point.name}
-                                        {#if point.criteria }
-                                            <ul>
-                                                <li><strong>Criteria</strong></li>
-                                                {#each point.criteria as criterion (criterion.id) }
-                                                    <li>{criterion.name}</li>
-                                                {/each}
-                                            </ul>
-                                        {/if}
-                                        {#if point.followupActions }
-                                                <ul>
-                                                    <li><strong>Followup Actions</strong></li>
-                                                    {#each point.followupActions as followupAction(followupAction.ID) }
-                                                        <li>{followupAction.name}</li>
-                                                    {/each}
-                                                </ul>
-                                        {/if}
-                                    </li>
-                                {/each}
-                            </ul>
-                        {/if}
-                    </li>
-                {/each}
+                <li>
+                    <div class="description">{checklist.checklistDescription}</div>
+                </li>
             </ul>
         {/if}
     </div>
 </CollapsibleCard>
--->

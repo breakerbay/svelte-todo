@@ -16,14 +16,14 @@
             response = await fetch("http://localhost/~richardhancock/checklist/api/checkers/22/projects/" + id + "?details=all&criteria=true&followupActions=true");
         } catch (e) {
             console.error(`CheckerProject, error: ${e}`);
-            response = await fetch("/static/api/projects/389/project-389-details-criteria-followupActions.json");
-            // response = await fetch("/static/api/projects/416/project-416-details-criteria-followupActions-v2.json");
+            // response = await fetch("/static/api/projects/389/project-389-details-criteria-followupActions.json");
+            response = await fetch("/static/api/projects/416/project-416-details-criteria-followupActions-v2.json");
         }
 
         if (!response.ok) {
             console.error(`CheckerProject, fetch error: ${response.status}`);
-            response = await fetch("/static/api/projects/389/project-389-details-criteria-followupActions.json");
-            // response = await fetch("/static/api/projects/416/project-416-details-criteria-followupActions-v2.json");
+            // response = await fetch("/static/api/projects/389/project-389-details-criteria-followupActions.json");
+            response = await fetch("/static/api/projects/416/project-416-details-criteria-followupActions-v2.json");
         }
 
         project = await response.json();
