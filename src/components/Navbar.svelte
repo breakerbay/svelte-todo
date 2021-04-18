@@ -10,16 +10,16 @@
     const navItems = [
         { label: "Home", href: "#" },
         { label: "Cards", href: "#/cards" },
-        { label: "Projects", href: "/#/projects" },
-        { label: "Project", href: "/#/projects/1" },
-        { label: "Checklists", href: "/#/projects/1/checklists" },
-        { label: "Worklots", href: "/#/worklots" },
-        { label: "Followup Actions", href: "/#/followup-actions" },
-        { label: "Static Images", href: "/#/static-images" },
-        { label: "Images", href: "/#/images" },
-        { label: "ToDos", href: "/#/todos" },
+        { label: "Projects", href: "#/projects" },
+        { label: "Project", href: "#/projects/1" },
+        { label: "Checklists", href: "#/projects/1/checklists" },
+        { label: "Worklots", href: "#/worklots" },
+        { label: "Followup Actions", href: "#/followup-actions" },
+        { label: "Static Images", href: "#/static-images" },
+        { label: "Images", href: "#/images" },
+        { label: "ToDos", href: "#/todos" },
         { label: "Sign Out", href: "#" },
-        { label: "Sign In", href: "/#/login" }
+        { label: "Sign In", href: "#/login" }
     ];
 
     // Mobile menu click event handler
