@@ -24,6 +24,7 @@
 
     // Mobile menu click event handler
     const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu);
+    const closeMobileMenu = () => (showMobileMenu = false);
 
     // Media match query handler
     const mediaQueryHandler = e => {
@@ -38,6 +39,12 @@
         const mediaListener = window.matchMedia("(max-width: 767px)");
 
         mediaListener.addListener(mediaQueryHandler);
+        
+        let menuItems = document.querySelectorAll('.navbar-list li a');
+        let i = 0;
+        for (i = 0; i <  menuItems.length; i++) {
+            menuItems[i].addEventListener('click', closeMobileMenu, false);
+        }
     });
 </script>
 
