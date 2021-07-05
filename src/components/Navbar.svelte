@@ -95,7 +95,8 @@
         transition: all 0.4s;
         transform-origin: center;
     }
-
+    
+/*
     .mobile-icon:before,
     .middle-line {
         top: 0;
@@ -113,7 +114,7 @@
     .mobile-icon:after {
         width: 33%;
     }
-
+*/
 
     .middle-line {
         margin: auto;
